@@ -1,0 +1,150 @@
+{
+    "repositories": [
+        {
+            "name": "Aspen-Discovery/aspen-discovery",
+            "clusters": [
+                {
+                    "prs": [
+                        {
+                            "number": 4620,
+                            "title": "26.08.00 DIS-2459 simplified search box",
+                            "author": "librarianbryan",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
+                        },
+                        {
+                            "number": 4645,
+                            "title": "DIS-2731: feat: minimal self reg",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645"
+                        },
+                        {
+                            "number": 4646,
+                            "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                        },
+                        {
+                            "number": 4661,
+                            "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.08.00.MD",
+                        "code/web/sys/Interface.php"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4661,
+                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            104,
+                                            105
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4645,
+                                "title": "DIS-2731: feat: minimal self reg",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645"
+                            },
+                            "pr_b": {
+                                "number": 4661,
+                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            104,
+                                            111
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4645,
+                                "title": "DIS-2731: feat: minimal self reg",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645"
+                            },
+                            "pr_b": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            103,
+                                            105
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4620,
+                                "title": "26.08.00 DIS-2459 simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
+                            },
+                            "pr_b": {
+                                "number": 4645,
+                                "title": "DIS-2731: feat: minimal self reg",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/Interface.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            667,
+                                            672
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                }
+            ],
+            "total_conflicts": 4
+        }
+    ],
+    "total_repositories_scanned": 1,
+    "total_conflicts_found": 4
+}

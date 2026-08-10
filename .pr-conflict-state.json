@@ -1,0 +1,66 @@
+{
+  "conflicts": [
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4661,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-10T17:47:05.717324+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4645,
+      "pr_b": 4661,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-10T17:47:05.717356+00:00",
+      "pr_a_title": "DIS-2731: feat: minimal self reg",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
+      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4645,
+      "pr_b": 4646,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-10T17:47:05.717368+00:00",
+      "pr_a_title": "DIS-2731: feat: minimal self reg",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
+      "pr_b_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4620,
+      "pr_b": 4645,
+      "files": [
+        "code/web/sys/Interface.php"
+      ],
+      "first_seen": "2026-08-10T17:47:05.717375+00:00",
+      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_b_title": "DIS-2731: feat: minimal self reg",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "Chloe070196"
+    }
+  ],
+  "resolved_conflicts": [],
+  "last_run": "2026-08-10T17:49:04.946936+00:00"
+}

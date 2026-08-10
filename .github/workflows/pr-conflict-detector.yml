@@ -1,0 +1,45 @@
+name: Aspen PR Conflict Detection
+
+on:
+  schedule:
+    - cron: "0 * * * 1-5" # hourly on weekdays
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pr-conflict-detection
+  cancel-in-progress: false
+
+jobs:
+  detect-conflicts:
+    name: Detect PR conflicts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Detect PR Conflicts
+        id: detect
+        uses: github-community-projects/pr-conflict-detector@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPOSITORY: "Aspen-Discovery/aspen-discovery,Aspen-Discovery/aspen-lida"
+          INCLUDE_DRAFTS: "true"
+          VERIFY_CONFLICTS: "true"
+          ENABLE_REPORT_ISSUES: "false"
+          REPORT_TITLE: "Aspen PR Conflict Report"
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+      - name: Commit reports and state
+        if: steps.detect.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pr_conflict_report.md pr_conflict_report.json .pr-conflict-state.json
+          # Skip the commit when only the state file's last_run timestamp moved
+          if ! git diff --staged --quiet -- pr_conflict_report.md pr_conflict_report.json; then
+            git commit -m "Update PR conflict report"
+            git push
+          fi

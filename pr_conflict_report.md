@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **4** potential conflict(s) across **1** repository.
+Found **5** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -27,4 +27,6 @@ Found **4** potential conflict(s) across **1** repository.
 | [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | [#4645](https://github.com/Aspen-Discovery/aspen-discovery/pull/4645) DIS-2731: feat: minimal self reg | `code/web/sys/Interface.php` | L667-L672 | @Chloe070196, @librarianbryan |
 
 </details>
+
+**[#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702)** ↔ **[#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706)** — `code/web/release_notes/26.09.00.MD` (L71-L75) — @JonahCWilson, @olivia-openfifth
 

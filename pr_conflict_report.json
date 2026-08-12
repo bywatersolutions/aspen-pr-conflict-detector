@@ -208,6 +208,12 @@
                 {
                     "prs": [
                         {
+                            "number": 4690,
+                            "title": "DIS-2780 Collection Spotlight Caching",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                        },
+                        {
                             "number": 4702,
                             "title": "DIS-2753: Run fewer cronjobs as root",
                             "author": "olivia-openfifth",
@@ -218,12 +224,70 @@
                             "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                        },
+                        {
+                            "number": 4711,
+                            "title": "Equinox/dis 1871",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
                         }
                     ],
                     "shared_files": [
                         "code/web/release_notes/26.09.00.MD"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4711,
+                                "title": "Equinox/dis 1871",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4711,
+                                "title": "Equinox/dis 1871",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4702,
@@ -253,9 +317,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 7
+            "total_conflicts": 9
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 7
+    "total_conflicts_found": 9
 }

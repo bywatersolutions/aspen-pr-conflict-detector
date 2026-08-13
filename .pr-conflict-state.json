@@ -2,6 +2,96 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670671+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4715,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670699+00:00",
+      "pr_a_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670716+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4713,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670727+00:00",
+      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4711,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670733+00:00",
+      "pr_a_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4703,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T20:44:21.670738+00:00",
+      "pr_a_title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4706,
       "pr_b": 4716,
       "files": [
@@ -272,5 +362,5 @@
     }
   ],
   "resolved_conflicts": [],
-  "last_run": "2026-08-13T18:04:47.922861+00:00"
+  "last_run": "2026-08-13T20:44:21.670928+00:00"
 }

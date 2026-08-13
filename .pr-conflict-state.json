@@ -3,6 +3,36 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4706,
+      "pr_b": 4714,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T16:03:19.069257+00:00",
+      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
+      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4714,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-13T16:03:19.069283+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4706,
       "pr_b": 4713,
       "files": [
         "code/web/release_notes/26.09.00.MD"
@@ -167,5 +197,5 @@
     }
   ],
   "resolved_conflicts": [],
-  "last_run": "2026-08-13T14:58:20.190656+00:00"
+  "last_run": "2026-08-13T16:03:19.069425+00:00"
 }

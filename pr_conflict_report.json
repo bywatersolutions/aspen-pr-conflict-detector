@@ -6,6 +6,233 @@
                 {
                     "prs": [
                         {
+                            "number": 4690,
+                            "title": "DIS-2780 Collection Spotlight Caching",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                        },
+                        {
+                            "number": 4702,
+                            "title": "DIS-2753: Run fewer cronjobs as root",
+                            "author": "olivia-openfifth",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
+                        },
+                        {
+                            "number": 4706,
+                            "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                        },
+                        {
+                            "number": 4711,
+                            "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                        },
+                        {
+                            "number": 4713,
+                            "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                        },
+                        {
+                            "number": 4714,
+                            "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.09.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4702,
+                                "title": "DIS-2753: Run fewer cronjobs as root",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
+                            },
+                            "pr_b": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            71,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4593,
                             "title": "DIS-2680: aspen.sql regeneration ci",
                             "author": "Jacobomara901",
@@ -204,180 +431,11 @@
                             "verified": true
                         }
                     ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4690,
-                            "title": "DIS-2780 Collection Spotlight Caching",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                        },
-                        {
-                            "number": 4702,
-                            "title": "DIS-2753: Run fewer cronjobs as root",
-                            "author": "olivia-openfifth",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
-                        },
-                        {
-                            "number": 4706,
-                            "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
-                        },
-                        {
-                            "number": 4711,
-                            "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
-                        },
-                        {
-                            "number": 4713,
-                            "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.09.00.MD"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
-                            },
-                            "pr_b": {
-                                "number": 4713,
-                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            142
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4690,
-                                "title": "DIS-2780 Collection Spotlight Caching",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                            },
-                            "pr_b": {
-                                "number": 4713,
-                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            142
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
-                            },
-                            "pr_b": {
-                                "number": 4711,
-                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            142
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4690,
-                                "title": "DIS-2780 Collection Spotlight Caching",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                            },
-                            "pr_b": {
-                                "number": 4711,
-                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            142
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4702,
-                                "title": "DIS-2753: Run fewer cronjobs as root",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
-                            },
-                            "pr_b": {
-                                "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            71,
-                                            75
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        }
-                    ]
                 }
             ],
-            "total_conflicts": 11
+            "total_conflicts": 13
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 11
+    "total_conflicts_found": 13
 }

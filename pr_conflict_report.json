@@ -227,7 +227,7 @@
                         },
                         {
                             "number": 4711,
-                            "title": "Equinox/dis 1871",
+                            "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
                             "author": "gmcharlt",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
                         }
@@ -245,7 +245,7 @@
                             },
                             "pr_b": {
                                 "number": 4711,
-                                "title": "Equinox/dis 1871",
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
                                 "author": "gmcharlt",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
                             },
@@ -271,7 +271,7 @@
                             },
                             "pr_b": {
                                 "number": 4711,
-                                "title": "Equinox/dis 1871",
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
                                 "author": "gmcharlt",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
                             },

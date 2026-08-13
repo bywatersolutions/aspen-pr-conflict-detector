@@ -18,6 +18,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
                         },
                         {
+                            "number": 4703,
+                            "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                        },
+                        {
                             "number": 4706,
                             "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
                             "author": "JonahCWilson",
@@ -40,12 +46,154 @@
                             "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
                             "author": "gmcharlt",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                        },
+                        {
+                            "number": 4715,
+                            "title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715"
+                        },
+                        {
+                            "number": 4716,
+                            "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
                         }
                     ],
                     "shared_files": [
                         "code/web/release_notes/26.09.00.MD"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4703,
+                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                            },
+                            "pr_b": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            102,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4715,
+                                "title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4715,
+                                "title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4706,
@@ -433,9 +581,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 13
+            "total_conflicts": 18
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 13
+    "total_conflicts_found": 18
 }

@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **25** potential conflict(s) across **1** repository.
+Found **28** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 12 PRs, 24 conflict(s)
+### Cluster 1 — 13 PRs, 27 conflict(s)
 
 **Authors:** @JonahCWilson, @gmcharlt, @lucasmontoya13, @olivia-openfifth
 
@@ -23,12 +23,16 @@ Found **25** potential conflict(s) across **1** repository.
 - [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling
 - [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits
 - [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression
+- [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
+| [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Add PHPStan to Composer Dev Tools | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
+| [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Add PHPStan to Composer Dev Tools | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L19-L20, L137-L142 | @JonahCWilson, @gmcharlt |

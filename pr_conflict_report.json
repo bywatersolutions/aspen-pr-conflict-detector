@@ -350,10 +350,6 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            19,
-                                            20
-                                        ],
-                                        [
                                             137,
                                             142
                                         ]
@@ -379,6 +375,10 @@
                                 {
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
+                                        [
+                                            108,
+                                            111
+                                        ],
                                         [
                                             137,
                                             142
@@ -408,6 +408,32 @@
                                         [
                                             137,
                                             142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4703,
+                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                            },
+                            "pr_b": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            108
                                         ]
                                     ]
                                 }
@@ -696,8 +722,38 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
+                                            71,
+                                            72
+                                        ],
+                                        [
                                             137,
                                             142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4702,
+                                "title": "DIS-2753: Run fewer cronjobs as root",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
+                            },
+                            "pr_b": {
+                                "number": 4715,
+                                "title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            69,
+                                            72
                                         ]
                                     ]
                                 }
@@ -962,9 +1018,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 32
+            "total_conflicts": 34
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 32
+    "total_conflicts_found": 34
 }

@@ -3,6 +3,51 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
+      "pr_b": 4725,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-14T20:34:09.626618+00:00",
+      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4706,
+      "pr_b": 4725,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-14T20:34:09.626636+00:00",
+      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
+      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4725,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-14T20:34:09.626643+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4717,
       "pr_b": 4724,
       "files": [
         "code/web/release_notes/26.09.00.MD"
@@ -28,6 +73,21 @@
       "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
       "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4702,
+      "pr_b": 4724,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-14T20:34:09.626654+00:00",
+      "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
+      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
+      "pr_a_author": "olivia-openfifth",
       "pr_b_author": "gmcharlt"
     },
     {
@@ -503,5 +563,5 @@
       "resolved_at": "2026-08-14T06:14:51.899410+00:00"
     }
   ],
-  "last_run": "2026-08-14T16:55:15.717083+00:00"
+  "last_run": "2026-08-14T20:34:09.626773+00:00"
 }

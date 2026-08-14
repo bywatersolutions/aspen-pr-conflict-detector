@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **34** potential conflict(s) across **1** repository.
+Found **31** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 14 PRs, 33 conflict(s)
+### Cluster 1 — 13 PRs, 30 conflict(s)
 
 **Authors:** @JonahCWilson, @gmcharlt, @lucasmontoya13, @olivia-openfifth
 
@@ -22,7 +22,6 @@ Found **34** potential conflict(s) across **1** repository.
 - [#4716](https://github.com/Aspen-Discovery/aspen-discovery/pull/4716) DIS-2739: fix tagging of translatable strings in My Account holds page
 - [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling
 - [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits
-- [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression
 - [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information
 - [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request
 
@@ -38,9 +37,6 @@ Found **34** potential conflict(s) across **1** repository.
 | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Add PHPStan to Composer Dev Tools | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L71-L73, L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L69-L73 | @gmcharlt, @olivia-openfifth |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
-| [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
-| [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Add PHPStan to Composer Dev Tools | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
-| [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4723](https://github.com/Aspen-Discovery/aspen-discovery/pull/4723) DIS-594: Open Archives - improve retrieval of thumbnail images via image regular expression | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | `code/web/release_notes/26.09.00.MD` | L108-L111, L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Add PHPStan to Composer Dev Tools | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4703](https://github.com/Aspen-Discovery/aspen-discovery/pull/4703) DIS-2791: Add 'translateParameters' flag across login-related pages  | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | `code/web/release_notes/26.09.00.MD` | L108-L108 | @gmcharlt, @lucasmontoya13 |

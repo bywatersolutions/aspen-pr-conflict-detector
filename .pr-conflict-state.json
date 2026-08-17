@@ -23,7 +23,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-14T20:34:09.626636+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
@@ -68,7 +68,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-14T16:55:15.716910+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
@@ -128,7 +128,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-14T14:53:58.072560+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
@@ -263,7 +263,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-13T18:04:47.922676+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
@@ -308,7 +308,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-13T18:04:47.922728+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
@@ -353,7 +353,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-13T16:03:19.069257+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
@@ -383,7 +383,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-13T14:58:20.190566+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
@@ -413,7 +413,7 @@
         "code/web/release_notes/26.09.00.MD"
       ],
       "first_seen": "2026-08-12T22:40:54.379681+00:00",
-      "pr_a_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
@@ -445,7 +445,7 @@
       "first_seen": "2026-08-11T21:47:22.021842+00:00",
       "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
-      "pr_b_title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+      "pr_b_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_a_author": "olivia-openfifth",
       "pr_b_author": "JonahCWilson"
@@ -596,5 +596,5 @@
       "resolved_at": "2026-08-14T23:23:38.089731+00:00"
     }
   ],
-  "last_run": "2026-08-14T23:23:38.089922+00:00"
+  "last_run": "2026-08-17T19:30:42.983557+00:00"
 }

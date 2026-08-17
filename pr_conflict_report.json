@@ -25,7 +25,7 @@
                         },
                         {
                             "number": 4706,
-                            "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                            "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                         },
@@ -117,7 +117,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -133,7 +133,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -195,7 +195,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -215,7 +215,7 @@
                                         ],
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -307,7 +307,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -323,7 +323,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -545,7 +545,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -561,7 +561,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -623,7 +623,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -643,7 +643,7 @@
                                         ],
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -705,7 +705,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -721,7 +721,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -757,7 +757,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -773,7 +773,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -809,7 +809,7 @@
                         {
                             "pr_a": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },
@@ -825,7 +825,7 @@
                                     "overlapping_ranges": [
                                         [
                                             137,
-                                            142
+                                            143
                                         ]
                                     ]
                                 }
@@ -867,7 +867,7 @@
                             },
                             "pr_b": {
                                 "number": 4706,
-                                "title": "DIS-2798: Add PHPStan to Composer Dev Tools",
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
                                 "author": "JonahCWilson",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
                             },

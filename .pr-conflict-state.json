@@ -2,6 +2,141 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4725,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813593+00:00",
+      "pr_a_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4724,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813613+00:00",
+      "pr_a_title": "DIS-2832: Fix setting a location in Host Information",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4722,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813622+00:00",
+      "pr_a_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813628+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4715,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813634+00:00",
+      "pr_a_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813639+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4713,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813644+00:00",
+      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4711,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813649+00:00",
+      "pr_a_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4702,
+      "pr_b": 4735,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-17T23:25:13.813654+00:00",
+      "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
+      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
       "pr_b": 4725,
       "files": [
@@ -598,5 +733,5 @@
       "resolved_at": "2026-08-17T20:29:09.826419+00:00"
     }
   ],
-  "last_run": "2026-08-17T22:26:18.170132+00:00"
+  "last_run": "2026-08-17T23:25:13.813817+00:00"
 }

@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **29** potential conflict(s) across **1** repository.
+Found **38** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 13 PRs, 28 conflict(s)
+### Cluster 1 — 14 PRs, 37 conflict(s)
 
 **Authors:** @JonahCWilson, @gmcharlt, @lucasmontoya13, @olivia-openfifth
 
@@ -24,12 +24,22 @@ Found **29** potential conflict(s) across **1** repository.
 - [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits
 - [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information
 - [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request
+- [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L140-L143 | @JonahCWilson, @gmcharlt |
+| [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L71-L73, L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4716](https://github.com/Aspen-Discovery/aspen-discovery/pull/4716) DIS-2739: fix tagging of translatable strings in My Account holds page | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4715](https://github.com/Aspen-Discovery/aspen-discovery/pull/4715) DIS-2573: make additional My Account buttons keyboard-accessible | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L71-L72 | @JonahCWilson, @gmcharlt |
+| [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4713](https://github.com/Aspen-Discovery/aspen-discovery/pull/4713) DIS-2410: Evergreen - allow login if user password contains spaces | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
+| [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L71-L75 | @JonahCWilson, @olivia-openfifth |
 | [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | `code/web/release_notes/26.09.00.MD` | L140-L142 | @JonahCWilson, @gmcharlt |
 | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Aspen Discovery CI - Static Analysis tools | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | `code/web/release_notes/26.09.00.MD` | L140-L143 | @JonahCWilson, @gmcharlt |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | `code/web/release_notes/26.09.00.MD` | L140-L142 | @JonahCWilson, @gmcharlt |

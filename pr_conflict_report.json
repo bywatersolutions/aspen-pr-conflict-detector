@@ -106,13 +106,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
+                                            140,
                                             142
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -132,13 +132,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
+                                            140,
                                             143
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -158,13 +158,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
+                                            140,
                                             142
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {

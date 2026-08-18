@@ -1077,6 +1077,53 @@
                 {
                     "prs": [
                         {
+                            "number": 4689,
+                            "title": "DIS-2776 unavailable hold filters",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4689"
+                        },
+                        {
+                            "number": 4737,
+                            "title": "DIS-2785: Bump Docker's Solr image to 9.10.1",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4737"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.08.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4689,
+                                "title": "DIS-2776 unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4689"
+                            },
+                            "pr_b": {
+                                "number": 4737,
+                                "title": "DIS-2785: Bump Docker's Solr image to 9.10.1",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4737"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            144,
+                                            149
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4646,
                             "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
                             "author": "JonahCWilson",
@@ -1122,9 +1169,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 38
+            "total_conflicts": 39
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 38
+    "total_conflicts_found": 39
 }

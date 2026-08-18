@@ -2,6 +2,22 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4733,
+      "pr_b": 4739,
+      "files": [
+        "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+        "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl"
+      ],
+      "first_seen": "2026-08-18T21:26:46.323712+00:00",
+      "pr_a_title": "DIS-2836: Add data attributes for Playwright tests",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733",
+      "pr_b_title": "DIS-2814 Add class names to search results and full record pages",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739",
+      "pr_a_author": "myr-onl",
+      "pr_b_author": "stephenrwicks"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4725,
       "pr_b": 4735,
       "files": [
@@ -749,5 +765,5 @@
       "resolved_at": "2026-08-18T03:46:47.638695+00:00"
     }
   ],
-  "last_run": "2026-08-18T03:46:47.638776+00:00"
+  "last_run": "2026-08-18T21:26:46.324037+00:00"
 }

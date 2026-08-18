@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **38** potential conflict(s) across **1** repository.
+Found **39** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -70,6 +70,8 @@ Found **38** potential conflict(s) across **1** repository.
 | [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Aspen Discovery CI - Static Analysis tools | `code/web/release_notes/26.09.00.MD` | L71-L75 | @JonahCWilson, @olivia-openfifth |
 
 </details>
+
+**[#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733)** ↔ **[#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739)** — `code/web/interface/themes/responsive/GroupedWork/full-record.tpl` (L18-L24), `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` (L5-L5) — @myr-onl, @stephenrwicks
 
 **[#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646)** ↔ **[#4661](https://github.com/Aspen-Discovery/aspen-discovery/pull/4661)** — `code/web/release_notes/26.08.00.MD` (L104-L105) — @Jacobomara901, @JonahCWilson
 

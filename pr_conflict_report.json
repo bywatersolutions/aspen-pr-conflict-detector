@@ -1077,6 +1077,63 @@
                 {
                     "prs": [
                         {
+                            "number": 4733,
+                            "title": "DIS-2836: Add data attributes for Playwright tests",
+                            "author": "myr-onl",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                        },
+                        {
+                            "number": 4739,
+                            "title": "DIS-2814 Add class names to search results and full record pages",
+                            "author": "stephenrwicks",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                        "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4739,
+                                "title": "DIS-2814 Add class names to search results and full record pages",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            18,
+                                            24
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            5,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4646,
                             "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
                             "author": "JonahCWilson",
@@ -1122,9 +1179,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 38
+            "total_conflicts": 39
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 38
+    "total_conflicts_found": 39
 }

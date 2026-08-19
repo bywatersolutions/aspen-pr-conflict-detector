@@ -1077,6 +1077,85 @@
                 {
                     "prs": [
                         {
+                            "number": 3573,
+                            "title": "DIS-1320: display and update primary contact method",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                        },
+                        {
+                            "number": 4593,
+                            "title": "DIS-2680: aspen.sql regeneration ci",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
+                        },
+                        {
+                            "number": 4620,
+                            "title": "26.08.00 DIS-2459 simplified search box",
+                            "author": "librarianbryan",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.08.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4620,
+                                "title": "26.08.00 DIS-2459 simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            75,
+                                            76
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4593,
+                                "title": "DIS-2680: aspen.sql regeneration ci",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.08.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            78,
+                                            81
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4733,
                             "title": "DIS-2836: Add data attributes for Playwright tests",
                             "author": "myr-onl",
@@ -1179,9 +1258,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 39
+            "total_conflicts": 41
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 39
+    "total_conflicts_found": 41
 }

@@ -18,51 +18,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4661,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-10T17:47:05.717324+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4620,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744066+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4593,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744084+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4725,
       "pr_b": 4735,
       "files": [
@@ -243,6 +198,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4725,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874444+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
       "pr_b": 4724,
       "files": [
@@ -303,6 +273,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4724,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874468+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
       "pr_b": 4722,
       "files": [
@@ -356,6 +341,21 @@
       "first_seen": "2026-08-14T14:53:58.072570+00:00",
       "pr_a_title": "DIS-2780 Collection Spotlight Caching",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4722,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874483+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
       "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
       "pr_a_author": "JonahCWilson",
@@ -483,6 +483,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4716,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874506+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4706,
       "pr_b": 4715,
       "files": [
@@ -543,6 +558,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4714,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874519+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4706,
       "pr_b": 4713,
       "files": [
@@ -566,6 +596,21 @@
       "first_seen": "2026-08-13T14:58:20.190591+00:00",
       "pr_a_title": "DIS-2780 Collection Spotlight Caching",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4713,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874527+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
       "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
       "pr_a_author": "JonahCWilson",
@@ -603,6 +648,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4711,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874536+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4702,
       "pr_b": 4706,
       "files": [
@@ -615,6 +675,36 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
       "pr_a_author": "olivia-openfifth",
       "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4620,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744066+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4593,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744084+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
     }
   ],
   "resolved_conflicts": [
@@ -793,7 +883,23 @@
       "pr_a_author": "JonahCWilson",
       "pr_b_author": "lucasmontoya13",
       "resolved_at": "2026-08-18T03:46:47.638695+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4661,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-10T17:47:05.717324+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-08-19T22:27:38.874549+00:00"
     }
   ],
-  "last_run": "2026-08-19T13:46:20.744288+00:00"
+  "last_run": "2026-08-19T22:27:38.874600+00:00"
 }

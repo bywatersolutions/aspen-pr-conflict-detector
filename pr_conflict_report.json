@@ -158,32 +158,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4742,
-                                "title": "DIS-2743: Make panel heading fully clickable",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            139
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4735,
                                 "title": "DIS-2840: PHPStan Baseline Bugfixes",
                                 "author": "JonahCWilson",
@@ -200,7 +174,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
+                                            140,
                                             143
                                         ]
                                     ]
@@ -227,12 +201,12 @@
                                     "overlapping_ranges": [
                                         [
                                             140,
-                                            143
+                                            146
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -252,13 +226,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -278,17 +252,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            114,
-                                            114
-                                        ],
-                                        [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -308,13 +278,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -334,13 +304,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -360,13 +330,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -386,13 +356,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            143
+                                            140,
+                                            145
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -413,16 +383,16 @@
                                     "overlapping_ranges": [
                                         [
                                             120,
-                                            120
+                                            122
                                         ],
                                         [
-                                            137,
+                                            140,
                                             143
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -1284,7 +1254,7 @@
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         }
                     ]
                 },
@@ -1441,9 +1411,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 48
+            "total_conflicts": 47
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 48
+    "total_conflicts_found": 47
 }

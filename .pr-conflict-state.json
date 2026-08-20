@@ -18,6 +18,51 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4620,
+      "pr_b": 4751,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-20T21:30:52.260424+00:00",
+      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_b_title": "DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4751",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4620,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744066+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4593,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744084+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4742,
       "pr_b": 4748,
       "files": [
@@ -675,36 +720,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4746",
       "pr_a_author": "librarianbryan",
       "pr_b_author": "K-Alette"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4620,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744066+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4593,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744084+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901"
     }
   ],
   "resolved_conflicts": [
@@ -1365,5 +1380,5 @@
       "resolved_at": "2026-08-20T20:30:19.596063+00:00"
     }
   ],
-  "last_run": "2026-08-20T20:30:19.596275+00:00"
+  "last_run": "2026-08-20T21:30:52.260764+00:00"
 }

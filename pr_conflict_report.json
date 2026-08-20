@@ -96,10 +96,34 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725"
                         },
                         {
+                            "number": 4732,
+                            "title": "DIS-2839: Add a missing message to an \"Import From Old Catalog\" button",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4732"
+                        },
+                        {
+                            "number": 4733,
+                            "title": "DIS-2836: Add data attributes for Playwright tests",
+                            "author": "myr-onl",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                        },
+                        {
                             "number": 4735,
                             "title": "DIS-2840: PHPStan Baseline Bugfixes",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                        },
+                        {
+                            "number": 4739,
+                            "title": "DIS-2814 Add class names to search results and full record pages",
+                            "author": "stephenrwicks",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
+                        },
+                        {
+                            "number": 4742,
+                            "title": "DIS-2743: Make panel heading fully clickable",
+                            "author": "samyoung-maker",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
                         },
                         {
                             "number": 4748,
@@ -109,10 +133,73 @@
                         }
                     ],
                     "shared_files": [
+                        "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                        "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
                         "code/web/release_notes/26.09.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4739,
+                                "title": "DIS-2814 Add class names to search results and full record pages",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            18,
+                                            24
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            5,
+                                            5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4735,
@@ -427,6 +514,344 @@
                                         [
                                             137,
                                             143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4735,
+                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4732,
+                                "title": "DIS-2839: Add a missing message to an \"Import From Old Catalog\" button",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4732"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            133,
+                                            133
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4724,
+                                "title": "DIS-2832: Fix setting a location in Host Information",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            136,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            139
                                         ]
                                     ]
                                 }
@@ -1740,68 +2165,11 @@
                             "verified": true
                         }
                     ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4733,
-                            "title": "DIS-2836: Add data attributes for Playwright tests",
-                            "author": "myr-onl",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
-                        },
-                        {
-                            "number": 4739,
-                            "title": "DIS-2814 Add class names to search results and full record pages",
-                            "author": "stephenrwicks",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
-                        "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4733,
-                                "title": "DIS-2836: Add data attributes for Playwright tests",
-                                "author": "myr-onl",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
-                            },
-                            "pr_b": {
-                                "number": 4739,
-                                "title": "DIS-2814 Add class names to search results and full record pages",
-                                "author": "stephenrwicks",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            18,
-                                            24
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            5,
-                                            5
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        }
-                    ]
                 }
             ],
-            "total_conflicts": 61
+            "total_conflicts": 75
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 61
+    "total_conflicts_found": 75
 }

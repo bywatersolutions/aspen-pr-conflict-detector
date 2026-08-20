@@ -6,6 +6,12 @@
                 {
                     "prs": [
                         {
+                            "number": 4242,
+                            "title": "DIS-2374",
+                            "author": "kidclamp",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                        },
+                        {
                             "number": 4646,
                             "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
                             "author": "JonahCWilson",
@@ -94,12 +100,339 @@
                             "title": "DIS-2840: PHPStan Baseline Bugfixes",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                        },
+                        {
+                            "number": 4748,
+                            "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                            "author": "kylemhall",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.09.00.MD"
+                        "code/web/release_notes/26.09.00.MD",
+                        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4735,
+                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4725,
+                                "title": "DIS-2834: Evergreen - Add agent parameter to login request",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            140,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4724,
+                                "title": "DIS-2832: Fix setting a location in Host Information",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            114,
+                                            114
+                                        ],
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4706,
+                                "title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            137,
+                                            142
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            120
+                                        ],
+                                        [
+                                            137,
+                                            143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4725,
@@ -1259,6 +1592,32 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         }
                     ]
                 },
@@ -1440,9 +1799,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 48
+            "total_conflicts": 61
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 48
+    "total_conflicts_found": 61
 }

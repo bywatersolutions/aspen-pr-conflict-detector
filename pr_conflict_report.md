@@ -1,16 +1,17 @@
 # Aspen PR Conflict Report
 
-Found **48** potential conflict(s) across **1** repository.
+Found **61** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 15 PRs, 44 conflict(s)
+### Cluster 1 — 17 PRs, 57 conflict(s)
 
-**Authors:** @JonahCWilson, @gmcharlt, @lucasmontoya13, @olivia-openfifth
+**Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @kylemhall, @lucasmontoya13, @olivia-openfifth
 
-**Files:** `code/web/release_notes/26.09.00.MD`
+**Files:** `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
 
 **PRs:**
+- [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374
 - [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold"
 - [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching
 - [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root
@@ -26,12 +27,25 @@ Found **48** potential conflict(s) across **1** repository.
 - [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information
 - [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request
 - [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes
+- [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @kylemhall |
+| [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L140-L143 | @gmcharlt, @kylemhall |
+| [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @gmcharlt, @kylemhall |
+| [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L114-L114, L137-L143 | @gmcharlt, @kylemhall |
+| [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @kylemhall |
+| [#4716](https://github.com/Aspen-Discovery/aspen-discovery/pull/4716) DIS-2739: fix tagging of translatable strings in My Account holds page | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @gmcharlt, @kylemhall |
+| [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @gmcharlt, @kylemhall |
+| [#4713](https://github.com/Aspen-Discovery/aspen-discovery/pull/4713) DIS-2410: Evergreen - allow login if user password contains spaces | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @gmcharlt, @kylemhall |
+| [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @gmcharlt, @kylemhall |
+| [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Aspen Discovery CI - Static Analysis tools | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @kylemhall |
+| [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @kylemhall |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L120-L120, L137-L143 | @JonahCWilson, @kylemhall |
 | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L140-L143 | @JonahCWilson, @gmcharlt |
 | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L71-L73, L137-L143 | @JonahCWilson, @gmcharlt |
 | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
@@ -76,6 +90,7 @@ Found **48** potential conflict(s) across **1** repository.
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | `code/web/release_notes/26.09.00.MD` | L137-L142 | @JonahCWilson, @gmcharlt |
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
 | [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | [#4706](https://github.com/Aspen-Discovery/aspen-discovery/pull/4706) DIS-2798: Aspen Discovery CI - Static Analysis tools | `code/web/release_notes/26.09.00.MD` | L71-L75 | @JonahCWilson, @olivia-openfifth |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L56 | @kidclamp, @kylemhall |
 
 </details>
 

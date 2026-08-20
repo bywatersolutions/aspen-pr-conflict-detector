@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **47** potential conflict(s) across **1** repository.
+Found **48** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -79,22 +79,24 @@ Found **47** potential conflict(s) across **1** repository.
 
 </details>
 
-### Cluster 2 — 3 PRs, 2 conflict(s)
+### Cluster 2 — 4 PRs, 3 conflict(s)
 
-**Authors:** @Chloe070196, @Jacobomara901, @librarianbryan
+**Authors:** @Chloe070196, @Jacobomara901, @K-Alette, @librarianbryan
 
-**Files:** `code/web/release_notes/26.08.00.MD`
+**Files:** `code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl`, `code/web/release_notes/26.08.00.MD`
 
 **PRs:**
 - [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method
 - [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci
 - [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box
+- [#4746](https://github.com/Aspen-Discovery/aspen-discovery/pull/4746) DIS-2622: Allow configuration of Search types and Search sorts option
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | [#4746](https://github.com/Aspen-Discovery/aspen-discovery/pull/4746) DIS-2622: Allow configuration of Search types and Search sorts option | `code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl` | L16-L30, L42-L43, L60-L65 | @K-Alette, @librarianbryan |
 | [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method | [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | `code/web/release_notes/26.08.00.MD` | L75-L76 | @Chloe070196, @librarianbryan |
 | [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method | [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci | `code/web/release_notes/26.08.00.MD` | L78-L81 | @Chloe070196, @Jacobomara901 |
 

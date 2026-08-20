@@ -18,6 +18,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4620,
+      "pr_b": 4746,
+      "files": [
+        "code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl"
+      ],
+      "first_seen": "2026-08-20T01:14:58.271093+00:00",
+      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_b_title": "DIS-2622: Allow configuration of Search types and Search sorts option",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4746",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4725,
       "pr_b": 4735,
       "files": [
@@ -901,5 +916,5 @@
       "resolved_at": "2026-08-19T22:27:38.874549+00:00"
     }
   ],
-  "last_run": "2026-08-19T22:27:38.874600+00:00"
+  "last_run": "2026-08-20T01:14:58.271402+00:00"
 }

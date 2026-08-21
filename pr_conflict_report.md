@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **42** potential conflict(s) across **1** repository.
+Found **45** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 19 PRs, 38 conflict(s)
+### Cluster 1 — 20 PRs, 41 conflict(s)
 
 **Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
@@ -30,6 +30,7 @@ Found **42** potential conflict(s) across **1** repository.
 - [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages
 - [#4742](https://github.com/Aspen-Discovery/aspen-discovery/pull/4742) DIS-2743: Make panel heading fully clickable
 - [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row
+- [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters
 
 <details>
 <summary>Pairwise details</summary>
@@ -37,6 +38,9 @@ Found **42** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4742](https://github.com/Aspen-Discovery/aspen-discovery/pull/4742) DIS-2743: Make panel heading fully clickable | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L34-L36 | @JonahCWilson, @samyoung-maker |
+| [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L34-L36 | @JonahCWilson, @myr-onl |
+| [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L30-L30 | @JonahCWilson, @gmcharlt |
 | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L140-L146 | @gmcharlt, @kylemhall |
 | [#4724](https://github.com/Aspen-Discovery/aspen-discovery/pull/4724) DIS-2832: Fix setting a location in Host Information | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L140-L145 | @gmcharlt, @kylemhall |
 | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L140-L145 | @gmcharlt, @kylemhall |

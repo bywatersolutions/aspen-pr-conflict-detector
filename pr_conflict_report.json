@@ -118,6 +118,12 @@
                             "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
                             "author": "kylemhall",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                        },
+                        {
+                            "number": 4750,
+                            "title": "DIS-2776: Unavailable hold filters",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
                         }
                     ],
                     "shared_files": [
@@ -157,6 +163,84 @@
                                         [
                                             5,
                                             5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "pr_b": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4725,
+                                "title": "DIS-2834: Evergreen - Add agent parameter to login request",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725"
+                            },
+                            "pr_b": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            30,
+                                            30
                                         ]
                                     ]
                                 }
@@ -1284,9 +1368,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 42
+            "total_conflicts": 45
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 42
+    "total_conflicts_found": 45
 }

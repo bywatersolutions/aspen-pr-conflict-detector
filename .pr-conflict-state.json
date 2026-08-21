@@ -18,66 +18,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4620,
-      "pr_b": 4751,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-20T21:30:52.260424+00:00",
-      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_b_title": "DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4751",
-      "pr_a_author": "librarianbryan",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4620,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744066+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4593,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744084+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4735,
-      "pr_b": 4748,
-      "files": [
-        "code/web/Action.php"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770106+00:00",
-      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "kylemhall"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4725,
       "pr_b": 4748,
       "files": [
@@ -423,6 +363,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4314,
+      "pr_b": 4722,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-21T17:31:22.444443+00:00",
+      "pr_a_title": "DIS-2192 Curl Wrapper rate limit",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314",
+      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
+      "pr_a_author": "lathomas64",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4716,
       "pr_b": 4717,
       "files": [
@@ -453,6 +408,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4314,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-21T17:31:22.444473+00:00",
+      "pr_a_title": "DIS-2192 Curl Wrapper rate limit",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "lathomas64",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4703,
       "pr_b": 4716,
       "files": [
@@ -479,6 +449,21 @@
       "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
       "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4314,
+      "pr_b": 4716,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-21T17:31:22.444492+00:00",
+      "pr_a_title": "DIS-2192 Curl Wrapper rate limit",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314",
+      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_a_author": "lathomas64",
       "pr_b_author": "gmcharlt"
     },
     {
@@ -528,6 +513,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4314,
+      "pr_b": 4703,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-21T17:31:22.444514+00:00",
+      "pr_a_title": "DIS-2192 Curl Wrapper rate limit",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314",
+      "pr_b_title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703",
+      "pr_a_author": "lathomas64",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4690,
       "pr_b": 4702,
       "files": [
@@ -540,6 +540,66 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
       "pr_a_author": "JonahCWilson",
       "pr_b_author": "olivia-openfifth"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4620,
+      "pr_b": 4751,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-20T21:30:52.260424+00:00",
+      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_b_title": "DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4751",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4620,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744066+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4593,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744084+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4735,
+      "pr_b": 4748,
+      "files": [
+        "code/web/Action.php"
+      ],
+      "first_seen": "2026-08-20T11:29:28.770106+00:00",
+      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "kylemhall"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -573,86 +633,6 @@
     }
   ],
   "resolved_conflicts": [
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4620,
-      "pr_b": 4709,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-12T13:08:55.536422+00:00",
-      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_b_title": "DIS-2740: fix: display self reg error message",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4709",
-      "pr_a_author": "librarianbryan",
-      "pr_b_author": "Chloe070196",
-      "resolved_at": "2026-08-14T06:14:51.899410+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4593,
-      "pr_b": 4709,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-12T13:08:55.536444+00:00",
-      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_b_title": "DIS-2740: fix: display self reg error message",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4709",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "Chloe070196",
-      "resolved_at": "2026-08-14T06:14:51.899410+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4645,
-      "pr_b": 4661,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-10T17:47:05.717356+00:00",
-      "pr_a_title": "DIS-2731: feat: minimal self reg",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
-      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901",
-      "resolved_at": "2026-08-14T06:14:51.899410+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4645,
-      "pr_b": 4646,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-10T17:47:05.717368+00:00",
-      "pr_a_title": "DIS-2731: feat: minimal self reg",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
-      "pr_b_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-14T06:14:51.899410+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4620,
-      "pr_b": 4645,
-      "files": [
-        "code/web/sys/Interface.php"
-      ],
-      "first_seen": "2026-08-10T17:47:05.717375+00:00",
-      "pr_a_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
-      "pr_b_title": "DIS-2731: feat: minimal self reg",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4645",
-      "pr_a_author": "librarianbryan",
-      "pr_b_author": "Chloe070196",
-      "resolved_at": "2026-08-14T06:14:51.899410+00:00"
-    },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
@@ -1390,5 +1370,5 @@
       "resolved_at": "2026-08-20T23:27:48.101864+00:00"
     }
   ],
-  "last_run": "2026-08-20T23:27:48.102116+00:00"
+  "last_run": "2026-08-21T17:31:22.444746+00:00"
 }

@@ -12,6 +12,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
                         },
                         {
+                            "number": 4314,
+                            "title": "DIS-2192 Curl Wrapper rate limit",
+                            "author": "lathomas64",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                        },
+                        {
                             "number": 4646,
                             "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
                             "author": "JonahCWilson",
@@ -151,32 +157,6 @@
                                         [
                                             5,
                                             5
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4735,
-                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/Action.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            121,
-                                            122
                                         ]
                                     ]
                                 }
@@ -787,6 +767,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4716,
                                 "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
                                 "author": "gmcharlt",
@@ -831,6 +837,32 @@
                                         [
                                             107,
                                             108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            107,
+                                            113
                                         ]
                                     ]
                                 }
@@ -883,6 +915,32 @@
                                         [
                                             137,
                                             143
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            106,
+                                            108
                                         ]
                                     ]
                                 }
@@ -969,6 +1027,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4703,
+                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            106,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4690,
                                 "title": "DIS-2780 Collection Spotlight Caching",
                                 "author": "JonahCWilson",
@@ -987,6 +1071,32 @@
                                         [
                                             72,
                                             75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4735,
+                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/Action.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            121,
+                                            122
                                         ]
                                     ]
                                 }
@@ -1174,9 +1284,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 38
+            "total_conflicts": 42
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 38
+    "total_conflicts_found": 42
 }

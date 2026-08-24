@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **45** potential conflict(s) across **1** repository.
+Found **48** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 21 PRs, 43 conflict(s)
+### Cluster 1 — 23 PRs, 46 conflict(s)
 
-**Authors:** @JonahCWilson, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
+**Authors:** @JonahCWilson, @K-Alette, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
 **Files:** `code/web/Action.php`, `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl`, `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
 
@@ -32,6 +32,8 @@ Found **45** potential conflict(s) across **1** repository.
 - [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row
 - [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters
 - [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email.
+- [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony)
+- [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon
 
 <details>
 <summary>Pairwise details</summary>
@@ -39,6 +41,9 @@ Found **45** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @K-Alette |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony) | `code/web/release_notes/26.09.00.MD` | L124-L126 | @JonahCWilson, @K-Alette |
 | [#4742](https://github.com/Aspen-Discovery/aspen-discovery/pull/4742) DIS-2743: Make panel heading fully clickable | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L34-L36 | @JonahCWilson, @samyoung-maker |
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L34-L36 | @JonahCWilson, @myr-onl |
 | [#4725](https://github.com/Aspen-Discovery/aspen-discovery/pull/4725) DIS-2834: Evergreen - Add agent parameter to login request | [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters | `code/web/release_notes/26.09.00.MD` | L30-L30 | @JonahCWilson, @gmcharlt |

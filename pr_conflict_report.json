@@ -130,6 +130,18 @@
                             "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
                             "author": "attheshow",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                        },
+                        {
+                            "number": 4768,
+                            "title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768"
+                        },
+                        {
+                            "number": 4769,
+                            "title": "DIS-2826: Searching for call numbers with a colon",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
                         }
                     ],
                     "shared_files": [
@@ -169,6 +181,84 @@
                                         [
                                             5,
                                             5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4769,
+                                "title": "DIS-2826: Searching for call numbers with a colon",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            118,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4769,
+                                "title": "DIS-2826: Searching for call numbers with a colon",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4768,
+                                "title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            124,
+                                            126
                                         ]
                                     ]
                                 }
@@ -1353,9 +1443,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 45
+            "total_conflicts": 48
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 45
+    "total_conflicts_found": 48
 }

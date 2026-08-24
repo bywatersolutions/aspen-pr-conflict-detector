@@ -18,6 +18,51 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4769,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-24T21:31:30.780870+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4769,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-24T21:31:30.780893+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4768,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-24T21:31:30.780900+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4742,
       "pr_b": 4750,
       "files": [
@@ -678,38 +723,6 @@
     }
   ],
   "resolved_conflicts": [
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4715,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T20:44:21.670699+00:00",
-      "pr_a_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-17T20:29:09.826419+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4715,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T18:04:47.922736+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-17T20:29:09.826419+00:00"
-    },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4689,
@@ -1399,5 +1412,5 @@
       "resolved_at": "2026-08-24T01:18:39.614890+00:00"
     }
   ],
-  "last_run": "2026-08-24T01:18:39.614998+00:00"
+  "last_run": "2026-08-24T21:31:30.781180+00:00"
 }

@@ -4,9 +4,9 @@ Found **45** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 20 PRs, 41 conflict(s)
+### Cluster 1 — 21 PRs, 43 conflict(s)
 
-**Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
+**Authors:** @JonahCWilson, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
 **Files:** `code/web/Action.php`, `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl`, `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
 
@@ -31,6 +31,7 @@ Found **45** potential conflict(s) across **1** repository.
 - [#4742](https://github.com/Aspen-Discovery/aspen-discovery/pull/4742) DIS-2743: Make panel heading fully clickable
 - [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row
 - [#4750](https://github.com/Aspen-Discovery/aspen-discovery/pull/4750) DIS-2776: Unavailable hold filters
+- [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email.
 
 <details>
 <summary>Pairwise details</summary>
@@ -76,33 +77,31 @@ Found **45** potential conflict(s) across **1** repository.
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
 | [#4314](https://github.com/Aspen-Discovery/aspen-discovery/pull/4314) DIS-2192 Curl Wrapper rate limit | [#4703](https://github.com/Aspen-Discovery/aspen-discovery/pull/4703) DIS-2791: Add 'translateParameters' flag across login-related pages  | `code/web/release_notes/26.09.00.MD` | L106-L108 | @lathomas64, @lucasmontoya13 |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | `code/web/release_notes/26.09.00.MD` | L72-L75 | @JonahCWilson, @olivia-openfifth |
-| [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/Action.php` | L121-L122 | @JonahCWilson, @kylemhall |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email. | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L45 | @attheshow, @kylemhall |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email. | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L45 | @attheshow, @kidclamp |
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L56 | @kidclamp, @kylemhall |
+| [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/Action.php` | L121-L122 | @JonahCWilson, @kylemhall |
 
 </details>
 
-### Cluster 2 — 5 PRs, 4 conflict(s)
+### Cluster 2 — 3 PRs, 2 conflict(s)
 
-**Authors:** @Chloe070196, @Jacobomara901, @K-Alette, @librarianbryan, @lucasmontoya13
+**Authors:** @Chloe070196, @Jacobomara901, @librarianbryan
 
-**Files:** `code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl`, `code/web/release_notes/26.08.00.MD`
+**Files:** `code/web/release_notes/26.08.00.MD`
 
 **PRs:**
 - [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method
 - [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci
 - [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box
-- [#4746](https://github.com/Aspen-Discovery/aspen-discovery/pull/4746) DIS-2622: Allow configuration of Search types and Search sorts option
-- [#4751](https://github.com/Aspen-Discovery/aspen-discovery/pull/4751) DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
-| [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | [#4751](https://github.com/Aspen-Discovery/aspen-discovery/pull/4751) DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump | `code/web/release_notes/26.08.00.MD` | L18-L18 | @librarianbryan, @lucasmontoya13 |
 | [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method | [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | `code/web/release_notes/26.08.00.MD` | L75-L76 | @Chloe070196, @librarianbryan |
 | [#3573](https://github.com/Aspen-Discovery/aspen-discovery/pull/3573) DIS-1320: display and update primary contact method | [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci | `code/web/release_notes/26.08.00.MD` | L78-L81 | @Chloe070196, @Jacobomara901 |
-| [#4620](https://github.com/Aspen-Discovery/aspen-discovery/pull/4620) 26.08.00 DIS-2459 simplified search box | [#4746](https://github.com/Aspen-Discovery/aspen-discovery/pull/4746) DIS-2622: Allow configuration of Search types and Search sorts option | `code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl` | L16-L30, L42-L43, L60-L65 | @K-Alette, @librarianbryan |
 
 </details>
 

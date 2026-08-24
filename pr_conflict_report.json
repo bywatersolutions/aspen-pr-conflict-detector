@@ -124,6 +124,12 @@
                             "title": "DIS-2776: Unavailable hold filters",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                        },
+                        {
+                            "number": 4761,
+                            "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                            "author": "attheshow",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
                         }
                     ],
                     "shared_files": [
@@ -1163,24 +1169,50 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4735,
-                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
-                            },
-                            "pr_b": {
                                 "number": 4748,
                                 "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
                                 "author": "kylemhall",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
                             },
+                            "pr_b": {
+                                "number": 4761,
+                                "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                                "author": "attheshow",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                            },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/Action.php",
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
                                     "overlapping_ranges": [
                                         [
-                                            121,
-                                            122
+                                            41,
+                                            45
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4761,
+                                "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                                "author": "attheshow",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            45
                                         ]
                                     ]
                                 }
@@ -1212,6 +1244,32 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4735,
+                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
+                            },
+                            "pr_b": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/Action.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            121,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         }
                     ]
                 },
@@ -1234,51 +1292,12 @@
                             "title": "26.08.00 DIS-2459 simplified search box",
                             "author": "librarianbryan",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
-                        },
-                        {
-                            "number": 4746,
-                            "title": "DIS-2622: Allow configuration of Search types and Search sorts option",
-                            "author": "K-Alette",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4746"
-                        },
-                        {
-                            "number": 4751,
-                            "title": "DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4751"
                         }
                     ],
                     "shared_files": [
-                        "code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl",
                         "code/web/release_notes/26.08.00.MD"
                     ],
                     "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4620,
-                                "title": "26.08.00 DIS-2459 simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
-                            },
-                            "pr_b": {
-                                "number": 4751,
-                                "title": "DIS-2851: Solr Docker volume freezes config across image upgrades, breaking analysis-extras after the Solr 9 bump",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4751"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.08.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            18,
-                                            18
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
                         {
                             "pr_a": {
                                 "number": 3573,
@@ -1325,40 +1344,6 @@
                                         [
                                             78,
                                             81
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4620,
-                                "title": "26.08.00 DIS-2459 simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
-                            },
-                            "pr_b": {
-                                "number": 4746,
-                                "title": "DIS-2622: Allow configuration of Search types and Search sorts option",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4746"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/Search/horizontal-searchbox.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            16,
-                                            30
-                                        ],
-                                        [
-                                            42,
-                                            43
-                                        ],
-                                        [
-                                            60,
-                                            65
                                         ]
                                     ]
                                 }

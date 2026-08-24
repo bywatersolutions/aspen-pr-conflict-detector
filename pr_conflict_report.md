@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **48** potential conflict(s) across **1** repository.
+Found **51** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 23 PRs, 46 conflict(s)
+### Cluster 1 — 24 PRs, 49 conflict(s)
 
-**Authors:** @JonahCWilson, @K-Alette, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
+**Authors:** @JonahCWilson, @K-Alette, @LiYanjun19, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
 **Files:** `code/web/Action.php`, `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl`, `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
 
@@ -34,6 +34,7 @@ Found **48** potential conflict(s) across **1** repository.
 - [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email.
 - [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony)
 - [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon
+- [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error
 
 <details>
 <summary>Pairwise details</summary>
@@ -41,6 +42,9 @@ Found **48** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
+| [#4713](https://github.com/Aspen-Discovery/aspen-discovery/pull/4713) DIS-2410: Evergreen - allow login if user password contains spaces | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
+| [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @K-Alette |
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony) | `code/web/release_notes/26.09.00.MD` | L124-L126 | @JonahCWilson, @K-Alette |

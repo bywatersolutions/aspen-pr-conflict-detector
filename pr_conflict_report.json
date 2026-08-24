@@ -142,6 +142,12 @@
                             "title": "DIS-2826: Searching for call numbers with a colon",
                             "author": "K-Alette",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
+                        },
+                        {
+                            "number": 4770,
+                            "title": "DIS-2682: Fix Evergreen title holds AJAX error",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4770"
                         }
                     ],
                     "shared_files": [
@@ -181,6 +187,84 @@
                                         [
                                             5,
                                             5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "pr_b": {
+                                "number": 4770,
+                                "title": "DIS-2682: Fix Evergreen title holds AJAX error",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4770"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            92,
+                                            95
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "pr_b": {
+                                "number": 4770,
+                                "title": "DIS-2682: Fix Evergreen title holds AJAX error",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4770"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            92,
+                                            95
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "pr_b": {
+                                "number": 4770,
+                                "title": "DIS-2682: Fix Evergreen title holds AJAX error",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4770"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            92,
+                                            95
                                         ]
                                     ]
                                 }
@@ -1443,9 +1527,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 48
+            "total_conflicts": 51
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 48
+    "total_conflicts_found": 51
 }

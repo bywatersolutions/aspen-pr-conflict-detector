@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **51** potential conflict(s) across **1** repository.
+Found **55** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 24 PRs, 49 conflict(s)
+### Cluster 1 — 25 PRs, 53 conflict(s)
 
 **Authors:** @JonahCWilson, @K-Alette, @LiYanjun19, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
@@ -35,6 +35,7 @@ Found **51** potential conflict(s) across **1** repository.
 - [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony)
 - [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon
 - [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error
+- [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in …
 
 <details>
 <summary>Pairwise details</summary>
@@ -42,6 +43,9 @@ Found **51** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in … | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
+| [#4742](https://github.com/Aspen-Discovery/aspen-discovery/pull/4742) DIS-2743: Make panel heading fully clickable | [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in … | `code/web/release_notes/26.09.00.MD` | L133-L134 | @K-Alette, @samyoung-maker |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in … | `code/web/release_notes/26.09.00.MD` | L120-L126 | @JonahCWilson, @K-Alette |
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
 | [#4713](https://github.com/Aspen-Discovery/aspen-discovery/pull/4713) DIS-2410: Evergreen - allow login if user password contains spaces | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
 | [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | [#4770](https://github.com/Aspen-Discovery/aspen-discovery/pull/4770) DIS-2682: Fix Evergreen title holds AJAX error | `code/web/release_notes/26.09.00.MD` | L92-L95 | @LiYanjun19, @gmcharlt |
@@ -86,6 +90,7 @@ Found **51** potential conflict(s) across **1** repository.
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4711](https://github.com/Aspen-Discovery/aspen-discovery/pull/4711) DIS-1871: fix crash recording payments of certain Evergreen fines | `code/web/release_notes/26.09.00.MD` | L137-L143 | @JonahCWilson, @gmcharlt |
 | [#4314](https://github.com/Aspen-Discovery/aspen-discovery/pull/4314) DIS-2192 Curl Wrapper rate limit | [#4703](https://github.com/Aspen-Discovery/aspen-discovery/pull/4703) DIS-2791: Add 'translateParameters' flag across login-related pages  | `code/web/release_notes/26.09.00.MD` | L106-L108 | @lathomas64, @lucasmontoya13 |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4702](https://github.com/Aspen-Discovery/aspen-discovery/pull/4702) DIS-2753: Run fewer cronjobs as root | `code/web/release_notes/26.09.00.MD` | L72-L75 | @JonahCWilson, @olivia-openfifth |
+| [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email. | [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in … | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L32-L32 | @K-Alette, @attheshow |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email. | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L45 | @attheshow, @kylemhall |
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4761](https://github.com/Aspen-Discovery/aspen-discovery/pull/4761) DIS-2818: Allow customization of number of sample titles in saved search email. | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L45 | @attheshow, @kidclamp |
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L56 | @kidclamp, @kylemhall |

@@ -967,22 +967,6 @@
   "resolved_conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4689,
-      "pr_b": 4737,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-18T01:14:33.028152+00:00",
-      "pr_a_title": "DIS-2776 unavailable hold filters",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4689",
-      "pr_b_title": "DIS-2785: Bump Docker's Solr image to 9.10.1",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4737",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "lucasmontoya13",
-      "resolved_at": "2026-08-18T03:46:47.638695+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4646,
       "pr_b": 4661,
       "files": [
@@ -1654,5 +1638,5 @@
       "resolved_at": "2026-08-24T01:18:39.614890+00:00"
     }
   ],
-  "last_run": "2026-08-25T03:02:13.675308+00:00"
+  "last_run": "2026-08-25T22:30:47.814796+00:00"
 }

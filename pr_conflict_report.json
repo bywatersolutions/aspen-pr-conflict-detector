@@ -154,16 +154,78 @@
                             "title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
                             "author": "K-Alette",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4771"
+                        },
+                        {
+                            "number": 4772,
+                            "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                        },
+                        {
+                            "number": 4773,
+                            "title": "DIS-2822: Link publishers in search results",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
                         }
                     ],
                     "shared_files": [
                         "code/web/Action.php",
                         "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                        "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
+                        "code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl",
                         "code/web/release_notes/26.09.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4739,
+                                "title": "DIS-2814 Add class names to search results and full record pages",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
+                            },
+                            "pr_b": {
+                                "number": 4773,
+                                "title": "DIS-2822: Link publishers in search results",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            58,
+                                            59
+                                        ],
+                                        [
+                                            64,
+                                            64
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            26,
+                                            30
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            121,
+                                            125
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4733,
@@ -193,6 +255,188 @@
                                         [
                                             5,
                                             5
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4773,
+                                "title": "DIS-2822: Link publishers in search results",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            118,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4773,
+                                "title": "DIS-2822: Link publishers in search results",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            114
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            107,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            102,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4703,
+                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                            },
+                            "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            102,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            106,
+                                            113
                                         ]
                                     ]
                                 }
@@ -1433,6 +1677,32 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
                             },
                             "pr_b": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            33
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4761,
+                                "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                                "author": "attheshow",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                            },
+                            "pr_b": {
                                 "number": 4771,
                                 "title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
                                 "author": "K-Alette",
@@ -1637,9 +1907,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 55
+            "total_conflicts": 64
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 55
+    "total_conflicts_found": 64
 }

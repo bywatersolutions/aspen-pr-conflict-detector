@@ -1,14 +1,14 @@
 # Aspen PR Conflict Report
 
-Found **64** potential conflict(s) across **1** repository.
+Found **69** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 27 PRs, 62 conflict(s)
+### Cluster 1 — 29 PRs, 67 conflict(s)
 
-**Authors:** @JonahCWilson, @K-Alette, @LiYanjun19, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
+**Authors:** @JonahCWilson, @K-Alette, @LiYanjun19, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @mdnoble73, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
-**Files:** `code/web/Action.php`, `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl`, `code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl`, `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
+**Files:** `code/web/Action.php`, `code/web/RecordDrivers/WebResourceRecordDriver.php`, `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl`, `code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl`, `code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl`, `code/web/release_notes/26.09.00.MD`, `code/web/services/MyAccount/AJAX.php`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`, `code/web/sys/SystemVariables.php`
 
 **PRs:**
 - [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374
@@ -38,6 +38,8 @@ Found **64** potential conflict(s) across **1** repository.
 - [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in …
 - [#4772](https://github.com/Aspen-Discovery/aspen-discovery/pull/4772) DIS-2821: Allow Publisher to be removed from the Keyword search
 - [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results
+- [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches
+- [#4781](https://github.com/Aspen-Discovery/aspen-discovery/pull/4781) Merge 26.08 into 26.09.00
 
 <details>
 <summary>Pairwise details</summary>
@@ -45,7 +47,12 @@ Found **64** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl`, `code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl` | L58-L59, L64-L64, L26-L30, L121-L125 | @K-Alette, @stephenrwicks |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4781](https://github.com/Aspen-Discovery/aspen-discovery/pull/4781) Merge 26.08 into 26.09.00 | `code/web/services/MyAccount/AJAX.php`, `code/web/sys/SystemVariables.php` | L1970-L1976, L554-L559 | @kidclamp, @mdnoble73 |
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4735](https://github.com/Aspen-Discovery/aspen-discovery/pull/4735) DIS-2840: PHPStan Baseline Bugfixes | [#4781](https://github.com/Aspen-Discovery/aspen-discovery/pull/4781) Merge 26.08 into 26.09.00 | `code/web/RecordDrivers/WebResourceRecordDriver.php` | L79-L80, L84-L87 | @JonahCWilson, @mdnoble73 |
+| [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | [#4781](https://github.com/Aspen-Discovery/aspen-discovery/pull/4781) Merge 26.08 into 26.09.00 | `code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl` | L14-L20, L27-L30 | @mdnoble73, @stephenrwicks |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @K-Alette |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @K-Alette |
 | [#4722](https://github.com/Aspen-Discovery/aspen-discovery/pull/4722) DIS-1891: fix issue saving copied placard after certain trigger word edits | [#4772](https://github.com/Aspen-Discovery/aspen-discovery/pull/4772) DIS-2821: Allow Publisher to be removed from the Keyword search | `code/web/release_notes/26.09.00.MD` | L108-L114 | @K-Alette, @gmcharlt |

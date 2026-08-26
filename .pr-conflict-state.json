@@ -19,22 +19,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4242,
-      "pr_b": 4781,
-      "files": [
-        "code/web/services/MyAccount/AJAX.php",
-        "code/web/sys/SystemVariables.php"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402920+00:00",
-      "pr_a_title": "DIS-2374",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "kidclamp",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4733,
       "pr_b": 4739,
       "files": [
@@ -48,36 +32,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739",
       "pr_a_author": "myr-onl",
       "pr_b_author": "stephenrwicks"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4735,
-      "pr_b": 4781,
-      "files": [
-        "code/web/RecordDrivers/WebResourceRecordDriver.php"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402949+00:00",
-      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4739,
-      "pr_b": 4781,
-      "files": [
-        "code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402957+00:00",
-      "pr_a_title": "DIS-2814 Add class names to search results and full record pages",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "stephenrwicks",
-      "pr_b_author": "mdnoble73"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -1712,7 +1666,56 @@
       "pr_a_author": "librarianbryan",
       "pr_b_author": "K-Alette",
       "resolved_at": "2026-08-24T01:18:39.614890+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4242,
+      "pr_b": 4781,
+      "files": [
+        "code/web/services/MyAccount/AJAX.php",
+        "code/web/sys/SystemVariables.php"
+      ],
+      "first_seen": "2026-08-25T23:28:38.402920+00:00",
+      "pr_a_title": "DIS-2374",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
+      "pr_b_title": "Merge 26.08 into 26.09.00",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
+      "pr_a_author": "kidclamp",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4735,
+      "pr_b": 4781,
+      "files": [
+        "code/web/RecordDrivers/WebResourceRecordDriver.php"
+      ],
+      "first_seen": "2026-08-25T23:28:38.402949+00:00",
+      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
+      "pr_b_title": "Merge 26.08 into 26.09.00",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4739,
+      "pr_b": 4781,
+      "files": [
+        "code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl"
+      ],
+      "first_seen": "2026-08-25T23:28:38.402957+00:00",
+      "pr_a_title": "DIS-2814 Add class names to search results and full record pages",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739",
+      "pr_b_title": "Merge 26.08 into 26.09.00",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
+      "pr_a_author": "stephenrwicks",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
     }
   ],
-  "last_run": "2026-08-25T23:28:38.403342+00:00"
+  "last_run": "2026-08-26T16:21:43.270954+00:00"
 }

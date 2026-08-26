@@ -172,26 +172,16 @@
                             "title": "DIS-2649: Avoid matching names from two separate people when doing author searches",
                             "author": "K-Alette",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4780"
-                        },
-                        {
-                            "number": 4781,
-                            "title": "Merge 26.08 into 26.09.00",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781"
                         }
                     ],
                     "shared_files": [
                         "code/web/Action.php",
-                        "code/web/RecordDrivers/WebResourceRecordDriver.php",
                         "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl",
-                        "code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl",
                         "code/web/release_notes/26.09.00.MD",
-                        "code/web/services/MyAccount/AJAX.php",
-                        "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                        "code/web/sys/SystemVariables.php"
+                        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
                         {
@@ -240,42 +230,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4242,
-                                "title": "DIS-2374",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                            },
-                            "pr_b": {
-                                "number": 4781,
-                                "title": "Merge 26.08 into 26.09.00",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/services/MyAccount/AJAX.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            1970,
-                                            1976
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/SystemVariables.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            554,
-                                            559
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -310,67 +265,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4735,
-                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
-                            },
-                            "pr_b": {
-                                "number": 4781,
-                                "title": "Merge 26.08 into 26.09.00",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/RecordDrivers/WebResourceRecordDriver.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            79,
-                                            80
-                                        ],
-                                        [
-                                            84,
-                                            87
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4739,
-                                "title": "DIS-2814 Add class names to search results and full record pages",
-                                "author": "stephenrwicks",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739"
-                            },
-                            "pr_b": {
-                                "number": 4781,
-                                "title": "Merge 26.08 into 26.09.00",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            14,
-                                            20
-                                        ],
-                                        [
-                                            27,
-                                            30
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2070,9 +1965,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 69
+            "total_conflicts": 66
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 69
+    "total_conflicts_found": 66
 }

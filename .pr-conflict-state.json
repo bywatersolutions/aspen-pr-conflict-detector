@@ -35,6 +35,111 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4780,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789035+00:00",
+      "pr_a_title": "DIS-2649: Avoid matching names from two separate people when doing author searches",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4780",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4773,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789050+00:00",
+      "pr_a_title": "DIS-2822: Link publishers in search results",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4771,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789055+00:00",
+      "pr_a_title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4771",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4769,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789059+00:00",
+      "pr_a_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4768,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789062+00:00",
+      "pr_a_title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789066+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4782,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-26T22:50:14.789069+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS 2867: Remove redundant background process check from backend startup",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4748,
       "pr_b": 4780,
       "files": [
@@ -997,22 +1102,6 @@
   "resolved_conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4661,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-10T17:47:05.717324+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2679: Refactor default database export into a PDO-based class ",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "Jacobomara901",
-      "resolved_at": "2026-08-19T22:27:38.874549+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
       "pr_b": 4748,
       "files": [
@@ -1717,5 +1806,5 @@
       "resolved_at": "2026-08-26T16:21:43.270780+00:00"
     }
   ],
-  "last_run": "2026-08-26T16:21:43.270954+00:00"
+  "last_run": "2026-08-26T22:50:14.789280+00:00"
 }

@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **66** potential conflict(s) across **1** repository.
+Found **73** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 28 PRs, 64 conflict(s)
+### Cluster 1 — 29 PRs, 71 conflict(s)
 
 **Authors:** @JonahCWilson, @K-Alette, @LiYanjun19, @attheshow, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @lucasmontoya13, @myr-onl, @olivia-openfifth, @samyoung-maker, @stephenrwicks
 
@@ -39,6 +39,7 @@ Found **66** potential conflict(s) across **1** repository.
 - [#4772](https://github.com/Aspen-Discovery/aspen-discovery/pull/4772) DIS-2821: Allow Publisher to be removed from the Keyword search
 - [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results
 - [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches
+- [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup
 
 <details>
 <summary>Pairwise details</summary>
@@ -47,6 +48,13 @@ Found **66** potential conflict(s) across **1** repository.
 |------|------|-------------------|-------------------|---------|
 | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl`, `code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl` | L58-L59, L64-L64, L26-L30, L121-L125 | @K-Alette, @stephenrwicks |
 | [#4733](https://github.com/Aspen-Discovery/aspen-discovery/pull/4733) DIS-2836: Add data attributes for Playwright tests | [#4739](https://github.com/Aspen-Discovery/aspen-discovery/pull/4739) DIS-2814 Add class names to search results and full record pages | `code/web/interface/themes/responsive/GroupedWork/full-record.tpl`, `code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl` | L18-L24, L5-L5 | @myr-onl, @stephenrwicks |
+| [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L124 | @K-Alette, @lucasmontoya13 |
+| [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L124 | @K-Alette, @lucasmontoya13 |
+| [#4771](https://github.com/Aspen-Discovery/aspen-discovery/pull/4771) DIS-2646: Issues checking out items checked out to a display user in … | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L126 | @K-Alette, @lucasmontoya13 |
+| [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L124 | @K-Alette, @lucasmontoya13 |
+| [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony) | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L124-L126 | @K-Alette, @lucasmontoya13 |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L122 | @kylemhall, @lucasmontoya13 |
+| [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4782](https://github.com/Aspen-Discovery/aspen-discovery/pull/4782) DIS 2867: Remove redundant background process check from backend startup | `code/web/release_notes/26.09.00.MD` | L120-L126 | @JonahCWilson, @lucasmontoya13 |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |
 | [#4646](https://github.com/Aspen-Discovery/aspen-discovery/pull/4646) DIS-2742: Array Offset Bug in "Titles on Hold" | [#4780](https://github.com/Aspen-Discovery/aspen-discovery/pull/4780) DIS-2649: Avoid matching names from two separate people when doing author searches | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @K-Alette |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4773](https://github.com/Aspen-Discovery/aspen-discovery/pull/4773) DIS-2822: Link publishers in search results | `code/web/release_notes/26.09.00.MD` | L118-L122 | @K-Alette, @kylemhall |

@@ -172,6 +172,12 @@
                             "title": "DIS-2649: Avoid matching names from two separate people when doing author searches",
                             "author": "K-Alette",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4780"
+                        },
+                        {
+                            "number": 4782,
+                            "title": "DIS 2867: Remove redundant background process check from backend startup",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
                         }
                     ],
                     "shared_files": [
@@ -266,6 +272,188 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4780,
+                                "title": "DIS-2649: Avoid matching names from two separate people when doing author searches",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4780"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4773,
+                                "title": "DIS-2822: Link publishers in search results",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4771,
+                                "title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4771"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            126
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4769,
+                                "title": "DIS-2826: Searching for call numbers with a colon",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4768,
+                                "title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            124,
+                                            126
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4646,
+                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                            },
+                            "pr_b": {
+                                "number": 4782,
+                                "title": "DIS 2867: Remove redundant background process check from backend startup",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            126
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -1965,9 +2153,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 66
+            "total_conflicts": 73
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 66
+    "total_conflicts_found": 73
 }

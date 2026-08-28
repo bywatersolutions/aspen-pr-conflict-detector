@@ -6,6 +6,12 @@
                 {
                     "prs": [
                         {
+                            "number": 3573,
+                            "title": "DIS-1320: display and update primary contact method",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                        },
+                        {
                             "number": 4242,
                             "title": "DIS-2374",
                             "author": "kidclamp",
@@ -22,6 +28,12 @@
                             "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                        },
+                        {
+                            "number": 4663,
+                            "title": "DIS-2760: fix: retain unsaved changes",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4663"
                         },
                         {
                             "number": 4690,
@@ -178,10 +190,17 @@
                             "title": "DIS 2867: Remove redundant background process check from backend startup",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
+                        },
+                        {
+                            "number": 4783,
+                            "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
                         }
                     ],
                     "shared_files": [
                         "code/web/Action.php",
+                        "code/web/interface/themes/responsive/DataObjectUtil/property.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
@@ -272,6 +291,84 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "pr_b": {
+                                "number": 4783,
+                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4783,
+                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4783,
+                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -447,7 +544,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            120,
+                                            123,
                                             126
                                         ]
                                     ]
@@ -499,7 +596,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            120,
+                                            123,
                                             124
                                         ]
                                     ]
@@ -551,7 +648,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            120,
+                                            123,
                                             124
                                         ]
                                     ]
@@ -759,8 +856,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            120,
-                                            126
+                                            123,
+                                            129
                                         ]
                                     ]
                                 }
@@ -889,7 +986,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            120,
+                                            123,
                                             124
                                         ]
                                     ]
@@ -916,7 +1013,7 @@
                                     "overlapping_ranges": [
                                         [
                                             124,
-                                            126
+                                            129
                                         ]
                                     ]
                                 }
@@ -995,6 +1092,32 @@
                                         [
                                             30,
                                             30
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            36
                                         ]
                                     ]
                                 }
@@ -1185,36 +1308,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            120,
-                                            122
-                                        ],
-                                        [
-                                            140,
-                                            143
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4733,
                                 "title": "DIS-2836: Add data attributes for Playwright tests",
                                 "author": "myr-onl",
@@ -1397,10 +1490,10 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
                             },
                             "pr_b": {
                                 "number": 4742,
@@ -1413,8 +1506,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            137,
-                                            139
+                                            36,
+                                            40
                                         ]
                                     ]
                                 }
@@ -1423,24 +1516,24 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
                             },
                             "pr_b": {
-                                "number": 4725,
-                                "title": "DIS-2834: Evergreen - Add agent parameter to login request",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725"
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            140,
-                                            143
+                                            36,
+                                            41
                                         ]
                                     ]
                                 }
@@ -1501,32 +1594,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4724,
-                                "title": "DIS-2832: Fix setting a location in Host Information",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4717,
                                 "title": "DIS-2830: Overdrive _callUrl error handling",
                                 "author": "JonahCWilson",
@@ -1571,32 +1638,6 @@
                                         [
                                             108,
                                             108
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4722,
-                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
                                         ]
                                     ]
                                 }
@@ -1735,32 +1776,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4716,
-                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4314,
                                 "title": "DIS-2192 Curl Wrapper rate limit",
                                 "author": "lathomas64",
@@ -1779,84 +1794,6 @@
                                         [
                                             106,
                                             108
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4714,
-                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4713,
-                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4711,
-                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            137,
-                                            143
                                         ]
                                     ]
                                 }
@@ -2069,93 +2006,40 @@
                                     ]
                                 }
                             ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4663,
+                                "title": "DIS-2760: fix: retain unsaved changes",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4663"
+                            },
+                            "pr_b": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/DataObjectUtil/property.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            227,
+                                            233
+                                        ]
+                                    ]
+                                }
+                            ],
                             "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 3573,
-                            "title": "DIS-1320: display and update primary contact method",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
-                        },
-                        {
-                            "number": 4593,
-                            "title": "DIS-2680: aspen.sql regeneration ci",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
-                        },
-                        {
-                            "number": 4620,
-                            "title": "26.08.00 DIS-2459 simplified search box",
-                            "author": "librarianbryan",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.08.00.MD"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 3573,
-                                "title": "DIS-1320: display and update primary contact method",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
-                            },
-                            "pr_b": {
-                                "number": 4620,
-                                "title": "26.08.00 DIS-2459 simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.08.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            75,
-                                            76
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 3573,
-                                "title": "DIS-1320: display and update primary contact method",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
-                            },
-                            "pr_b": {
-                                "number": 4593,
-                                "title": "DIS-2680: aspen.sql regeneration ci",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.08.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            78,
-                                            81
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
                         }
                     ]
                 }
             ],
-            "total_conflicts": 73
+            "total_conflicts": 69
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 73
+    "total_conflicts_found": 69
 }

@@ -35,6 +35,51 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4783,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-28T23:29:02.246440+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-1202: Fix OverDrive Products to Reindex ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4733,
+      "pr_b": 4783,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-28T23:29:02.246455+00:00",
+      "pr_a_title": "DIS-2836: Add data attributes for Playwright tests",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733",
+      "pr_b_title": "DIS-1202: Fix OverDrive Products to Reindex ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
+      "pr_a_author": "myr-onl",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4783,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-28T23:29:02.246462+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-1202: Fix OverDrive Products to Reindex ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4780,
       "pr_b": 4782,
       "files": [
@@ -455,6 +500,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4750,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-28T23:29:02.246573+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2776: Unavailable hold filters",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4725,
       "pr_b": 4748,
       "files": [
@@ -556,21 +616,6 @@
       "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
       "pr_a_author": "gmcharlt",
-      "pr_b_author": "kylemhall"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770176+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
       "pr_b_author": "kylemhall"
     },
     {
@@ -680,33 +725,33 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
+      "pr_a": 3573,
       "pr_b": 4742,
       "files": [
         "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-08-20T17:33:13.765006+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "first_seen": "2026-08-28T23:29:02.246622+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
       "pr_b_title": "DIS-2743: Make panel heading fully clickable",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "JonahCWilson",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "samyoung-maker"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4725,
+      "pr_a": 3573,
+      "pr_b": 4733,
       "files": [
         "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-08-19T22:27:38.874444+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt"
+      "first_seen": "2026-08-28T23:29:02.246635+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2836: Add data attributes for Playwright tests",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "myr-onl"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -740,21 +785,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4724,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874468+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4717,
       "pr_b": 4722,
       "files": [
@@ -781,21 +811,6 @@
       "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
       "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4722,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874483+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
-      "pr_a_author": "JonahCWilson",
       "pr_b_author": "gmcharlt"
     },
     {
@@ -875,21 +890,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4716,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874506+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4314,
       "pr_b": 4716,
       "files": [
@@ -901,51 +901,6 @@
       "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
       "pr_a_author": "lathomas64",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4714,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874519+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4713,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874527+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4646,
-      "pr_b": 4711,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-19T22:27:38.874536+00:00",
-      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
-      "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
-      "pr_a_author": "JonahCWilson",
       "pr_b_author": "gmcharlt"
     },
     {
@@ -1070,660 +1025,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4620,
+      "pr_a": 4663,
+      "pr_b": 4742,
       "files": [
-        "code/web/release_notes/26.08.00.MD"
+        "code/web/interface/themes/responsive/DataObjectUtil/property.tpl"
       ],
-      "first_seen": "2026-08-19T13:46:20.744066+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "first_seen": "2026-08-28T23:29:02.246706+00:00",
+      "pr_a_title": "DIS-2760: fix: retain unsaved changes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4663",
+      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
       "pr_a_author": "Chloe070196",
-      "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 3573,
-      "pr_b": 4593,
-      "files": [
-        "code/web/release_notes/26.08.00.MD"
-      ],
-      "first_seen": "2026-08-19T13:46:20.744084+00:00",
-      "pr_a_title": "DIS-1320: display and update primary contact method",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
-      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901"
+      "pr_b_author": "samyoung-maker"
     }
   ],
   "resolved_conflicts": [
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4717,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770144+00:00",
-      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "kylemhall",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770166+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "kylemhall",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770171+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "kylemhall",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4732,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764931+00:00",
-      "pr_a_title": "DIS-2839: Add a missing message to an \"Import From Old Catalog\" button",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4732",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "samyoung-maker",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4717,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764953+00:00",
-      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "samyoung-maker",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764991+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "samyoung-maker",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764999+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "samyoung-maker",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4715,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813634+00:00",
-      "pr_a_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4717,
-      "pr_b": 4725,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T20:34:09.626618+00:00",
-      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4725,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T20:34:09.626636+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4725,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T20:34:09.626643+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4717,
-      "pr_b": 4724,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T16:55:15.716873+00:00",
-      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4724,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T16:55:15.716910+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4722,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T14:53:58.072560+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4722,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T14:53:58.072570+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T20:44:21.670716+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4713,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T20:44:21.670727+00:00",
-      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4711,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T20:44:21.670733+00:00",
-      "pr_a_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4716,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T18:04:47.922676+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4716,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T18:04:47.922719+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4715,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T18:04:47.922728+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4702,
-      "pr_b": 4715,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-14T21:27:16.176049+00:00",
-      "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
-      "pr_b_title": "DIS-2573: make additional My Account buttons keyboard-accessible",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4715",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4714,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T16:03:19.069257+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4714,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T16:03:19.069283+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4713,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T14:58:20.190566+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4713,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-13T14:58:20.190591+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4706,
-      "pr_b": 4711,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-12T22:40:54.379681+00:00",
-      "pr_a_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4711,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-12T22:40:54.379711+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "gmcharlt",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4702,
-      "pr_b": 4706,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-11T21:47:22.021842+00:00",
-      "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
-      "pr_b_title": "DIS-2798: Aspen Discovery CI - Static Analysis tools",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4706",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T20:30:19.596063+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4742,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764823+00:00",
-      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "kylemhall",
-      "resolved_at": "2026-08-20T22:30:12.100012+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4735,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764913+00:00",
-      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "samyoung-maker",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4725,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813593+00:00",
-      "pr_a_title": "DIS-2834: Evergreen - Add agent parameter to login request",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4724,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813613+00:00",
-      "pr_a_title": "DIS-2832: Fix setting a location in Host Information",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4722,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813622+00:00",
-      "pr_a_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813628+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813639+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4713,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813644+00:00",
-      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4711,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813649+00:00",
-      "pr_a_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4702,
-      "pr_b": 4735,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-17T23:25:13.813654+00:00",
-      "pr_a_title": "DIS-2753: Run fewer cronjobs as root",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702",
-      "pr_b_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "JonahCWilson",
-      "resolved_at": "2026-08-20T23:27:48.101864+00:00"
-    },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4620,
@@ -1804,7 +1120,183 @@
       "pr_a_author": "stephenrwicks",
       "pr_b_author": "mdnoble73",
       "resolved_at": "2026-08-26T16:21:43.270780+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4748,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-20T11:29:28.770176+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "kylemhall",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4742,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-20T17:33:13.765006+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "samyoung-maker",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4725,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874444+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2834: Evergreen - Add agent parameter to login request",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4724,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874468+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2832: Fix setting a location in Host Information",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4722,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874483+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4716,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874506+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4714,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874519+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4713,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874527+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4646,
+      "pr_b": 4711,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-19T22:27:38.874536+00:00",
+      "pr_a_title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646",
+      "pr_b_title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4620,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744066+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "26.08.00 DIS-2459 simplified search box",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4620",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "librarianbryan",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 3573,
+      "pr_b": 4593,
+      "files": [
+        "code/web/release_notes/26.08.00.MD"
+      ],
+      "first_seen": "2026-08-19T13:46:20.744084+00:00",
+      "pr_a_title": "DIS-1320: display and update primary contact method",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573",
+      "pr_b_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-08-28T23:29:02.246715+00:00"
     }
   ],
-  "last_run": "2026-08-26T22:50:14.789280+00:00"
+  "last_run": "2026-08-28T23:29:02.247023+00:00"
 }

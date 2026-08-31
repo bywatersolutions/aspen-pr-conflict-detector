@@ -24,12 +24,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
                         },
                         {
-                            "number": 4646,
-                            "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                        },
-                        {
                             "number": 4663,
                             "title": "DIS-2760: fix: retain unsaved changes",
                             "author": "Chloe070196",
@@ -106,12 +100,6 @@
                             "title": "DIS-2836: Add data attributes for Playwright tests",
                             "author": "myr-onl",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
-                        },
-                        {
-                            "number": 4735,
-                            "title": "DIS-2840: PHPStan Baseline Bugfixes",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
                         },
                         {
                             "number": 4739,
@@ -196,16 +184,40 @@
                             "title": "DIS-1202: Fix OverDrive Products to Reindex ",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                        },
+                        {
+                            "number": 4784,
+                            "title": "DIS-2784: Add Hoopla Records to Include",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                        },
+                        {
+                            "number": 4785,
+                            "title": "DIS-2817 Fix rounding error with Stripe payments",
+                            "author": "stephenrwicks",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4785"
+                        },
+                        {
+                            "number": 4786,
+                            "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                        },
+                        {
+                            "number": 4787,
+                            "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
                         }
                     ],
                     "shared_files": [
-                        "code/web/Action.php",
                         "code/web/interface/themes/responsive/DataObjectUtil/property.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/Talpa/result.tpl",
                         "code/web/release_notes/26.09.00.MD",
+                        "code/web/services/MyAccount/AJAX.php",
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
@@ -259,6 +271,80 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            35,
+                                            36
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/services/MyAccount/AJAX.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            3911,
+                                            3921
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            116,
+                                            118
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            46
+                                        ],
+                                        [
+                                            65,
+                                            89
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4733,
                                 "title": "DIS-2836: Add data attributes for Playwright tests",
                                 "author": "myr-onl",
@@ -291,6 +377,474 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            35,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4783,
+                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            35,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            35,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4787,
+                                "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4722,
+                                "title": "DIS-1891: fix issue saving copied placard after certain trigger word edits",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4722"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            114
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            109,
+                                            115
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            103,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4703,
+                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            103,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4314,
+                                "title": "DIS-2192 Curl Wrapper rate limit",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            106,
+                                            113
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4770,
+                                "title": "DIS-2682: Fix Evergreen title holds AJAX error",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4770"
+                            },
+                            "pr_b": {
+                                "number": 4785,
+                                "title": "DIS-2817 Fix rounding error with Stripe payments",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4785"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            92,
+                                            97
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4714,
+                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
+                            },
+                            "pr_b": {
+                                "number": 4785,
+                                "title": "DIS-2817 Fix rounding error with Stripe payments",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4785"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            91,
+                                            95
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4713,
+                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
+                            },
+                            "pr_b": {
+                                "number": 4785,
+                                "title": "DIS-2817 Fix rounding error with Stripe payments",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4785"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            91,
+                                            95
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4711,
+                                "title": "DIS-1871: fix crash recording payments of certain Evergreen fines",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4711"
+                            },
+                            "pr_b": {
+                                "number": 4785,
+                                "title": "DIS-2817 Fix rounding error with Stripe payments",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4785"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            91,
+                                            95
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4750,
+                                "title": "DIS-2776: Unavailable hold filters",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4742,
+                                "title": "DIS-2743: Make panel heading fully clickable",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4733,
+                                "title": "DIS-2836: Add data attributes for Playwright tests",
+                                "author": "myr-onl",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4733"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            41
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 3573,
+                                "title": "DIS-1320: display and update primary contact method",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/3573"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -528,32 +1082,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4782,
-                                "title": "DIS 2867: Remove redundant background process check from backend startup",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4782"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            123,
-                                            126
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4748,
                                 "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
                                 "author": "kylemhall",
@@ -580,32 +1108,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4780,
-                                "title": "DIS-2649: Avoid matching names from two separate people when doing author searches",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4780"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            123,
-                                            124
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4748,
                                 "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
                                 "author": "kylemhall",
@@ -624,32 +1126,6 @@
                                         [
                                             118,
                                             122
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4773,
-                                "title": "DIS-2822: Link publishers in search results",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4773"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            123,
-                                            124
                                         ]
                                     ]
                                 }
@@ -700,8 +1176,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            107,
-                                            113
+                                            109,
+                                            115
                                         ]
                                     ]
                                 }
@@ -840,32 +1316,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4771,
-                                "title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4771"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            123,
-                                            129
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4714,
                                 "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
                                 "author": "gmcharlt",
@@ -962,58 +1412,6 @@
                                         [
                                             118,
                                             122
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4769,
-                                "title": "DIS-2826: Searching for call numbers with a colon",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            123,
-                                            124
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4646,
-                                "title": "DIS-2742: Array Offset Bug in \"Titles on Hold\"",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4646"
-                            },
-                            "pr_b": {
-                                "number": 4768,
-                                "title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            124,
-                                            129
                                         ]
                                     ]
                                 }
@@ -1568,32 +1966,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4690,
-                                "title": "DIS-2780 Collection Spotlight Caching",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                            },
-                            "pr_b": {
-                                "number": 4724,
-                                "title": "DIS-2832: Fix setting a location in Host Information",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            72,
-                                            73
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4717,
                                 "title": "DIS-2830: Overdrive _callUrl error handling",
                                 "author": "JonahCWilson",
@@ -1610,8 +1982,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            108,
-                                            113
+                                            109,
+                                            114
                                         ]
                                     ]
                                 }
@@ -1672,58 +2044,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4716,
-                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
-                            },
-                            "pr_b": {
-                                "number": 4717,
-                                "title": "DIS-2830: Overdrive _callUrl error handling",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            107,
-                                            108
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4703,
-                                "title": "DIS-2791: Add 'translateParameters' flag across login-related pages ",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4703"
-                            },
-                            "pr_b": {
-                                "number": 4717,
-                                "title": "DIS-2830: Overdrive _callUrl error handling",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            107,
-                                            108
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4314,
                                 "title": "DIS-2192 Curl Wrapper rate limit",
                                 "author": "lathomas64",
@@ -1740,7 +2060,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            107,
+                                            109,
                                             113
                                         ]
                                     ]
@@ -1844,8 +2164,164 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            72,
+                                            74,
                                             75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            22,
+                                            34
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4761,
+                                "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                                "author": "attheshow",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            45
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4786,
+                                "title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            46
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4772,
+                                "title": "DIS-2821: Allow Publisher to be removed from the Keyword search",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4772"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            22,
+                                            33
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4771,
+                                "title": "DIS-2646: Issues checking out items checked out to a display user in \u2026",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4771"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            22,
+                                            32
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4761,
+                                "title": "DIS-2818: Allow customization of number of sample titles in saved search email.",
+                                "author": "attheshow",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4761"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            34
                                         ]
                                     ]
                                 }
@@ -1984,32 +2460,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4735,
-                                "title": "DIS-2840: PHPStan Baseline Bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/Action.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            121,
-                                            122
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4663,
                                 "title": "DIS-2760: fix: retain unsaved changes",
                                 "author": "Chloe070196",
@@ -2037,9 +2487,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 69
+            "total_conflicts": 85
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 69
+    "total_conflicts_found": 85
 }

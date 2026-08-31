@@ -24,12 +24,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4314"
                         },
                         {
-                            "number": 4663,
-                            "title": "DIS-2760: fix: retain unsaved changes",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4663"
-                        },
-                        {
                             "number": 4690,
                             "title": "DIS-2780 Collection Spotlight Caching",
                             "author": "JonahCWilson",
@@ -208,10 +202,21 @@
                             "title": "DIS-2702: Bulk Holds actions refresh to an empty holds list",
                             "author": "K-Alette",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4787"
+                        },
+                        {
+                            "number": 4788,
+                            "title": "DIS-2855: Enable Card Renewal dropdown disabling the wrong option",
+                            "author": "stephenrwicks",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4788"
+                        },
+                        {
+                            "number": 4789,
+                            "title": "DIS-2853: \"Aspen Events to Include\" label",
+                            "author": "stephenrwicks",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4789"
                         }
                     ],
                     "shared_files": [
-                        "code/web/interface/themes/responsive/DataObjectUtil/property.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/full-record.tpl",
                         "code/web/interface/themes/responsive/GroupedWork/metadataBlocks.tpl",
                         "code/web/interface/themes/responsive/RecordDrivers/GroupedWork/result.tpl",
@@ -288,7 +293,7 @@
                                     "overlapping_ranges": [
                                         [
                                             35,
-                                            36
+                                            38
                                         ]
                                     ]
                                 },
@@ -323,7 +328,7 @@
                                     "overlapping_ranges": [
                                         [
                                             116,
-                                            118
+                                            119
                                         ]
                                     ]
                                 },
@@ -377,6 +382,162 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4724,
+                                "title": "DIS-2832: Fix setting a location in Host Information",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
+                            },
+                            "pr_b": {
+                                "number": 4789,
+                                "title": "DIS-2853: \"Aspen Events to Include\" label",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4789"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            69,
+                                            73
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4702,
+                                "title": "DIS-2753: Run fewer cronjobs as root",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
+                            },
+                            "pr_b": {
+                                "number": 4789,
+                                "title": "DIS-2853: \"Aspen Events to Include\" label",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4789"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            69,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4789,
+                                "title": "DIS-2853: \"Aspen Events to Include\" label",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4789"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            74,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4724,
+                                "title": "DIS-2832: Fix setting a location in Host Information",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4724"
+                            },
+                            "pr_b": {
+                                "number": 4788,
+                                "title": "DIS-2855: Enable Card Renewal dropdown disabling the wrong option",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4788"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            69,
+                                            73
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4702,
+                                "title": "DIS-2753: Run fewer cronjobs as root",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4702"
+                            },
+                            "pr_b": {
+                                "number": 4788,
+                                "title": "DIS-2855: Enable Card Renewal dropdown disabling the wrong option",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4788"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            69,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4788,
+                                "title": "DIS-2855: Enable Card Renewal dropdown disabling the wrong option",
+                                "author": "stephenrwicks",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4788"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            74,
+                                            75
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -578,7 +739,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            103,
+                                            104,
                                             108
                                         ]
                                     ]
@@ -604,7 +765,7 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            103,
+                                            104,
                                             108
                                         ]
                                     ]
@@ -761,7 +922,7 @@
                                     "overlapping_ranges": [
                                         [
                                             32,
-                                            36
+                                            38
                                         ]
                                     ]
                                 }
@@ -1437,7 +1598,7 @@
                                     "overlapping_ranges": [
                                         [
                                             34,
-                                            36
+                                            38
                                         ]
                                     ]
                                 }
@@ -1463,33 +1624,7 @@
                                     "overlapping_ranges": [
                                         [
                                             34,
-                                            36
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4725,
-                                "title": "DIS-2834: Evergreen - Add agent parameter to login request",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4725"
-                            },
-                            "pr_b": {
-                                "number": 4750,
-                                "title": "DIS-2776: Unavailable hold filters",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4750"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            30,
-                                            30
+                                            38
                                         ]
                                     ]
                                 }
@@ -1515,7 +1650,7 @@
                                     "overlapping_ranges": [
                                         [
                                             36,
-                                            36
+                                            38
                                         ]
                                     ]
                                 }
@@ -2457,39 +2592,13 @@
                                 }
                             ],
                             "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4663,
-                                "title": "DIS-2760: fix: retain unsaved changes",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4663"
-                            },
-                            "pr_b": {
-                                "number": 4742,
-                                "title": "DIS-2743: Make panel heading fully clickable",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/DataObjectUtil/property.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            227,
-                                            233
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         }
                     ]
                 }
             ],
-            "total_conflicts": 85
+            "total_conflicts": 89
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 85
+    "total_conflicts_found": 89
 }

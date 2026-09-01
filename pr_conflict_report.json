@@ -1968,11 +1968,58 @@
                             "verified": false
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4797,
+                            "title": "DIS-2875: Allow deleting Reading History entries containing apostrophes",
+                            "author": "poojary9991",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4797"
+                        },
+                        {
+                            "number": 4802,
+                            "title": " DIS-2519: Translate plural facet title above facet popup search bar",
+                            "author": "olivia-openfifth",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4802"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.09.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4797,
+                                "title": "DIS-2875: Allow deleting Reading History entries containing apostrophes",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4797"
+                            },
+                            "pr_b": {
+                                "number": 4802,
+                                "title": " DIS-2519: Translate plural facet title above facet popup search bar",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4802"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            51,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 68
+            "total_conflicts": 69
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 68
+    "total_conflicts_found": 69
 }

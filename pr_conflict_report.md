@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **68** potential conflict(s) across **1** repository.
+Found **69** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -114,4 +114,6 @@ Found **68** potential conflict(s) across **1** repository.
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L56 | @kidclamp, @kylemhall |
 
 </details>
+
+**[#4797](https://github.com/Aspen-Discovery/aspen-discovery/pull/4797)** ↔ **[#4802](https://github.com/Aspen-Discovery/aspen-discovery/pull/4802)** — `code/web/release_notes/26.09.00.MD` (L51-L56) — @olivia-openfifth, @poojary9991
 

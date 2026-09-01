@@ -2,34 +2,77 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
-      "pr_b": 4798,
+      "pr_a": 4798,
+      "pr_b": 4803,
       "files": [
-        "code/web/release_notes/26.09.00.MD",
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+        "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-09-01T01:44:15.602160+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "catsoup11789"
+      "first_seen": "2026-09-01T20:40:04.988556+00:00",
+      "pr_a_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "catsoup11789",
+      "pr_b_author": "K-Alette"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4786,
+      "pr_a": 4795,
+      "pr_b": 4803,
       "files": [
-        "code/web/release_notes/26.09.00.MD",
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+        "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-08-31T04:02:54.620185+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_a_author": "kylemhall",
+      "first_seen": "2026-09-01T20:40:04.988581+00:00",
+      "pr_a_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4793,
+      "pr_b": 4803,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988616+00:00",
+      "pr_a_title": "DIS-2792: Hoopla Indexer Optimization",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4803,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988628+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4803,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988636+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "samyoung-maker",
       "pr_b_author": "K-Alette"
     },
     {
@@ -49,21 +92,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4768,
-      "pr_b": 4801,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T07:24:31.725372+00:00",
-      "pr_a_title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768",
-      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4748,
       "pr_b": 4801,
       "files": [
@@ -75,6 +103,36 @@
       "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
       "pr_a_author": "kylemhall",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4800,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988649+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2879 - Fix Debug error showing explore more with CloudSource",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4800",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4799,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988661+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2852 Fix debug message when renewing non-renewable Symphony items",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4799",
+      "pr_a_author": "K-Alette",
       "pr_b_author": "mdnoble73"
     },
     {
@@ -109,51 +167,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4794,
-      "pr_b": 4796,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602212+00:00",
-      "pr_a_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
-      "pr_b_title": "DIS-2587: Update events in APIs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4791,
-      "pr_b": 4796,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602217+00:00",
-      "pr_a_title": "DIS-2668: Add checkbox list to Custom Form",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4791",
-      "pr_b_title": "DIS-2587: Update events in APIs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4796,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602232+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2587: Update events in APIs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4742,
       "pr_b": 4795,
       "files": [
@@ -165,21 +178,6 @@
       "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
       "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4794,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602260+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
-      "pr_a_author": "JonahCWilson",
       "pr_b_author": "LiYanjun19"
     },
     {
@@ -196,36 +194,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
       "pr_a_author": "samyoung-maker",
       "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4791,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-31T22:35:38.545042+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2668: Add checkbox list to Custom Form",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4791",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4786,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-31T04:02:54.620234+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "K-Alette"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -271,21 +239,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
       "pr_a_author": "kylemhall",
       "pr_b_author": "K-Alette"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4717,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-31T22:35:38.545165+00:00",
-      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "kylemhall"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -379,51 +332,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T17:41:15.334459+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T17:41:15.334480+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4713,
-      "pr_b": 4717,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T17:41:15.334491+00:00",
-      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "JonahCWilson"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4795,
       "pr_b": 4798,
       "files": [
@@ -432,21 +340,6 @@
       "first_seen": "2026-09-01T01:44:15.602379+00:00",
       "pr_a_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
-      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4794,
-      "pr_b": 4798,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602385+00:00",
-      "pr_a_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
       "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
       "pr_a_author": "LiYanjun19",
@@ -465,6 +358,21 @@
       "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
       "pr_a_author": "LiYanjun19",
+      "pr_b_author": "catsoup11789"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4798,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602160+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_a_author": "K-Alette",
       "pr_b_author": "catsoup11789"
     },
     {
@@ -530,51 +438,6 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4786,
-      "pr_b": 4794,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602412+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4794,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602417+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4242,
-      "pr_b": 4794,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602421+00:00",
-      "pr_a_title": "DIS-2374",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
-      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
-      "pr_a_author": "kidclamp",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
       "pr_b": 4793,
       "files": [
         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
@@ -600,6 +463,21 @@
       "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
       "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4786,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620185+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_a_author": "kylemhall",
       "pr_b_author": "K-Alette"
     },
     {
@@ -2638,7 +2516,247 @@
       "pr_a_author": "lathomas64",
       "pr_b_author": "gmcharlt",
       "resolved_at": "2026-09-01T17:41:15.334615+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4768,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725372+00:00",
+      "pr_a_title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4794,
+      "pr_b": 4796,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602212+00:00",
+      "pr_a_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_b_title": "DIS-2587: Update events in APIs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4791,
+      "pr_b": 4796,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602217+00:00",
+      "pr_a_title": "DIS-2668: Add checkbox list to Custom Form",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4791",
+      "pr_b_title": "DIS-2587: Update events in APIs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4796,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602232+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2587: Update events in APIs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4796",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4794,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602260+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4791,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-31T22:35:38.545042+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2668: Add checkbox list to Custom Form",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4791",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4786,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620234+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4717,
+      "pr_b": 4748,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-31T22:35:38.545165+00:00",
+      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "kylemhall",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T17:41:15.334459+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T17:41:15.334480+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4713,
+      "pr_b": 4717,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T17:41:15.334491+00:00",
+      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_b_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "JonahCWilson",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4794,
+      "pr_b": 4798,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602385+00:00",
+      "pr_a_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4794,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602412+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4794,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602417+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4242,
+      "pr_b": 4794,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602421+00:00",
+      "pr_a_title": "DIS-2374",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
+      "pr_b_title": "Dis-1506: Add Display Order to Staff Members",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4794",
+      "pr_a_author": "kidclamp",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T20:40:04.988777+00:00"
     }
   ],
-  "last_run": "2026-09-01T17:41:15.334966+00:00"
+  "last_run": "2026-09-01T20:40:04.988888+00:00"
 }

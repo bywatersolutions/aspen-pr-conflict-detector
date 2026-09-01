@@ -2,6 +2,51 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4805,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T23:05:16.486762+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2857: E-Content Call Number Sorting",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4805",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "K-Alette"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4804,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T23:05:16.486791+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4804,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T23:05:16.486808+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4798,
       "pr_b": 4803,
       "files": [
@@ -25,21 +70,6 @@
       "first_seen": "2026-09-01T20:40:04.988581+00:00",
       "pr_a_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
-      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "K-Alette"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4793,
-      "pr_b": 4803,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T20:40:04.988616+00:00",
-      "pr_a_title": "DIS-2792: Hoopla Indexer Optimization",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
       "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
       "pr_a_author": "LiYanjun19",
@@ -77,21 +107,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4769,
-      "pr_b": 4801,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T07:24:31.725341+00:00",
-      "pr_a_title": "DIS-2826: Searching for call numbers with a colon",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
-      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4748,
       "pr_b": 4801,
       "files": [
@@ -107,48 +122,18 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
+      "pr_a": 4798,
       "pr_b": 4800,
       "files": [
         "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-09-01T20:40:04.988649+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "first_seen": "2026-09-01T23:05:16.486846+00:00",
+      "pr_a_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
       "pr_b_title": "DIS-2879 - Fix Debug error showing explore more with CloudSource",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4800",
-      "pr_a_author": "K-Alette",
+      "pr_a_author": "catsoup11789",
       "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
-      "pr_b": 4799,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T20:40:04.988661+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "DIS-2852 Fix debug message when renewing non-renewable Symphony items",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4799",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4798,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602196+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "catsoup11789"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -183,21 +168,6 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4742,
-      "pr_b": 4793,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-31T22:35:38.545019+00:00",
-      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_b_title": "DIS-2792: Hoopla Indexer Optimization",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4742,
       "pr_b": 4784,
       "files": [
         "code/web/release_notes/26.09.00.MD"
@@ -224,21 +194,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
       "pr_a_author": "samyoung-maker",
       "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4769,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-24T21:31:30.780870+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2826: Searching for call numbers with a colon",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "K-Alette"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -347,36 +302,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4793,
-      "pr_b": 4798,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602389+00:00",
-      "pr_a_title": "DIS-2792: Hoopla Indexer Optimization",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
-      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
-      "pr_b": 4798,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602160+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4784,
       "pr_b": 4798,
       "files": [
@@ -419,81 +344,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
       "pr_a_author": "kidclamp",
       "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
-      "pr_b": 4795,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602407+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4786,
-      "pr_b": 4793,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-08-31T22:35:38.545193+00:00",
-      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_b_title": "DIS-2792: Hoopla Indexer Optimization",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
-      "pr_a_author": "K-Alette",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4784,
-      "pr_b": 4786,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-08-31T04:02:54.620459+00:00",
-      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "K-Alette"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4786,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-08-31T04:02:54.620185+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "K-Alette"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4242,
-      "pr_b": 4786,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
-      ],
-      "first_seen": "2026-08-31T04:02:54.620469+00:00",
-      "pr_a_title": "DIS-2374",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
-      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
-      "pr_a_author": "kidclamp",
-      "pr_b_author": "K-Alette"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -2756,7 +2606,231 @@
       "pr_a_author": "kidclamp",
       "pr_b_author": "LiYanjun19",
       "resolved_at": "2026-09-01T20:40:04.988777+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4793,
+      "pr_b": 4803,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988616+00:00",
+      "pr_a_title": "DIS-2792: Hoopla Indexer Optimization",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
+      "pr_b_title": "DIS-2808: Process supplemental MFHD export for Evergreen",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4769,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725341+00:00",
+      "pr_a_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4800,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988649+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2879 - Fix Debug error showing explore more with CloudSource",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4800",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4799,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T20:40:04.988661+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2852 Fix debug message when renewing non-renewable Symphony items",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4799",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4798,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602196+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4793,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-31T22:35:38.545019+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-2792: Hoopla Indexer Optimization",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4769,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-24T21:31:30.780870+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4793,
+      "pr_b": 4798,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602389+00:00",
+      "pr_a_title": "DIS-2792: Hoopla Indexer Optimization",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
+      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4798,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602160+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2711: Add Aspen LiDA Themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "catsoup11789",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4795,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602407+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4786,
+      "pr_b": 4793,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-08-31T22:35:38.545193+00:00",
+      "pr_a_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_b_title": "DIS-2792: Hoopla Indexer Optimization",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4793",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4786,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620459+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4786,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620185+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4242,
+      "pr_b": 4786,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620469+00:00",
+      "pr_a_title": "DIS-2374",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
+      "pr_b_title": "DIS-2657: Allow text sizes to be adjusted in Theme settings",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4786",
+      "pr_a_author": "kidclamp",
+      "pr_b_author": "K-Alette",
+      "resolved_at": "2026-09-01T23:05:16.486951+00:00"
     }
   ],
-  "last_run": "2026-09-01T20:40:04.988888+00:00"
+  "last_run": "2026-09-01T23:05:16.487046+00:00"
 }

@@ -34,6 +34,66 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4769,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725341+00:00",
+      "pr_a_title": "DIS-2826: Searching for call numbers with a colon",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4768,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725372+00:00",
+      "pr_a_title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "K-Alette",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725379+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4717,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725384+00:00",
+      "pr_a_title": "DIS-2830: Overdrive _callUrl error handling",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4792,
       "pr_b": 4798,
       "files": [
@@ -2506,5 +2566,5 @@
       "resolved_at": "2026-09-01T01:44:15.602456+00:00"
     }
   ],
-  "last_run": "2026-09-01T01:44:15.602595+00:00"
+  "last_run": "2026-09-01T07:24:31.725677+00:00"
 }

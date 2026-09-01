@@ -160,6 +160,12 @@
                             "title": "DIS-2711: Add Aspen LiDA Themes",
                             "author": "catsoup11789",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
+                        },
+                        {
+                            "number": 4801,
+                            "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
                         }
                     ],
                     "shared_files": [
@@ -244,6 +250,110 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4769,
+                                "title": "DIS-2826: Searching for call numbers with a colon",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4769"
+                            },
+                            "pr_b": {
+                                "number": 4801,
+                                "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4768,
+                                "title": "DIS-1199: Allow for on-order records without items to display (Symphony)",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4768"
+                            },
+                            "pr_b": {
+                                "number": 4801,
+                                "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            124,
+                                            127
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4801,
+                                "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4717,
+                                "title": "DIS-2830: Overdrive _callUrl error handling",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4717"
+                            },
+                            "pr_b": {
+                                "number": 4801,
+                                "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            120,
+                                            124
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -1860,9 +1970,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 64
+            "total_conflicts": 68
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 64
+    "total_conflicts_found": 68
 }

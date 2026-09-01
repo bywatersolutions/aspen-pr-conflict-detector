@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **64** potential conflict(s) across **1** repository.
+Found **68** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 26 PRs, 64 conflict(s)
+### Cluster 1 — 27 PRs, 68 conflict(s)
 
-**Authors:** @Chloe070196, @JonahCWilson, @K-Alette, @LiYanjun19, @catsoup11789, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @samyoung-maker, @stephenrwicks
+**Authors:** @Chloe070196, @JonahCWilson, @K-Alette, @LiYanjun19, @catsoup11789, @gmcharlt, @kidclamp, @kylemhall, @lathomas64, @mdnoble73, @samyoung-maker, @stephenrwicks
 
 **Files:** `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`
 
@@ -37,6 +37,7 @@ Found **64** potential conflict(s) across **1** repository.
 - [#4795](https://github.com/Aspen-Discovery/aspen-discovery/pull/4795) DIS-2878: Add support for Force Reindex to retrieve data from eContents
 - [#4796](https://github.com/Aspen-Discovery/aspen-discovery/pull/4796) DIS-2587: Update events in APIs
 - [#4798](https://github.com/Aspen-Discovery/aspen-discovery/pull/4798) DIS-2711: Add Aspen LiDA Themes
+- [#4801](https://github.com/Aspen-Discovery/aspen-discovery/pull/4801) DIS-2858 EBSCOhost don't link to all facets from combined results
 
 <details>
 <summary>Pairwise details</summary>
@@ -45,6 +46,10 @@ Found **64** potential conflict(s) across **1** repository.
 |------|------|-------------------|-------------------|---------|
 | [#4786](https://github.com/Aspen-Discovery/aspen-discovery/pull/4786) DIS-2657: Allow text sizes to be adjusted in Theme settings | [#4798](https://github.com/Aspen-Discovery/aspen-discovery/pull/4798) DIS-2711: Add Aspen LiDA Themes | `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L104-L107, L20-L46, L65-L89 | @K-Alette, @catsoup11789 |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4786](https://github.com/Aspen-Discovery/aspen-discovery/pull/4786) DIS-2657: Allow text sizes to be adjusted in Theme settings | `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L116-L119, L41-L46, L65-L89 | @K-Alette, @kylemhall |
+| [#4769](https://github.com/Aspen-Discovery/aspen-discovery/pull/4769) DIS-2826: Searching for call numbers with a colon | [#4801](https://github.com/Aspen-Discovery/aspen-discovery/pull/4801) DIS-2858 EBSCOhost don't link to all facets from combined results | `code/web/release_notes/26.09.00.MD` | L120-L124 | @K-Alette, @mdnoble73 |
+| [#4768](https://github.com/Aspen-Discovery/aspen-discovery/pull/4768) DIS-1199: Allow for on-order records without items to display (Symphony) | [#4801](https://github.com/Aspen-Discovery/aspen-discovery/pull/4801) DIS-2858 EBSCOhost don't link to all facets from combined results | `code/web/release_notes/26.09.00.MD` | L124-L127 | @K-Alette, @mdnoble73 |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4801](https://github.com/Aspen-Discovery/aspen-discovery/pull/4801) DIS-2858 EBSCOhost don't link to all facets from combined results | `code/web/release_notes/26.09.00.MD` | L120-L122 | @kylemhall, @mdnoble73 |
+| [#4717](https://github.com/Aspen-Discovery/aspen-discovery/pull/4717) DIS-2830: Overdrive _callUrl error handling | [#4801](https://github.com/Aspen-Discovery/aspen-discovery/pull/4801) DIS-2858 EBSCOhost don't link to all facets from combined results | `code/web/release_notes/26.09.00.MD` | L120-L124 | @JonahCWilson, @mdnoble73 |
 | [#4792](https://github.com/Aspen-Discovery/aspen-discovery/pull/4792) DIS-2685: Update SpeedPay API | [#4798](https://github.com/Aspen-Discovery/aspen-discovery/pull/4798) DIS-2711: Add Aspen LiDA Themes | `code/web/release_notes/26.09.00.MD` | L24-L29 | @LiYanjun19, @catsoup11789 |
 | [#4716](https://github.com/Aspen-Discovery/aspen-discovery/pull/4716) DIS-2739: fix tagging of translatable strings in My Account holds page | [#4798](https://github.com/Aspen-Discovery/aspen-discovery/pull/4798) DIS-2711: Add Aspen LiDA Themes | `code/web/release_notes/26.09.00.MD` | L102-L107 | @catsoup11789, @gmcharlt |
 | [#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690) DIS-2780 Collection Spotlight Caching | [#4798](https://github.com/Aspen-Discovery/aspen-discovery/pull/4798) DIS-2711: Add Aspen LiDA Themes | `code/web/release_notes/26.09.00.MD` | L15-L21 | @JonahCWilson, @catsoup11789 |

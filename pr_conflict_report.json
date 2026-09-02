@@ -12,12 +12,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
                         },
                         {
-                            "number": 4690,
-                            "title": "DIS-2780 Collection Spotlight Caching",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                        },
-                        {
                             "number": 4713,
                             "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
                             "author": "gmcharlt",
@@ -66,40 +60,16 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
                         },
                         {
-                            "number": 4798,
-                            "title": "DIS-2711: Add Aspen LiDA Themes",
-                            "author": "catsoup11789",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                        },
-                        {
-                            "number": 4800,
-                            "title": "DIS-2879 - Fix Debug error showing explore more with CloudSource",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4800"
-                        },
-                        {
                             "number": 4801,
                             "title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801"
                         },
                         {
-                            "number": 4803,
-                            "title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-                            "author": "K-Alette",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803"
-                        },
-                        {
                             "number": 4804,
                             "title": "DIS-2849 - Display libraries and locations in object list",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804"
-                        },
-                        {
-                            "number": 4805,
-                            "title": "DIS-2857: E-Content Call Number Sorting",
-                            "author": "K-Alette",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4805"
                         }
                     ],
                     "shared_files": [
@@ -107,32 +77,6 @@
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4690,
-                                "title": "DIS-2780 Collection Spotlight Caching",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                            },
-                            "pr_b": {
-                                "number": 4805,
-                                "title": "DIS-2857: E-Content Call Number Sorting",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4805"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            74,
-                                            80
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
                         {
                             "pr_a": {
                                 "number": 4748,
@@ -187,110 +131,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "pr_b": {
-                                "number": 4803,
-                                "title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            29,
-                                            30
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4795,
-                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
-                            },
-                            "pr_b": {
-                                "number": 4803,
-                                "title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            35
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "pr_b": {
-                                "number": 4803,
-                                "title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            32,
-                                            35
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4742,
-                                "title": "DIS-2743: Make panel heading fully clickable",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742"
-                            },
-                            "pr_b": {
-                                "number": 4803,
-                                "title": "DIS-2808: Process supplemental MFHD export for Evergreen",
-                                "author": "K-Alette",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4803"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            35
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4748,
                                 "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
                                 "author": "kylemhall",
@@ -309,58 +149,6 @@
                                         [
                                             120,
                                             122
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "pr_b": {
-                                "number": 4800,
-                                "title": "DIS-2879 - Fix Debug error showing explore more with CloudSource",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4800"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            155,
-                                            160
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4690,
-                                "title": "DIS-2780 Collection Spotlight Caching",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
-                            },
-                            "pr_b": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            15,
-                                            21
                                         ]
                                     ]
                                 }
@@ -603,110 +391,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4795,
-                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
-                            },
-                            "pr_b": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            22,
-                                            34
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "pr_b": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            22,
-                                            34
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "pr_b": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            96
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4242,
-                                "title": "DIS-2374",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                            },
-                            "pr_b": {
-                                "number": 4798,
-                                "title": "DIS-2711: Add Aspen LiDA Themes",
-                                "author": "catsoup11789",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4798"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            56
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4242,
                                 "title": "DIS-2374",
                                 "author": "kidclamp",
@@ -734,9 +418,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 24
+            "total_conflicts": 13
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 24
+    "total_conflicts_found": 13
 }

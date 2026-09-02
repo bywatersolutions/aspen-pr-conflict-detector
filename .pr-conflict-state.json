@@ -3,126 +3,6 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4716,
-      "pr_b": 4810,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-02T08:28:11.159809+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2815 Move Audience Indexing to Child Documents",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4810",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4809,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-02T08:28:11.159839+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2535 - re-enable Grouped Works V3",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4809",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4804,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T23:05:16.486791+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4804,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T23:05:16.486808+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4801,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T07:24:31.725379+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4742,
-      "pr_b": 4795,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-01T01:44:15.602241+00:00",
-      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4742,
-      "pr_b": 4784,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-31T04:02:54.620275+00:00",
-      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4742,
-      "pr_b": 4783,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-28T23:29:02.246440+00:00",
-      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_b_title": "DIS-1202: Fix OverDrive Products to Reindex ",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
       "pr_b": 4748,
       "files": [
         "code/web/release_notes/26.09.00.MD"
@@ -167,51 +47,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4716,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764961+00:00",
-      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "samyoung-maker"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764969+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "samyoung-maker"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4713,
-      "pr_b": 4742,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T17:33:13.764976+00:00",
-      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
-      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "samyoung-maker"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4242,
       "pr_b": 4748,
       "files": [
@@ -227,55 +62,6 @@
     }
   ],
   "resolved_conflicts": [
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4242,
-      "pr_b": 4781,
-      "files": [
-        "code/web/services/MyAccount/AJAX.php",
-        "code/web/sys/SystemVariables.php"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402920+00:00",
-      "pr_a_title": "DIS-2374",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "kidclamp",
-      "pr_b_author": "mdnoble73",
-      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4735,
-      "pr_b": 4781,
-      "files": [
-        "code/web/RecordDrivers/WebResourceRecordDriver.php"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402949+00:00",
-      "pr_a_title": "DIS-2840: PHPStan Baseline Bugfixes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4735",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "mdnoble73",
-      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4739,
-      "pr_b": 4781,
-      "files": [
-        "code/web/interface/themes/responsive/RecordDrivers/WebPage/result.tpl"
-      ],
-      "first_seen": "2026-08-25T23:28:38.402957+00:00",
-      "pr_a_title": "DIS-2814 Add class names to search results and full record pages",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4739",
-      "pr_b_title": "Merge 26.08 into 26.09.00",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4781",
-      "pr_a_author": "stephenrwicks",
-      "pr_b_author": "mdnoble73",
-      "resolved_at": "2026-08-26T16:21:43.270780+00:00"
-    },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4646,
@@ -2871,7 +2657,183 @@
       "pr_a_author": "kidclamp",
       "pr_b_author": "catsoup11789",
       "resolved_at": "2026-09-02T03:09:41.708333+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4810,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-02T08:28:11.159809+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2815 Move Audience Indexing to Child Documents",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4810",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4809,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-02T08:28:11.159839+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2535 - re-enable Grouped Works V3",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4809",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4804,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T23:05:16.486791+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4804,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T23:05:16.486808+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2849 - Display libraries and locations in object list",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4801,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T07:24:31.725379+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2858 EBSCOhost don't link to all facets from combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4801",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4795,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-01T01:44:15.602241+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4784,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-31T04:02:54.620275+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4742,
+      "pr_b": 4783,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-28T23:29:02.246440+00:00",
+      "pr_a_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_b_title": "DIS-1202: Fix OverDrive Products to Reindex ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4742,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-20T17:33:13.764961+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "samyoung-maker",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4742,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-20T17:33:13.764969+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "samyoung-maker",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4713,
+      "pr_b": 4742,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-08-20T17:33:13.764976+00:00",
+      "pr_a_title": "DIS-2410: Evergreen - allow login if user password contains spaces",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713",
+      "pr_b_title": "DIS-2743: Make panel heading fully clickable",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4742",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "samyoung-maker",
+      "resolved_at": "2026-09-02T17:39:00.202644+00:00"
     }
   ],
-  "last_run": "2026-09-02T08:28:11.160015+00:00"
+  "last_run": "2026-09-02T17:39:00.202741+00:00"
 }

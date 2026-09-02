@@ -70,6 +70,18 @@
                             "title": "DIS-2849 - Display libraries and locations in object list",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4804"
+                        },
+                        {
+                            "number": 4809,
+                            "title": "DIS-2535 - re-enable Grouped Works V3",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4809"
+                        },
+                        {
+                            "number": 4810,
+                            "title": "DIS-2815 Move Audience Indexing to Child Documents",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4810"
                         }
                     ],
                     "shared_files": [
@@ -77,6 +89,58 @@
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4810,
+                                "title": "DIS-2815 Move Audience Indexing to Child Documents",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4810"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            102,
+                                            108
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4716,
+                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
+                            },
+                            "pr_b": {
+                                "number": 4809,
+                                "title": "DIS-2535 - re-enable Grouped Works V3",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4809"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            102,
+                                            107
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
                         {
                             "pr_a": {
                                 "number": 4748,
@@ -418,9 +482,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 13
+            "total_conflicts": 15
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 13
+    "total_conflicts_found": 15
 }

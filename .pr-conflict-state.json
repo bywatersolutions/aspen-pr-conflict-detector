@@ -2,6 +2,36 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4810,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-02T08:28:11.159809+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2815 Move Audience Indexing to Child Documents",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4810",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4716,
+      "pr_b": 4809,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-02T08:28:11.159839+00:00",
+      "pr_a_title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716",
+      "pr_b_title": "DIS-2535 - re-enable Grouped Works V3",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4809",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4748,
       "pr_b": 4804,
       "files": [
@@ -2843,5 +2873,5 @@
       "resolved_at": "2026-09-02T03:09:41.708333+00:00"
     }
   ],
-  "last_run": "2026-09-02T03:09:41.708469+00:00"
+  "last_run": "2026-09-02T08:28:11.160015+00:00"
 }

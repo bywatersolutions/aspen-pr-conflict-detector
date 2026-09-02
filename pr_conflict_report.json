@@ -6,28 +6,121 @@
                 {
                     "prs": [
                         {
+                            "number": 4783,
+                            "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                        },
+                        {
+                            "number": 4784,
+                            "title": "DIS-2784: Add Hoopla Records to Include",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                        },
+                        {
+                            "number": 4795,
+                            "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
+                        },
+                        {
+                            "number": 4815,
+                            "title": "DIS-2887 Baseline bugfixes",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.09.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4795,
+                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
+                            },
+                            "pr_b": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "pr_b": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4783,
+                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                            },
+                            "pr_b": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            40
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4242,
                             "title": "DIS-2374",
                             "author": "kidclamp",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                        },
-                        {
-                            "number": 4713,
-                            "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                        },
-                        {
-                            "number": 4714,
-                            "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
-                        },
-                        {
-                            "number": 4716,
-                            "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
                         },
                         {
                             "number": 4748,
@@ -37,88 +130,9 @@
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.09.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4716,
-                                "title": "DIS-2739: fix tagging of translatable strings in My Account holds page",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4716"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            140,
-                                            145
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4714,
-                                "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            140,
-                                            145
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4713,
-                                "title": "DIS-2410: Evergreen - allow login if user password contains spaces",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4713"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            140,
-                                            145
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
                         {
                             "pr_a": {
                                 "number": 4242,

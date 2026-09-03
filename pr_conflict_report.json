@@ -6,6 +6,18 @@
                 {
                     "prs": [
                         {
+                            "number": 4593,
+                            "title": "DIS-2680: aspen.sql regeneration ci",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
+                        },
+                        {
+                            "number": 4661,
+                            "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
+                        },
+                        {
                             "number": 4783,
                             "title": "DIS-1202: Fix OverDrive Products to Reindex ",
                             "author": "LiYanjun19",
@@ -111,6 +123,58 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4661,
+                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            32
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4593,
+                                "title": "DIS-2680: aspen.sql regeneration ci",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
+                            },
+                            "pr_b": {
+                                "number": 4784,
+                                "title": "DIS-2784: Add Hoopla Records to Include",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            32,
+                                            33
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
                         }
                     ]
                 },
@@ -162,9 +226,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 4
+            "total_conflicts": 6
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 4
+    "total_conflicts_found": 6
 }

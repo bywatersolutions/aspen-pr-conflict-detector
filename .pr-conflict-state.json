@@ -2,6 +2,81 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4821,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520071+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4821,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520096+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520115+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520127+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520138+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4795,
       "pr_b": 4815,
       "files": [
@@ -74,6 +149,36 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4748,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520181+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "kylemhall"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4242,
+      "pr_b": 4815,
+      "files": [
+        "code/web/sys/SystemVariables.php"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520194+00:00",
+      "pr_a_title": "DIS-2374",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242",
+      "pr_b_title": "DIS-2887 Baseline bugfixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815",
+      "pr_a_author": "kidclamp",
+      "pr_b_author": "JonahCWilson"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -2882,22 +2987,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-08-20T11:29:28.770152+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "kylemhall",
-      "resolved_at": "2026-09-02T20:35:20.217387+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4713,
       "pr_b": 4748,
       "files": [
@@ -2913,5 +3002,5 @@
       "resolved_at": "2026-09-02T20:35:20.217387+00:00"
     }
   ],
-  "last_run": "2026-09-03T11:58:11.052497+00:00"
+  "last_run": "2026-09-03T16:11:01.520311+00:00"
 }

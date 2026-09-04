@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **13** potential conflict(s) across **1** repository.
+Found **14** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 11 PRs, 13 conflict(s)
+### Cluster 1 — 12 PRs, 14 conflict(s)
 
-**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @kidclamp, @kylemhall
+**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @kidclamp, @kylemhall, @lucasmontoya13
 
 **Files:** `code/web/release_notes/26.09.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.09.00.php`, `code/web/sys/SystemVariables.php`
 
@@ -22,12 +22,14 @@ Found **13** potential conflict(s) across **1** repository.
 - [#4815](https://github.com/Aspen-Discovery/aspen-discovery/pull/4815) DIS-2887 Baseline bugfixes
 - [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability
 - [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates
+- [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order | `code/web/release_notes/26.09.00.MD` | L132-L132 | @Jacobomara901, @lucasmontoya13 |
 | [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L32-L32 | @Jacobomara901, @LiYanjun19 |
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L205-L207 | @Jacobomara901, @gmcharlt |
 | [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | `code/web/release_notes/26.09.00.MD` | L32-L33 | @Jacobomara901, @LiYanjun19 |

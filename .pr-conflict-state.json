@@ -2,6 +2,21 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4826,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-04T18:09:47.490619+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2893: Fix updateDatabase.php Smarty init order",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4784,
       "pr_b": 4821,
       "files": [
@@ -3002,5 +3017,5 @@
       "resolved_at": "2026-09-02T20:35:20.217387+00:00"
     }
   ],
-  "last_run": "2026-09-03T16:11:01.520311+00:00"
+  "last_run": "2026-09-04T18:09:47.490780+00:00"
 }

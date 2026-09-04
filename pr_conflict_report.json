@@ -70,6 +70,12 @@
                             "title": "DIS-2888: Tests run db updates",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
+                        },
+                        {
+                            "number": 4826,
+                            "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
                         }
                     ],
                     "shared_files": [
@@ -78,6 +84,32 @@
                         "code/web/sys/SystemVariables.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4826,
+                                "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            132,
+                                            132
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
                         {
                             "pr_a": {
                                 "number": 4784,
@@ -423,9 +455,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 13
+            "total_conflicts": 14
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 13
+    "total_conflicts_found": 14
 }

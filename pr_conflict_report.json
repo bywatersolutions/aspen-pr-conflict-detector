@@ -453,11 +453,90 @@
                             "verified": true
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4828,
+                            "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                        },
+                        {
+                            "number": 4829,
+                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                            "author": "reneeverly",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                        },
+                        {
+                            "number": 4830,
+                            "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.10.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4830,
+                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            119,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            115,
+                                            116
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 14
+            "total_conflicts": 16
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 14
+    "total_conflicts_found": 16
 }

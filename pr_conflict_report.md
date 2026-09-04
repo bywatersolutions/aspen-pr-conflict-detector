@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **14** potential conflict(s) across **1** repository.
+Found **16** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -43,6 +43,27 @@ Found **14** potential conflict(s) across **1** repository.
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L141-L146 | @gmcharlt, @kylemhall |
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4815](https://github.com/Aspen-Discovery/aspen-discovery/pull/4815) DIS-2887 Baseline bugfixes | `code/web/sys/SystemVariables.php` | L71-L74 | @JonahCWilson, @kidclamp |
 | [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/sys/DBMaintenance/version_updates/26.09.00.php` | L41-L56 | @kidclamp, @kylemhall |
+
+</details>
+
+### Cluster 2 — 3 PRs, 2 conflict(s)
+
+**Authors:** @gmcharlt, @lucasmontoya13, @reneeverly
+
+**Files:** `code/web/release_notes/26.10.00.MD`
+
+**PRs:**
+- [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files
+- [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row
+- [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS
+
+<details>
+<summary>Pairwise details</summary>
+
+| PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
+|------|------|-------------------|-------------------|---------|
+| [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | `code/web/release_notes/26.10.00.MD` | L119-L121 | @gmcharlt, @reneeverly |
+| [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | `code/web/release_notes/26.10.00.MD` | L115-L116 | @lucasmontoya13, @reneeverly |
 
 </details>
 

@@ -80,7 +80,6 @@
                     ],
                     "shared_files": [
                         "code/web/release_notes/26.09.00.MD",
-                        "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
                         "code/web/sys/SystemVariables.php"
                     ],
                     "conflicts": [
@@ -206,12 +205,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            122,
-                                            122
-                                        ],
-                                        [
-                                            141,
-                                            146
+                                            172,
+                                            178
                                         ]
                                     ]
                                 }
@@ -392,13 +387,13 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            141,
-                                            146
+                                            202,
+                                            204
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -420,32 +415,6 @@
                                         [
                                             71,
                                             74
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4242,
-                                "title": "DIS-2374",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                            },
-                            "pr_b": {
-                                "number": 4748,
-                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            56
                                         ]
                                     ]
                                 }
@@ -534,9 +503,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 16
+            "total_conflicts": 15
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 16
+    "total_conflicts_found": 15
 }

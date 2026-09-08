@@ -6,12 +6,6 @@
                 {
                     "prs": [
                         {
-                            "number": 4242,
-                            "title": "DIS-2374",
-                            "author": "kidclamp",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                        },
-                        {
                             "number": 4593,
                             "title": "DIS-2680: aspen.sql regeneration ci",
                             "author": "Jacobomara901",
@@ -36,22 +30,10 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
                         },
                         {
-                            "number": 4783,
-                            "title": "DIS-1202: Fix OverDrive Products to Reindex ",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
-                        },
-                        {
                             "number": 4784,
                             "title": "DIS-2784: Add Hoopla Records to Include",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                        },
-                        {
-                            "number": 4795,
-                            "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
                         },
                         {
                             "number": 4815,
@@ -79,8 +61,7 @@
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.09.00.MD",
-                        "code/web/sys/SystemVariables.php"
+                        "code/web/release_notes/26.09.00.MD"
                     ],
                     "conflicts": [
                         {
@@ -108,6 +89,32 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "pr_b": {
+                                "number": 4821,
+                                "title": "DIS-2888: Tests run db updates",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            27,
+                                            32
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -160,6 +167,32 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "pr_b": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            27,
+                                            33
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -241,32 +274,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4795,
-                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from eContents",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4795"
-                            },
-                            "pr_b": {
-                                "number": 4815,
-                                "title": "DIS-2887 Baseline bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            40
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4784,
                                 "title": "DIS-2784: Add Hoopla Records to Include",
                                 "author": "LiYanjun19",
@@ -283,8 +290,8 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            34,
-                                            40
+                                            32,
+                                            33
                                         ]
                                     ]
                                 }
@@ -293,10 +300,10 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4783,
-                                "title": "DIS-1202: Fix OverDrive Products to Reindex ",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4783"
+                                "number": 4661,
+                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
                             },
                             "pr_b": {
                                 "number": 4815,
@@ -309,13 +316,39 @@
                                     "filename": "code/web/release_notes/26.09.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            40,
-                                            40
+                                            27,
+                                            32
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4593,
+                                "title": "DIS-2680: aspen.sql regeneration ci",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
+                            },
+                            "pr_b": {
+                                "number": 4815,
+                                "title": "DIS-2887 Baseline bugfixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            27,
+                                            33
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -394,32 +427,6 @@
                                 }
                             ],
                             "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4242,
-                                "title": "DIS-2374",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
-                            },
-                            "pr_b": {
-                                "number": 4815,
-                                "title": "DIS-2887 Baseline bugfixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4815"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/SystemVariables.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            71,
-                                            74
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
                         }
                     ]
                 },
@@ -442,10 +449,17 @@
                             "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
                             "author": "gmcharlt",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
+                        },
+                        {
+                            "number": 4831,
+                            "title": "DIS-2898:  Redundancy baseline fixes",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.10.00.MD"
+                        "code/web/release_notes/26.10.00.MD",
+                        "code/web/sys/Storage/StorageSetting.php"
                     ],
                     "conflicts": [
                         {
@@ -499,13 +513,39 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4831,
+                                "title": "DIS-2898:  Redundancy baseline fixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/Storage/StorageSetting.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            9,
+                                            15
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         }
                     ]
                 }
             ],
-            "total_conflicts": 15
+            "total_conflicts": 17
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 15
+    "total_conflicts_found": 17
 }

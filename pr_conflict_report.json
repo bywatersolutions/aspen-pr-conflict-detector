@@ -52,12 +52,45 @@
                             "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
+                        },
+                        {
+                            "number": 4833,
+                            "title": "DIS-2657: QA Changes",
+                            "author": "K-Alette",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4833"
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.09.00.MD"
+                        "code/web/release_notes/26.09.00.MD",
+                        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4833,
+                                "title": "DIS-2657: QA Changes",
+                                "author": "K-Alette",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4833"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.09.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            212,
+                                            239
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4820,
@@ -109,6 +142,32 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4821,
+                                "title": "DIS-2888: Tests run db updates",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            205,
+                                            205
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -285,7 +344,7 @@
                                     "overlapping_ranges": [
                                         [
                                             202,
-                                            204
+                                            205
                                         ]
                                     ]
                                 }
@@ -471,9 +530,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 14
+            "total_conflicts": 16
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 14
+    "total_conflicts_found": 16
 }

@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **16** potential conflict(s) across **1** repository.
+Found **17** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -66,4 +66,6 @@ Found **16** potential conflict(s) across **1** repository.
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4831](https://github.com/Aspen-Discovery/aspen-discovery/pull/4831) DIS-2898:  Redundancy baseline fixes | `code/web/sys/Storage/StorageSetting.php` | L9-L15 | @JonahCWilson, @lucasmontoya13 |
 
 </details>
+
+**[#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690)** ↔ **[#4838](https://github.com/Aspen-Discovery/aspen-discovery/pull/4838)** — `code/web/release_notes/26.09.00.MD` (L15-L21) — @JonahCWilson, @catsoup11789
 

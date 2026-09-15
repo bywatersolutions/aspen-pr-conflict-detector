@@ -528,11 +528,58 @@
                             "verified": false
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4690,
+                            "title": "DIS-2780 Collection Spotlight Caching",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                        },
+                        {
+                            "number": 4838,
+                            "title": "DIS-2820: QA Fixes",
+                            "author": "catsoup11789",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4838"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.09.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4690,
+                                "title": "DIS-2780 Collection Spotlight Caching",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690"
+                            },
+                            "pr_b": {
+                                "number": 4838,
+                                "title": "DIS-2820: QA Fixes",
+                                "author": "catsoup11789",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4838"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            15,
+                                            21
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 16
+            "total_conflicts": 17
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 16
+    "total_conflicts_found": 17
 }

@@ -6,6 +6,317 @@
                 {
                     "prs": [
                         {
+                            "number": 4825,
+                            "title": "DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4825"
+                        },
+                        {
+                            "number": 4828,
+                            "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                        },
+                        {
+                            "number": 4829,
+                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                            "author": "reneeverly",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                        },
+                        {
+                            "number": 4830,
+                            "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
+                        },
+                        {
+                            "number": 4831,
+                            "title": "DIS-2898:  Redundancy baseline fixes",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
+                        },
+                        {
+                            "number": 4832,
+                            "title": "DIS-2459 Simplified search box",
+                            "author": "librarianbryan",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                        },
+                        {
+                            "number": 4834,
+                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                        },
+                        {
+                            "number": 4841,
+                            "title": "DIS-894: Omeka integration",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.10.00.MD",
+                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                        "code/web/sys/Storage/StorageSetting.php"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            78,
+                                            91
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            99,
+                                            105
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4825,
+                                "title": "DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4825"
+                            },
+                            "pr_b": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            103,
+                                            105
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            109
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4825,
+                                "title": "DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4825"
+                            },
+                            "pr_b": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            103,
+                                            109
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4830,
+                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            119,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            115,
+                                            116
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4831,
+                                "title": "DIS-2898:  Redundancy baseline fixes",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/Storage/StorageSetting.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            9,
+                                            15
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4593,
                             "title": "DIS-2680: aspen.sql regeneration ci",
                             "author": "Jacobomara901",
@@ -323,215 +634,6 @@
                 {
                     "prs": [
                         {
-                            "number": 4825,
-                            "title": "DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4825"
-                        },
-                        {
-                            "number": 4828,
-                            "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
-                        },
-                        {
-                            "number": 4829,
-                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                            "author": "reneeverly",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                        },
-                        {
-                            "number": 4830,
-                            "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
-                        },
-                        {
-                            "number": 4831,
-                            "title": "DIS-2898:  Redundancy baseline fixes",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
-                        },
-                        {
-                            "number": 4832,
-                            "title": "DIS-2459 Simplified search box",
-                            "author": "librarianbryan",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                        },
-                        {
-                            "number": 4834,
-                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.10.00.MD",
-                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                        "code/web/sys/Storage/StorageSetting.php"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4828,
-                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
-                            },
-                            "pr_b": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            108,
-                                            109
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4825,
-                                "title": "DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4825"
-                            },
-                            "pr_b": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            103,
-                                            109
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4830,
-                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            119,
-                                            121
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4828,
-                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
-                            },
-                            "pr_b": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            115,
-                                            116
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4828,
-                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
-                            },
-                            "pr_b": {
-                                "number": 4831,
-                                "title": "DIS-2898:  Redundancy baseline fixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/Storage/StorageSetting.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            9,
-                                            15
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
                             "number": 4690,
                             "title": "DIS-2780 Collection Spotlight Caching",
                             "author": "JonahCWilson",
@@ -577,9 +679,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 17
+            "total_conflicts": 20
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 17
+    "total_conflicts_found": 20
 }

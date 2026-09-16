@@ -34,6 +34,52 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4842,
+      "files": [
+        "code/web/index.php",
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292855+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4830,
+      "pr_b": 4842,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292873+00:00",
+      "pr_a_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4842,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292881+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4825,
       "pr_b": 4841,
       "files": [
@@ -106,6 +152,81 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
       "pr_a_author": "lucasmontoya13",
       "pr_b_author": "reneeverly"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4843,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292907+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4843,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292914+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4832,
+      "pr_b": 4843,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292920+00:00",
+      "pr_a_title": "DIS-2459 Simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
+      "pr_b_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4842,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292927+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4832,
+      "pr_b": 4842,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292933+00:00",
+      "pr_a_title": "DIS-2459 Simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "lucasmontoya13"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -321,5 +442,5 @@
       "resolved_at": "2026-09-14T16:12:30.228087+00:00"
     }
   ],
-  "last_run": "2026-09-16T15:22:23.207176+00:00"
+  "last_run": "2026-09-16T19:25:16.293019+00:00"
 }

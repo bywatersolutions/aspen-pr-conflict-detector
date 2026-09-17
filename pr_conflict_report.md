@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **29** potential conflict(s) across **1** repository.
+Found **30** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 10 PRs, 17 conflict(s)
+### Cluster 1 — 11 PRs, 18 conflict(s)
 
 **Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @gmcharlt, @librarianbryan, @lucasmontoya13, @reneeverly
 
@@ -21,6 +21,7 @@ Found **29** potential conflict(s) across **1** repository.
 - [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration
 - [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes
 - [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API
+- [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field
 
 <details>
 <summary>Pairwise details</summary>
@@ -30,6 +31,7 @@ Found **29** potential conflict(s) across **1** repository.
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L78-L91, L40-L42 | @Chloe070196, @Jacobomara901 |
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L99-L105, L41-L56 | @Jacobomara901, @librarianbryan |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/index.php` | L40-L81, L58-L64 | @Jacobomara901, @lucasmontoya13 |
+| [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field | `code/web/release_notes/26.10.00.MD` | L59-L61 | @Chloe070196, @JonahCWilson |
 | [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.10.00.MD` | L119-L121 | @gmcharlt, @lucasmontoya13 |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.10.00.MD` | L115-L121 | @lucasmontoya13, @reneeverly |
 | [#4825](https://github.com/Aspen-Discovery/aspen-discovery/pull/4825) DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD` | L103-L105 | @Jacobomara901, @lucasmontoya13 |

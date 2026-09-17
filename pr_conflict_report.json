@@ -64,6 +64,12 @@
                             "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
+                        },
+                        {
+                            "number": 4847,
+                            "title": "DIS-2937 Empty Format Field",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
                         }
                     ],
                     "shared_files": [
@@ -172,6 +178,32 @@
                                         [
                                             58,
                                             64
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4847,
+                                "title": "DIS-2937 Empty Format Field",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            59,
+                                            61
                                         ]
                                     ]
                                 }
@@ -941,9 +973,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 29
+            "total_conflicts": 30
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 29
+    "total_conflicts_found": 30
 }

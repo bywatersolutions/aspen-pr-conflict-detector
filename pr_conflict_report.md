@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **28** potential conflict(s) across **1** repository.
+Found **29** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -47,9 +47,9 @@ Found **28** potential conflict(s) across **1** repository.
 
 </details>
 
-### Cluster 2 — 8 PRs, 10 conflict(s)
+### Cluster 2 — 9 PRs, 11 conflict(s)
 
-**Authors:** @Jacobomara901, @LiYanjun19, @gmcharlt, @kylemhall, @lucasmontoya13
+**Authors:** @Jacobomara901, @LiYanjun19, @catsoup11789, @gmcharlt, @kylemhall, @lucasmontoya13
 
 **Files:** `code/web/release_notes/26.09.00.MD`
 
@@ -62,12 +62,14 @@ Found **28** potential conflict(s) across **1** repository.
 - [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability
 - [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates
 - [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order
+- [#4846](https://github.com/Aspen-Discovery/aspen-discovery/pull/4846) DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4846](https://github.com/Aspen-Discovery/aspen-discovery/pull/4846) DIS-2790: Update updateHoldPickupPreferences for Polaris (User API) | `code/web/release_notes/26.09.00.MD` | L122-L122 | @Jacobomara901, @catsoup11789 |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order | `code/web/release_notes/26.09.00.MD` | L132-L132 | @Jacobomara901, @lucasmontoya13 |
 | [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L32-L32 | @Jacobomara901, @LiYanjun19 |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L205-L205 | @Jacobomara901, @kylemhall |

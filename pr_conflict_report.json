@@ -593,12 +593,44 @@
                             "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
+                        },
+                        {
+                            "number": 4846,
+                            "title": "DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)",
+                            "author": "catsoup11789",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4846"
                         }
                     ],
                     "shared_files": [
                         "code/web/release_notes/26.09.00.MD"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4846,
+                                "title": "DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)",
+                                "author": "catsoup11789",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4846"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.09.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            122,
+                                            122
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
                         {
                             "pr_a": {
                                 "number": 4820,
@@ -909,9 +941,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 28
+            "total_conflicts": 29
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 28
+    "total_conflicts_found": 29
 }

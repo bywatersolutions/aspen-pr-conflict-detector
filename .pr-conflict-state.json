@@ -50,6 +50,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4842,
+      "pr_b": 4853,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-21T23:53:10.466784+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_b_title": "DIS-2950: Fix Web builder Markdown image uploads",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4845,
       "pr_b": 4849,
       "files": [
@@ -182,6 +197,21 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
       "pr_a_author": "lucasmontoya13",
       "pr_b_author": "reneeverly"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4828,
+      "pr_b": 4853,
+      "files": [
+        "code/web/services/WebBuilder/AJAX.php"
+      ],
+      "first_seen": "2026-09-21T23:53:10.466849+00:00",
+      "pr_a_title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828",
+      "pr_b_title": "DIS-2950: Fix Web builder Markdown image uploads",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "LiYanjun19"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -549,5 +579,5 @@
       "resolved_at": "2026-09-21T16:16:22.165952+00:00"
     }
   ],
-  "last_run": "2026-09-21T16:16:22.166030+00:00"
+  "last_run": "2026-09-21T23:53:10.467022+00:00"
 }

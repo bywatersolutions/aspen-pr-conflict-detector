@@ -245,21 +245,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4821,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-10T21:27:28.234901+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2888: Tests run db updates",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4714,
       "pr_b": 4821,
       "files": [
@@ -286,21 +271,6 @@
       "pr_b_title": "DIS-2608: Unit test portability",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
       "pr_a_author": "LiYanjun19",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4748,
-      "pr_b": 4820,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520127+00:00",
-      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2608: Unit test portability",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_a_author": "kylemhall",
       "pr_b_author": "Jacobomara901"
     },
     {
@@ -350,21 +320,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4748,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520181+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "kylemhall"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4841,
       "pr_b": 4843,
       "files": [
@@ -410,6 +365,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4843,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-21T16:16:22.165895+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4834,
       "pr_b": 4842,
       "files": [
@@ -440,6 +410,36 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4842,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-21T16:16:22.165922+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4841,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-21T16:16:22.165929+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-894: Omeka integration",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4832,
       "pr_b": 4834,
       "files": [
@@ -452,6 +452,36 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
       "pr_a_author": "librarianbryan",
       "pr_b_author": "Chloe070196"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4834,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-21T16:16:22.165937+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "Chloe070196"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4832,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-21T16:16:22.165943+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2459 Simplified search box",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "librarianbryan"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -473,19 +503,51 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4748,
-      "pr_b": 4833,
+      "pr_b": 4821,
       "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.09.00.php"
+        "code/web/release_notes/26.09.00.MD"
       ],
-      "first_seen": "2026-09-10T21:27:28.234832+00:00",
+      "first_seen": "2026-09-10T21:27:28.234901+00:00",
       "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
-      "pr_b_title": "DIS-2657: QA Changes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4833",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
       "pr_a_author": "kylemhall",
-      "pr_b_author": "K-Alette",
-      "resolved_at": "2026-09-14T16:12:30.228087+00:00"
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-09-21T16:16:22.165952+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4748,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520127+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-09-21T16:16:22.165952+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4748,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520181+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "kylemhall",
+      "resolved_at": "2026-09-21T16:16:22.165952+00:00"
     }
   ],
-  "last_run": "2026-09-21T09:41:35.971839+00:00"
+  "last_run": "2026-09-21T16:16:22.166030+00:00"
 }

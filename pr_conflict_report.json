@@ -928,6 +928,53 @@
                 {
                     "prs": [
                         {
+                            "number": 4845,
+                            "title": "DIS-2927: Default cover placeholders render undersized (or oversized) and can get stuck as \"Unknown Title\"",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4845"
+                        },
+                        {
+                            "number": 4849,
+                            "title": "DIS 2916: default cover title and author follow marc record casing",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4849"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.10.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4845,
+                                "title": "DIS-2927: Default cover placeholders render undersized (or oversized) and can get stuck as \"Unknown Title\"",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4845"
+                            },
+                            "pr_b": {
+                                "number": 4849,
+                                "title": "DIS 2916: default cover title and author follow marc record casing",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4849"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            162,
+                                            168
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4690,
                             "title": "DIS-2780 Collection Spotlight Caching",
                             "author": "JonahCWilson",
@@ -973,9 +1020,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 30
+            "total_conflicts": 31
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 30
+    "total_conflicts_found": 31
 }

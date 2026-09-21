@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **30** potential conflict(s) across **1** repository.
+Found **31** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -84,6 +84,8 @@ Found **30** potential conflict(s) across **1** repository.
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and serializing every request on a single row | `code/web/release_notes/26.09.00.MD` | L202-L205 | @gmcharlt, @kylemhall |
 
 </details>
+
+**[#4845](https://github.com/Aspen-Discovery/aspen-discovery/pull/4845)** ↔ **[#4849](https://github.com/Aspen-Discovery/aspen-discovery/pull/4849)** — `code/web/release_notes/26.10.00.MD` (L162-L168) — @Chloe070196, @lucasmontoya13
 
 **[#4690](https://github.com/Aspen-Discovery/aspen-discovery/pull/4690)** ↔ **[#4838](https://github.com/Aspen-Discovery/aspen-discovery/pull/4838)** — `code/web/release_notes/26.09.00.MD` (L15-L21) — @JonahCWilson, @catsoup11789
 

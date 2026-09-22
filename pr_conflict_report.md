@@ -1,14 +1,14 @@
 # Aspen PR Conflict Report
 
-Found **35** potential conflict(s) across **1** repository.
+Found **38** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 13 PRs, 25 conflict(s)
+### Cluster 1 — 15 PRs, 33 conflict(s)
 
-**Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @kylemhall, @librarianbryan, @lucasmontoya13, @reneeverly
+**Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @kylemhall, @librarianbryan, @lucasmontoya13, @reneeverly, @tomascohen
 
-**Files:** `code/web/index.php`, `code/web/release_notes/26.10.00.MD`, `code/web/services/WebBuilder/AJAX.php`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/Storage/StorageSetting.php`
+**Files:** `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java`, `code/web/index.php`, `code/web/release_notes/26.10.00.MD`, `code/web/services/WebBuilder/AJAX.php`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/Storage/StorageSetting.php`
 
 **PRs:**
 - [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows
@@ -24,15 +24,20 @@ Found **35** potential conflict(s) across **1** repository.
 - [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API
 - [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field
 - [#4853](https://github.com/Aspen-Discovery/aspen-discovery/pull/4853) DIS-2950: Fix Web builder Markdown image uploads
+- [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying
+- [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L57-L61, L36-L42 | @Chloe070196, @tomascohen |
+| [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L283-L289, L41-L48 | @librarianbryan, @tomascohen |
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L78-L91, L40-L42 | @Chloe070196, @Jacobomara901 |
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L99-L105, L41-L56 | @Jacobomara901, @librarianbryan |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/index.php` | L40-L81, L58-L64 | @Jacobomara901, @lucasmontoya13 |
+| [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/release_notes/26.10.00.MD` | L59-L63 | @JonahCWilson, @tomascohen |
 | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | [#4853](https://github.com/Aspen-Discovery/aspen-discovery/pull/4853) DIS-2950: Fix Web builder Markdown image uploads | `code/web/release_notes/26.10.00.MD` | L250-L250 | @LiYanjun19, @lucasmontoya13 |
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field | `code/web/release_notes/26.10.00.MD` | L59-L61 | @Chloe070196, @JonahCWilson |
 | [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.10.00.MD` | L119-L121 | @gmcharlt, @lucasmontoya13 |
@@ -42,7 +47,10 @@ Found **35** potential conflict(s) across **1** repository.
 | [#4825](https://github.com/Aspen-Discovery/aspen-discovery/pull/4825) DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | `code/web/release_notes/26.10.00.MD` | L103-L109 | @librarianbryan, @lucasmontoya13 |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | `code/web/release_notes/26.10.00.MD` | L119-L121 | @gmcharlt, @reneeverly |
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | `code/web/release_notes/26.10.00.MD` | L115-L116 | @lucasmontoya13, @reneeverly |
-| [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4853](https://github.com/Aspen-Discovery/aspen-discovery/pull/4853) DIS-2950: Fix Web builder Markdown image uploads | `code/web/services/WebBuilder/AJAX.php` | L578-L587 | @LiYanjun19, @lucasmontoya13 |
+| [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L36-L48 | @lucasmontoya13, @tomascohen |
+| [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L36-L48 | @lucasmontoya13, @tomascohen |
+| [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L40-L48 | @Jacobomara901, @tomascohen |
+| [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L48 | @kylemhall, @tomascohen |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L40-L56 | @Jacobomara901, @lucasmontoya13 |
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L34-L42 | @Chloe070196, @lucasmontoya13 |
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L56 | @librarianbryan, @lucasmontoya13 |
@@ -54,24 +62,22 @@ Found **35** potential conflict(s) across **1** repository.
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L42 | @Chloe070196, @librarianbryan |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L42 | @Chloe070196, @kylemhall |
 | [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L56 | @kylemhall, @librarianbryan |
+| [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying | `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java` | L2166-L2174 | @Jacobomara901, @JonahCWilson |
+| [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4853](https://github.com/Aspen-Discovery/aspen-discovery/pull/4853) DIS-2950: Fix Web builder Markdown image uploads | `code/web/services/WebBuilder/AJAX.php` | L578-L587 | @LiYanjun19, @lucasmontoya13 |
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4831](https://github.com/Aspen-Discovery/aspen-discovery/pull/4831) DIS-2898:  Redundancy baseline fixes | `code/web/sys/Storage/StorageSetting.php` | L9-L15 | @JonahCWilson, @lucasmontoya13 |
 
 </details>
 
-### Cluster 2 — 8 PRs, 8 conflict(s)
+### Cluster 2 — 4 PRs, 3 conflict(s)
 
-**Authors:** @Jacobomara901, @LiYanjun19, @catsoup11789, @gmcharlt, @lucasmontoya13
+**Authors:** @Jacobomara901, @catsoup11789, @gmcharlt
 
 **Files:** `code/web/release_notes/26.09.00.MD`
 
 **PRs:**
-- [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci
-- [#4661](https://github.com/Aspen-Discovery/aspen-discovery/pull/4661) DIS-2679: Refactor default database export into a PDO-based class 
 - [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page
-- [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include
 - [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability
 - [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates
-- [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order
 - [#4846](https://github.com/Aspen-Discovery/aspen-discovery/pull/4846) DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)
 
 <details>
@@ -80,13 +86,8 @@ Found **35** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4846](https://github.com/Aspen-Discovery/aspen-discovery/pull/4846) DIS-2790: Update updateHoldPickupPreferences for Polaris (User API) | `code/web/release_notes/26.09.00.MD` | L122-L122 | @Jacobomara901, @catsoup11789 |
-| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4826](https://github.com/Aspen-Discovery/aspen-discovery/pull/4826) DIS-2893: Fix updateDatabase.php Smarty init order | `code/web/release_notes/26.09.00.MD` | L132-L132 | @Jacobomara901, @lucasmontoya13 |
-| [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L32-L32 | @Jacobomara901, @LiYanjun19 |
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates | `code/web/release_notes/26.09.00.MD` | L205-L207 | @Jacobomara901, @gmcharlt |
-| [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | `code/web/release_notes/26.09.00.MD` | L32-L33 | @Jacobomara901, @LiYanjun19 |
 | [#4714](https://github.com/Aspen-Discovery/aspen-discovery/pull/4714) DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | `code/web/release_notes/26.09.00.MD` | L141-L147 | @Jacobomara901, @gmcharlt |
-| [#4661](https://github.com/Aspen-Discovery/aspen-discovery/pull/4661) DIS-2679: Refactor default database export into a PDO-based class  | [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | `code/web/release_notes/26.09.00.MD` | L32-L32 | @Jacobomara901, @LiYanjun19 |
-| [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci | [#4784](https://github.com/Aspen-Discovery/aspen-discovery/pull/4784) DIS-2784: Add Hoopla Records to Include | `code/web/release_notes/26.09.00.MD` | L32-L33 | @Jacobomara901, @LiYanjun19 |
 
 </details>
 

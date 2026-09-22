@@ -3,6 +3,38 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4834,
+      "pr_b": 4855,
+      "files": [
+        "code/web/release_notes/26.10.00.MD",
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007359+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "tomascohen"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4832,
+      "pr_b": 4855,
+      "files": [
+        "code/web/release_notes/26.10.00.MD",
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007392+00:00",
+      "pr_a_title": "DIS-2459 Simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "tomascohen"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
       "pr_b": 4841,
       "files": [
         "code/web/release_notes/26.10.00.MD",
@@ -47,6 +79,21 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4847,
+      "pr_b": 4855,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007424+00:00",
+      "pr_a_title": "DIS-2937 Empty Format Field",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "tomascohen"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -200,153 +247,63 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4828,
-      "pr_b": 4853,
+      "pr_a": 4843,
+      "pr_b": 4855,
       "files": [
-        "code/web/services/WebBuilder/AJAX.php"
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-21T23:53:10.466849+00:00",
-      "pr_a_title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828",
-      "pr_b_title": "DIS-2950: Fix Web builder Markdown image uploads",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853",
+      "first_seen": "2026-09-22T21:50:37.007464+00:00",
+      "pr_a_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
       "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "LiYanjun19"
+      "pr_b_author": "tomascohen"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4846,
+      "pr_a": 4842,
+      "pr_b": 4855,
       "files": [
-        "code/web/release_notes/26.09.00.MD"
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-17T07:15:26.317513+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4846",
+      "first_seen": "2026-09-22T21:50:37.007470+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "tomascohen"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4855,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007476+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
       "pr_a_author": "Jacobomara901",
-      "pr_b_author": "catsoup11789"
+      "pr_b_author": "tomascohen"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4690,
-      "pr_b": 4838,
+      "pr_a": 4748,
+      "pr_b": 4855,
       "files": [
-        "code/web/release_notes/26.09.00.MD"
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-15T21:57:22.112203+00:00",
-      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
-      "pr_b_title": "DIS-2820: QA Fixes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4838",
-      "pr_a_author": "JonahCWilson",
-      "pr_b_author": "catsoup11789"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4826,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-04T18:09:47.490619+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-2893: Fix updateDatabase.php Smarty init order",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4784,
-      "pr_b": 4821,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520071+00:00",
-      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_b_title": "DIS-2888: Tests run db updates",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4821,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520096+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2888: Tests run db updates",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4784,
-      "pr_b": 4820,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520115+00:00",
-      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_b_title": "DIS-2608: Unit test portability",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4714,
-      "pr_b": 4820,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T16:11:01.520138+00:00",
-      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
-      "pr_b_title": "DIS-2608: Unit test portability",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4661,
-      "pr_b": 4784,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T11:58:11.052402+00:00",
-      "pr_a_title": "DIS-2679: Refactor default database export into a PDO-based class ",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
-      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4593,
-      "pr_b": 4784,
-      "files": [
-        "code/web/release_notes/26.09.00.MD"
-      ],
-      "first_seen": "2026-09-03T11:58:11.052421+00:00",
-      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
-      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "LiYanjun19"
+      "first_seen": "2026-09-22T21:50:37.007481+00:00",
+      "pr_a_title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "tomascohen"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -515,6 +472,96 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4854,
+      "files": [
+        "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007517+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2860: Grouped works indexer batched querying",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4828,
+      "pr_b": 4853,
+      "files": [
+        "code/web/services/WebBuilder/AJAX.php"
+      ],
+      "first_seen": "2026-09-21T23:53:10.466849+00:00",
+      "pr_a_title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828",
+      "pr_b_title": "DIS-2950: Fix Web builder Markdown image uploads",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4846,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-17T07:15:26.317513+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2790: Update updateHoldPickupPreferences for Polaris (User API)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4846",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "catsoup11789"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4838,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-15T21:57:22.112203+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2820: QA Fixes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4838",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "catsoup11789"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4821,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520096+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4714,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520138+00:00",
+      "pr_a_title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4828,
       "pr_b": 4831,
       "files": [
@@ -577,7 +624,87 @@
       "pr_a_author": "gmcharlt",
       "pr_b_author": "kylemhall",
       "resolved_at": "2026-09-21T16:16:22.165952+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4826,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-04T18:09:47.490619+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2893: Fix updateDatabase.php Smarty init order",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-09-22T21:50:37.007544+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4821,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520071+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-09-22T21:50:37.007544+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4784,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T16:11:01.520115+00:00",
+      "pr_a_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-09-22T21:50:37.007544+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4661,
+      "pr_b": 4784,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T11:58:11.052402+00:00",
+      "pr_a_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-22T21:50:37.007544+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4593,
+      "pr_b": 4784,
+      "files": [
+        "code/web/release_notes/26.09.00.MD"
+      ],
+      "first_seen": "2026-09-03T11:58:11.052421+00:00",
+      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_b_title": "DIS-2784: Add Hoopla Records to Include",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-09-22T21:50:37.007544+00:00"
     }
   ],
-  "last_run": "2026-09-21T23:53:10.467022+00:00"
+  "last_run": "2026-09-22T21:50:37.007628+00:00"
 }

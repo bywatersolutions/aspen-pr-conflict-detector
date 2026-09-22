@@ -82,9 +82,22 @@
                             "title": "DIS-2950: Fix Web builder Markdown image uploads",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853"
+                        },
+                        {
+                            "number": 4854,
+                            "title": "DIS-2860: Grouped works indexer batched querying",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
+                        },
+                        {
+                            "number": 4855,
+                            "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                            "author": "tomascohen",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
                         }
                     ],
                     "shared_files": [
+                        "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
                         "code/web/index.php",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/services/WebBuilder/AJAX.php",
@@ -92,6 +105,76 @@
                         "code/web/sys/Storage/StorageSetting.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            57,
+                                            61
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            283,
+                                            289
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            48
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4834,
@@ -191,6 +274,32 @@
                                         [
                                             58,
                                             64
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4847,
+                                "title": "DIS-2937 Empty Format Field",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            59,
+                                            63
                                         ]
                                     ]
                                 }
@@ -433,24 +542,102 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4828,
-                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "number": 4843,
+                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
                                 "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
                             },
                             "pr_b": {
-                                "number": 4853,
-                                "title": "DIS-2950: Fix Web builder Markdown image uploads",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853"
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/services/WebBuilder/AJAX.php",
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                                     "overlapping_ranges": [
                                         [
-                                            578,
-                                            587
+                                            36,
+                                            48
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4842,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            48
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            48
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4748,
+                                "title": "DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4748"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            48
                                         ]
                                     ]
                                 }
@@ -745,6 +932,58 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "pr_b": {
+                                "number": 4854,
+                                "title": "DIS-2860: Grouped works indexer batched querying",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
+                                    "overlapping_ranges": [
+                                        [
+                                            2166,
+                                            2174
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4828,
+                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
+                            },
+                            "pr_b": {
+                                "number": 4853,
+                                "title": "DIS-2950: Fix Web builder Markdown image uploads",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4853"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/services/WebBuilder/AJAX.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            578,
+                                            587
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4828,
                                 "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
                                 "author": "lucasmontoya13",
@@ -767,35 +1006,17 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         }
                     ]
                 },
                 {
                     "prs": [
                         {
-                            "number": 4593,
-                            "title": "DIS-2680: aspen.sql regeneration ci",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
-                        },
-                        {
-                            "number": 4661,
-                            "title": "DIS-2679: Refactor default database export into a PDO-based class ",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
-                        },
-                        {
                             "number": 4714,
                             "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
                             "author": "gmcharlt",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4714"
-                        },
-                        {
-                            "number": 4784,
-                            "title": "DIS-2784: Add Hoopla Records to Include",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
                         },
                         {
                             "number": 4820,
@@ -808,12 +1029,6 @@
                             "title": "DIS-2888: Tests run db updates",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
-                        },
-                        {
-                            "number": 4826,
-                            "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
                         },
                         {
                             "number": 4846,
@@ -854,58 +1069,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4826,
-                                "title": "DIS-2893: Fix updateDatabase.php Smarty init order",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4826"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            132,
-                                            132
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "pr_b": {
-                                "number": 4821,
-                                "title": "DIS-2888: Tests run db updates",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            32,
-                                            32
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4714,
                                 "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
                                 "author": "gmcharlt",
@@ -932,32 +1095,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "pr_b": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            32,
-                                            33
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4714,
                                 "title": "DIS-2618: fix HTML coding glitch in Evergreen Hold Notification Preferences page",
                                 "author": "gmcharlt",
@@ -976,58 +1113,6 @@
                                         [
                                             141,
                                             147
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4661,
-                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
-                            },
-                            "pr_b": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            32,
-                                            32
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4593,
-                                "title": "DIS-2680: aspen.sql regeneration ci",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
-                            },
-                            "pr_b": {
-                                "number": 4784,
-                                "title": "DIS-2784: Add Hoopla Records to Include",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4784"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.09.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            32,
-                                            33
                                         ]
                                     ]
                                 }
@@ -1131,9 +1216,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 35
+            "total_conflicts": 38
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 35
+    "total_conflicts_found": 38
 }

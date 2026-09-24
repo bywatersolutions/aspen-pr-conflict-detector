@@ -1131,7 +1131,7 @@
                         },
                         {
                             "number": 4849,
-                            "title": "DIS 2916: default cover title and author follow marc record casing",
+                            "title": "DIS-2916: default cover title and author follow marc record casing",
                             "author": "Chloe070196",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4849"
                         }
@@ -1149,7 +1149,7 @@
                             },
                             "pr_b": {
                                 "number": 4849,
-                                "title": "DIS 2916: default cover title and author follow marc record casing",
+                                "title": "DIS-2916: default cover title and author follow marc record casing",
                                 "author": "Chloe070196",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4849"
                             },

@@ -54,6 +54,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
                         },
                         {
+                            "number": 4839,
+                            "title": "DIS-2926 - Internationalisation: 'Noon' and 'Midnight' must be translatable",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4839"
+                        },
+                        {
                             "number": 4841,
                             "title": "DIS-894: Omeka integration",
                             "author": "Jacobomara901",
@@ -94,17 +100,72 @@
                             "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                             "author": "tomascohen",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                        },
+                        {
+                            "number": 4861,
+                            "title": "DIS-2921: Fix property search for ILS Indexing Profiles",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4861"
+                        },
+                        {
+                            "number": 4863,
+                            "title": "DIS-2920: Add Sierra to Last Check In Date and format ",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4863"
+                        },
+                        {
+                            "number": 4864,
+                            "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
                         }
                     ],
                     "shared_files": [
                         "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
                         "code/web/index.php",
+                        "code/web/interface/themes/responsive/js/aspen.js",
+                        "code/web/interface/themes/responsive/js/aspen/admin.js",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/services/WebBuilder/AJAX.php",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/Storage/StorageSetting.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "pr_b": {
+                                "number": 4864,
+                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/js/aspen.js",
+                                    "overlapping_ranges": [
+                                        [
+                                            7835,
+                                            7841
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/js/aspen/admin.js",
+                                    "overlapping_ranges": [
+                                        [
+                                            1706,
+                                            1712
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4834,
@@ -274,6 +335,110 @@
                                         [
                                             58,
                                             64
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4864,
+                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/js/aspen.js",
+                                    "overlapping_ranges": [
+                                        [
+                                            17871,
+                                            17877
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4839,
+                                "title": "DIS-2926 - Internationalisation: 'Noon' and 'Midnight' must be translatable",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4839"
+                            },
+                            "pr_b": {
+                                "number": 4864,
+                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            200,
+                                            206
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4842,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
+                            },
+                            "pr_b": {
+                                "number": 4863,
+                                "title": "DIS-2920: Add Sierra to Last Check In Date and format ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4863"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            131,
+                                            136
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4842,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
+                            },
+                            "pr_b": {
+                                "number": 4861,
+                                "title": "DIS-2921: Fix property search for ILS Indexing Profiles",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4861"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            131,
+                                            136
                                         ]
                                     ]
                                 }
@@ -1216,9 +1381,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 38
+            "total_conflicts": 43
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 38
+    "total_conflicts_found": 43
 }

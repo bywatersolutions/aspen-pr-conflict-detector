@@ -1,14 +1,14 @@
 # Aspen PR Conflict Report
 
-Found **43** potential conflict(s) across **1** repository.
+Found **44** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 19 PRs, 38 conflict(s)
+### Cluster 1 — 20 PRs, 39 conflict(s)
 
 **Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @kylemhall, @librarianbryan, @lucasmontoya13, @reneeverly, @tomascohen
 
-**Files:** `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java`, `code/web/index.php`, `code/web/interface/themes/responsive/js/aspen.js`, `code/web/interface/themes/responsive/js/aspen/admin.js`, `code/web/release_notes/26.10.00.MD`, `code/web/services/WebBuilder/AJAX.php`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/Storage/StorageSetting.php`
+**Files:** `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java`, `code/web/index.php`, `code/web/interface/themes/responsive/js/aspen.js`, `code/web/interface/themes/responsive/js/aspen/admin.js`, `code/web/release_notes/26.10.00.MD`, `code/web/services/WebBuilder/AJAX.php`, `code/web/sys/Covers/BookCoverProcessor.php`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/Storage/StorageSetting.php`
 
 **PRs:**
 - [#4748](https://github.com/Aspen-Discovery/aspen-discovery/pull/4748) DIS-2789: AspenUsage counters use read-modify-write, losing page view counts and creating duplicate daily rows
@@ -30,6 +30,7 @@ Found **43** potential conflict(s) across **1** repository.
 - [#4861](https://github.com/Aspen-Discovery/aspen-discovery/pull/4861) DIS-2921: Fix property search for ILS Indexing Profiles
 - [#4863](https://github.com/Aspen-Discovery/aspen-discovery/pull/4863) DIS-2920: Add Sierra to Last Check In Date and format 
 - [#4864](https://github.com/Aspen-Discovery/aspen-discovery/pull/4864) DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system
+- [#4867](https://github.com/Aspen-Discovery/aspen-discovery/pull/4867) DIS-2970: fix: event date covers must display up-to-date data
 
 <details>
 <summary>Pairwise details</summary>
@@ -55,6 +56,7 @@ Found **43** potential conflict(s) across **1** repository.
 | [#4825](https://github.com/Aspen-Discovery/aspen-discovery/pull/4825) DIS-2894: Upgrade Docker image to Debian trixie, OpenJDK 25, and native PHP 8.4 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | `code/web/release_notes/26.10.00.MD` | L103-L109 | @librarianbryan, @lucasmontoya13 |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4830](https://github.com/Aspen-Discovery/aspen-discovery/pull/4830) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | `code/web/release_notes/26.10.00.MD` | L119-L121 | @gmcharlt, @reneeverly |
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | `code/web/release_notes/26.10.00.MD` | L115-L116 | @lucasmontoya13, @reneeverly |
+| [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | [#4867](https://github.com/Aspen-Discovery/aspen-discovery/pull/4867) DIS-2970: fix: event date covers must display up-to-date data | `code/web/sys/Covers/BookCoverProcessor.php` | L1936-L1942 | @Chloe070196, @lucasmontoya13 |
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4864](https://github.com/Aspen-Discovery/aspen-discovery/pull/4864) DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system | `code/web/interface/themes/responsive/js/aspen.js` | L17871-L17877 | @librarianbryan, @lucasmontoya13 |
 | [#4843](https://github.com/Aspen-Discovery/aspen-discovery/pull/4843) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L36-L48 | @lucasmontoya13, @tomascohen |
 | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L36-L48 | @lucasmontoya13, @tomascohen |

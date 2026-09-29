@@ -118,6 +118,12 @@
                             "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
+                        },
+                        {
+                            "number": 4867,
+                            "title": "DIS-2970: fix: event date covers must display up-to-date data",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4867"
                         }
                     ],
                     "shared_files": [
@@ -127,6 +133,7 @@
                         "code/web/interface/themes/responsive/js/aspen/admin.js",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/services/WebBuilder/AJAX.php",
+                        "code/web/sys/Covers/BookCoverProcessor.php",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/Storage/StorageSetting.php"
                     ],
@@ -673,6 +680,32 @@
                                         [
                                             115,
                                             116
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4843,
+                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
+                            },
+                            "pr_b": {
+                                "number": 4867,
+                                "title": "DIS-2970: fix: event date covers must display up-to-date data",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4867"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/Covers/BookCoverProcessor.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            1936,
+                                            1942
                                         ]
                                     ]
                                 }
@@ -1381,9 +1414,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 43
+            "total_conflicts": 44
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 43
+    "total_conflicts_found": 44
 }

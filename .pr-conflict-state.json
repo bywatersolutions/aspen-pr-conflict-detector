@@ -308,6 +308,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4843,
+      "pr_b": 4867,
+      "files": [
+        "code/web/sys/Covers/BookCoverProcessor.php"
+      ],
+      "first_seen": "2026-09-29T11:12:00.173765+00:00",
+      "pr_a_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843",
+      "pr_b_title": "DIS-2970: fix: event date covers must display up-to-date data",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4867",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Chloe070196"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4832,
       "pr_b": 4864,
       "files": [
@@ -734,5 +749,5 @@
       "resolved_at": "2026-09-22T21:50:37.007544+00:00"
     }
   ],
-  "last_run": "2026-09-28T18:32:54.431483+00:00"
+  "last_run": "2026-09-29T11:12:00.173955+00:00"
 }

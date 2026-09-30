@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **27** potential conflict(s) across **1** repository.
+Found **31** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 15 PRs, 27 conflict(s)
+### Cluster 1 — 16 PRs, 28 conflict(s)
 
-**Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @librarianbryan, @lucasmontoya13, @reneeverly, @tomascohen
+**Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @LiYanjun19, @gmcharlt, @lauraesca, @librarianbryan, @lucasmontoya13, @reneeverly, @tomascohen
 
 **Files:** `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java`, `code/web/index.php`, `code/web/interface/themes/responsive/js/aspen.js`, `code/web/interface/themes/responsive/js/aspen/admin.js`, `code/web/release_notes/26.10.00.MD`, `code/web/sys/Covers/BookCoverProcessor.php`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/Storage/StorageSetting.php`
 
@@ -25,6 +25,7 @@ Found **27** potential conflict(s) across **1** repository.
 - [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex
 - [#4863](https://github.com/Aspen-Discovery/aspen-discovery/pull/4863) DIS-2920: Add Sierra to Last Check In Date and format 
 - [#4864](https://github.com/Aspen-Discovery/aspen-discovery/pull/4864) DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system
+- [#4865](https://github.com/Aspen-Discovery/aspen-discovery/pull/4865) DIS-2992: Do not display expired Koha patron restrictions
 - [#4867](https://github.com/Aspen-Discovery/aspen-discovery/pull/4867) DIS-2970: fix: event date covers must display up-to-date data
 
 <details>
@@ -38,6 +39,7 @@ Found **27** potential conflict(s) across **1** repository.
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L99-L105, L41-L56 | @Jacobomara901, @librarianbryan |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4864](https://github.com/Aspen-Discovery/aspen-discovery/pull/4864) DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system | `code/web/interface/themes/responsive/js/aspen.js`, `code/web/interface/themes/responsive/js/aspen/admin.js` | L7835-L7841, L1706-L1712 | @Jacobomara901, @lucasmontoya13 |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/index.php` | L40-L81, L58-L64 | @Jacobomara901, @lucasmontoya13 |
+| [#4864](https://github.com/Aspen-Discovery/aspen-discovery/pull/4864) DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system | [#4865](https://github.com/Aspen-Discovery/aspen-discovery/pull/4865) DIS-2992: Do not display expired Koha patron restrictions | `code/web/release_notes/26.10.00.MD` | L204-L204 | @lauraesca, @lucasmontoya13 |
 | [#4842](https://github.com/Aspen-Discovery/aspen-discovery/pull/4842) DIS-2929: Header and footer customization options for themes | [#4863](https://github.com/Aspen-Discovery/aspen-discovery/pull/4863) DIS-2920: Add Sierra to Last Check In Date and format  | `code/web/release_notes/26.10.00.MD` | L131-L136 | @LiYanjun19, @lucasmontoya13 |
 | [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/release_notes/26.10.00.MD` | L59-L63 | @JonahCWilson, @tomascohen |
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4847](https://github.com/Aspen-Discovery/aspen-discovery/pull/4847) DIS-2937 Empty Format Field | `code/web/release_notes/26.10.00.MD` | L59-L61 | @Chloe070196, @JonahCWilson |
@@ -61,4 +63,27 @@ Found **27** potential conflict(s) across **1** repository.
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4831](https://github.com/Aspen-Discovery/aspen-discovery/pull/4831) DIS-2898:  Redundancy baseline fixes | `code/web/sys/Storage/StorageSetting.php` | L9-L15 | @JonahCWilson, @lucasmontoya13 |
 
 </details>
+
+### Cluster 2 — 3 PRs, 2 conflict(s)
+
+**Authors:** @lauraesca, @lucasmontoya13
+
+**Files:** `code/web/release_notes/26.10.00.MD`
+
+**PRs:**
+- [#4859](https://github.com/Aspen-Discovery/aspen-discovery/pull/4859) DIS-2973: Validate PIN during Sierra self registration
+- [#4869](https://github.com/Aspen-Discovery/aspen-discovery/pull/4869) DIS-3006: Resolve files/images/fonts against the docroot, not the data root
+- [#4870](https://github.com/Aspen-Discovery/aspen-discovery/pull/4870) DIS-3007: Restore configurable directory permissions on local writes
+
+<details>
+<summary>Pairwise details</summary>
+
+| PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
+|------|------|-------------------|-------------------|---------|
+| [#4859](https://github.com/Aspen-Discovery/aspen-discovery/pull/4859) DIS-2973: Validate PIN during Sierra self registration | [#4870](https://github.com/Aspen-Discovery/aspen-discovery/pull/4870) DIS-3007: Restore configurable directory permissions on local writes | `code/web/release_notes/26.10.00.MD` | L235-L240 | @lauraesca, @lucasmontoya13 |
+| [#4859](https://github.com/Aspen-Discovery/aspen-discovery/pull/4859) DIS-2973: Validate PIN during Sierra self registration | [#4869](https://github.com/Aspen-Discovery/aspen-discovery/pull/4869) DIS-3006: Resolve files/images/fonts against the docroot, not the data root | `code/web/release_notes/26.10.00.MD` | L235-L240 | @lauraesca, @lucasmontoya13 |
+
+</details>
+
+**[#4390](https://github.com/Aspen-Discovery/aspen-discovery/pull/4390)** ↔ **[#4871](https://github.com/Aspen-Discovery/aspen-discovery/pull/4871)** — `code/web/release_notes/26.10.00.MD` (L154-L158) — @Chloe070196, @lucasmontoya13
 

@@ -90,6 +90,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
                         },
                         {
+                            "number": 4865,
+                            "title": "DIS-2992: Do not display expired Koha patron restrictions",
+                            "author": "lauraesca",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4865"
+                        },
+                        {
                             "number": 4867,
                             "title": "DIS-2970: fix: event date covers must display up-to-date data",
                             "author": "Chloe070196",
@@ -316,6 +322,32 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4864,
+                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
+                            },
+                            "pr_b": {
+                                "number": 4865,
+                                "title": "DIS-2992: Do not display expired Koha patron restrictions",
+                                "author": "lauraesca",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4865"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            204,
+                                            204
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -864,11 +896,137 @@
                             "verified": true
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4859,
+                            "title": "DIS-2973: Validate PIN during Sierra self registration",
+                            "author": "lauraesca",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
+                        },
+                        {
+                            "number": 4869,
+                            "title": "DIS-3006: Resolve files/images/fonts against the docroot, not the data root",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4869"
+                        },
+                        {
+                            "number": 4870,
+                            "title": "DIS-3007: Restore configurable directory permissions on local writes",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.10.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4859,
+                                "title": "DIS-2973: Validate PIN during Sierra self registration",
+                                "author": "lauraesca",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
+                            },
+                            "pr_b": {
+                                "number": 4870,
+                                "title": "DIS-3007: Restore configurable directory permissions on local writes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            235,
+                                            240
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4859,
+                                "title": "DIS-2973: Validate PIN during Sierra self registration",
+                                "author": "lauraesca",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
+                            },
+                            "pr_b": {
+                                "number": 4869,
+                                "title": "DIS-3006: Resolve files/images/fonts against the docroot, not the data root",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4869"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            235,
+                                            240
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4390,
+                            "title": "DIS-2508: db transaction for native events registration",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                        },
+                        {
+                            "number": 4871,
+                            "title": "DIS-3008: Add size() to the StorageDriver interface",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4871"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.10.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4871,
+                                "title": "DIS-3008: Add size() to the StorageDriver interface",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4871"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.10.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            154,
+                                            158
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 27
+            "total_conflicts": 31
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 27
+    "total_conflicts_found": 31
 }

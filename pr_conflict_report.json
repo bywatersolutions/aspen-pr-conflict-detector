@@ -24,12 +24,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830"
                         },
                         {
-                            "number": 4831,
-                            "title": "DIS-2898:  Redundancy baseline fixes",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
-                        },
-                        {
                             "number": 4832,
                             "title": "DIS-2459 Simplified search box",
                             "author": "librarianbryan",
@@ -76,27 +70,13 @@
                             "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                             "author": "tomascohen",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                        },
-                        {
-                            "number": 4863,
-                            "title": "DIS-2920: Add Sierra to Last Check In Date and format ",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4863"
-                        },
-                        {
-                            "number": 4867,
-                            "title": "DIS-2970: fix: event date covers must display up-to-date data",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4867"
                         }
                     ],
                     "shared_files": [
                         "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
                         "code/web/index.php",
                         "code/web/release_notes/26.10.00.MD",
-                        "code/web/sys/Covers/BookCoverProcessor.php",
-                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                        "code/web/sys/Storage/StorageSetting.php"
+                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
                     ],
                     "conflicts": [
                         {
@@ -268,32 +248,6 @@
                                         [
                                             58,
                                             64
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4842,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
-                            },
-                            "pr_b": {
-                                "number": 4863,
-                                "title": "DIS-2920: Add Sierra to Last Check In Date and format ",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4863"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            131,
-                                            137
                                         ]
                                     ]
                                 }
@@ -481,32 +435,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4843,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
-                            },
-                            "pr_b": {
-                                "number": 4867,
-                                "title": "DIS-2970: fix: event date covers must display up-to-date data",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4867"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/Covers/BookCoverProcessor.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            1936,
-                                            1942
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -767,165 +695,13 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4828,
-                                "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828"
-                            },
-                            "pr_b": {
-                                "number": 4831,
-                                "title": "DIS-2898:  Redundancy baseline fixes",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4831"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/Storage/StorageSetting.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            9,
-                                            15
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4859,
-                            "title": "DIS-2973: Validate PIN during Sierra self registration",
-                            "author": "lauraesca",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
-                        },
-                        {
-                            "number": 4869,
-                            "title": "DIS-3006: Resolve files/images/fonts against the docroot, not the data root",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4869"
-                        },
-                        {
-                            "number": 4870,
-                            "title": "DIS-3007: Restore configurable directory permissions on local writes",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.10.00.MD"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4859,
-                                "title": "DIS-2973: Validate PIN during Sierra self registration",
-                                "author": "lauraesca",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
-                            },
-                            "pr_b": {
-                                "number": 4870,
-                                "title": "DIS-3007: Restore configurable directory permissions on local writes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            235,
-                                            240
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4859,
-                                "title": "DIS-2973: Validate PIN during Sierra self registration",
-                                "author": "lauraesca",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4859"
-                            },
-                            "pr_b": {
-                                "number": 4869,
-                                "title": "DIS-3006: Resolve files/images/fonts against the docroot, not the data root",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4869"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            235,
-                                            240
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4390,
-                            "title": "DIS-2508: db transaction for native events registration",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                        },
-                        {
-                            "number": 4871,
-                            "title": "DIS-3008: Add size() to the StorageDriver interface",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4871"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.10.00.MD"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4871,
-                                "title": "DIS-3008: Add size() to the StorageDriver interface",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4871"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            154,
-                                            158
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         }
                     ]
                 }
             ],
-            "total_conflicts": 28
+            "total_conflicts": 22
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 28
+    "total_conflicts_found": 22
 }

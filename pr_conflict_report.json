@@ -84,18 +84,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4863"
                         },
                         {
-                            "number": 4864,
-                            "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
-                        },
-                        {
-                            "number": 4865,
-                            "title": "DIS-2992: Do not display expired Koha patron restrictions",
-                            "author": "lauraesca",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4865"
-                        },
-                        {
                             "number": 4867,
                             "title": "DIS-2970: fix: event date covers must display up-to-date data",
                             "author": "Chloe070196",
@@ -105,8 +93,6 @@
                     "shared_files": [
                         "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
                         "code/web/index.php",
-                        "code/web/interface/themes/responsive/js/aspen.js",
-                        "code/web/interface/themes/responsive/js/aspen/admin.js",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/sys/Covers/BookCoverProcessor.php",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
@@ -261,41 +247,6 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                             },
                             "pr_b": {
-                                "number": 4864,
-                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/js/aspen.js",
-                                    "overlapping_ranges": [
-                                        [
-                                            7835,
-                                            7841
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/interface/themes/responsive/js/aspen/admin.js",
-                                    "overlapping_ranges": [
-                                        [
-                                            1706,
-                                            1712
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
                                 "number": 4842,
                                 "title": "DIS-2929: Header and footer customization options for themes",
                                 "author": "lucasmontoya13",
@@ -325,32 +276,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4864,
-                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
-                            },
-                            "pr_b": {
-                                "number": 4865,
-                                "title": "DIS-2992: Do not display expired Koha patron restrictions",
-                                "author": "lauraesca",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4865"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            204,
-                                            204
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4842,
                                 "title": "DIS-2929: Header and footer customization options for themes",
                                 "author": "lucasmontoya13",
@@ -368,7 +293,7 @@
                                     "overlapping_ranges": [
                                         [
                                             131,
-                                            136
+                                            137
                                         ]
                                     ]
                                 }
@@ -582,32 +507,6 @@
                                 }
                             ],
                             "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4864,
-                                "title": "DIS-2979: Migrate remaining hardcoded JS strings to the __() translation system",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4864"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/interface/themes/responsive/js/aspen.js",
-                                    "overlapping_ranges": [
-                                        [
-                                            17879,
-                                            17881
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1024,9 +923,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 31
+            "total_conflicts": 28
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 31
+    "total_conflicts_found": 28
 }

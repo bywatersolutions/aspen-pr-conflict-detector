@@ -54,12 +54,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
                         },
                         {
-                            "number": 4847,
-                            "title": "DIS-2937 Empty Format Field",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
-                        },
-                        {
                             "number": 4854,
                             "title": "DIS-2860: Grouped works indexer batched querying",
                             "author": "JonahCWilson",
@@ -253,58 +247,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4847,
-                                "title": "DIS-2937 Empty Format Field",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            59,
-                                            63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4847,
-                                "title": "DIS-2937 Empty Format Field",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4847"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            59,
-                                            61
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -699,9 +641,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 22
+            "total_conflicts": 20
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 22
+    "total_conflicts_found": 20
 }

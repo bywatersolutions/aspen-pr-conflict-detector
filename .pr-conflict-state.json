@@ -82,21 +82,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4830,
-      "pr_b": 4842,
-      "files": [
-        "code/web/release_notes/26.10.00.MD"
-      ],
-      "first_seen": "2026-09-16T19:25:16.292873+00:00",
-      "pr_a_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830",
-      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4829,
       "pr_b": 4842,
       "files": [
@@ -124,21 +109,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
       "pr_a_author": "lucasmontoya13",
       "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4830,
-      "files": [
-        "code/web/release_notes/26.10.00.MD"
-      ],
-      "first_seen": "2026-09-04T23:46:40.434435+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "gmcharlt"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -755,7 +725,39 @@
       "pr_a_author": "Chloe070196",
       "pr_b_author": "JonahCWilson",
       "resolved_at": "2026-10-01T20:10:06.088087+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4830,
+      "pr_b": 4842,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292873+00:00",
+      "pr_a_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-10-02T00:34:13.858392+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4830,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-04T23:46:40.434435+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4830",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-10-02T00:34:13.858392+00:00"
     }
   ],
-  "last_run": "2026-10-01T20:10:06.088191+00:00"
+  "last_run": "2026-10-02T00:34:13.858480+00:00"
 }

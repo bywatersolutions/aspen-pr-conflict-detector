@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **17** potential conflict(s) across **1** repository.
+Found **18** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -45,4 +45,6 @@ Found **17** potential conflict(s) across **1** repository.
 </details>
 
 **[#4866](https://github.com/Aspen-Discovery/aspen-discovery/pull/4866)** ↔ **[#4870](https://github.com/Aspen-Discovery/aspen-discovery/pull/4870)** — `install/upgrade_26.10.00.sh` (L1-L9), `install/upgrade_debian_26.10.00.sh` (L1-L7) — @JonahCWilson, @lucasmontoya13
+
+**[#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829)** ↔ **[#4875](https://github.com/Aspen-Discovery/aspen-discovery/pull/4875)** — `code/web/release_notes/26.11.00.MD` (L119-L121) — @gmcharlt, @reneeverly
 

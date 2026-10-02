@@ -66,6 +66,22 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4866,
+      "pr_b": 4870,
+      "files": [
+        "install/upgrade_26.10.00.sh",
+        "install/upgrade_debian_26.10.00.sh"
+      ],
+      "first_seen": "2026-10-02T19:01:42.079232+00:00",
+      "pr_a_title": "DIS-2854: Composer Autoloading",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_b_title": "DIS-3007: Restore configurable directory permissions on local writes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4841,
       "pr_b": 4842,
       "files": [
@@ -82,21 +98,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4842,
-      "files": [
-        "code/web/release_notes/26.10.00.MD"
-      ],
-      "first_seen": "2026-09-16T19:25:16.292881+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4828,
       "pr_b": 4832,
       "files": [
@@ -109,21 +110,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
       "pr_a_author": "lucasmontoya13",
       "pr_b_author": "librarianbryan"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4828,
-      "pr_b": 4829,
-      "files": [
-        "code/web/release_notes/26.10.00.MD"
-      ],
-      "first_seen": "2026-09-04T23:46:40.434467+00:00",
-      "pr_a_title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828",
-      "pr_b_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "reneeverly"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -757,7 +743,39 @@
       "pr_a_author": "reneeverly",
       "pr_b_author": "gmcharlt",
       "resolved_at": "2026-10-02T00:34:13.858392+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4842,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-16T19:25:16.292881+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-10-02T19:01:42.079304+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4828,
+      "pr_b": 4829,
+      "files": [
+        "code/web/release_notes/26.10.00.MD"
+      ],
+      "first_seen": "2026-09-04T23:46:40.434467+00:00",
+      "pr_a_title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4828",
+      "pr_b_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "reneeverly",
+      "resolved_at": "2026-10-02T19:01:42.079304+00:00"
     }
   ],
-  "last_run": "2026-10-02T00:34:13.858480+00:00"
+  "last_run": "2026-10-02T19:01:42.079333+00:00"
 }

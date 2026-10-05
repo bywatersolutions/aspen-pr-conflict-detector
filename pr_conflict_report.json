@@ -6,6 +6,12 @@
                 {
                     "prs": [
                         {
+                            "number": 4390,
+                            "title": "DIS-2508: db transaction for native events registration",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                        },
+                        {
                             "number": 4828,
                             "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
                             "author": "lucasmontoya13",
@@ -30,107 +36,24 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                         },
                         {
-                            "number": 4842,
-                            "title": "DIS-2929: Header and footer customization options for themes",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
-                        },
-                        {
-                            "number": 4843,
-                            "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
-                        },
-                        {
                             "number": 4854,
                             "title": "DIS-2860: Grouped works indexer batched querying",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
                         },
                         {
-                            "number": 4855,
-                            "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                            "author": "tomascohen",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            "number": 4881,
+                            "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                         }
                     ],
                     "shared_files": [
                         "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
-                        "code/web/index.php",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
                     ],
                     "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            57,
-                                            61
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            36,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            283,
-                                            289
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            48
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
                         {
                             "pr_a": {
                                 "number": 4834,
@@ -203,33 +126,24 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
                             },
                             "pr_b": {
-                                "number": 4842,
-                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "number": 4881,
+                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
                                 "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "filename": "code/web/release_notes/26.10.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            40,
-                                            81
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/index.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            58,
-                                            64
+                                            173,
+                                            175
                                         ]
                                     ]
                                 }
@@ -264,68 +178,16 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4843,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            36,
-                                            48
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4842,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            36,
-                                            48
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4841,
                                 "title": "DIS-894: Omeka integration",
                                 "author": "Jacobomara901",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                             },
                             "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                                "number": 4881,
+                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                             },
                             "conflicting_files": [
                                 {
@@ -333,33 +195,7 @@
                                     "overlapping_ranges": [
                                         [
                                             40,
-                                            48
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
-                                "number": 4843,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            40,
-                                            56
+                                            47
                                         ]
                                     ]
                                 }
@@ -374,10 +210,10 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
                             },
                             "pr_b": {
-                                "number": 4843,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+                                "number": 4881,
+                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
                                 "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                             },
                             "conflicting_files": [
                                 {
@@ -400,10 +236,10 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
                             },
                             "pr_b": {
-                                "number": 4843,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API",
+                                "number": 4881,
+                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
                                 "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4843"
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                             },
                             "conflicting_files": [
                                 {
@@ -411,59 +247,7 @@
                                     "overlapping_ranges": [
                                         [
                                             41,
-                                            56
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4842,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4842,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4842"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            56
+                                            47
                                         ]
                                     ]
                                 }
@@ -527,6 +311,111 @@
                 {
                     "prs": [
                         {
+                            "number": 4829,
+                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                            "author": "reneeverly",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                        },
+                        {
+                            "number": 4875,
+                            "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
+                        },
+                        {
+                            "number": 4878,
+                            "title": "DIS-2929: Header and footer customization options for themes",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.11.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4875,
+                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
+                            },
+                            "pr_b": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            119,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            115,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4875,
+                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            119,
+                                            121
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4866,
                             "title": "DIS-2854: Composer Autoloading",
                             "author": "JonahCWilson",
@@ -580,58 +469,11 @@
                             "verified": false
                         }
                     ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4829,
-                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                            "author": "reneeverly",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                        },
-                        {
-                            "number": 4875,
-                            "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.11.00.MD"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4875,
-                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            119,
-                                            121
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        }
-                    ]
                 }
             ],
-            "total_conflicts": 18
+            "total_conflicts": 13
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 18
+    "total_conflicts_found": 13
 }

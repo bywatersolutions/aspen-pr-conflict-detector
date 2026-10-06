@@ -1,23 +1,21 @@
 # Aspen PR Conflict Report
 
-Found **13** potential conflict(s) across **1** repository.
+Found **9** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 7 PRs, 9 conflict(s)
+### Cluster 1 — 5 PRs, 5 conflict(s)
 
 **Authors:** @Chloe070196, @Jacobomara901, @JonahCWilson, @librarianbryan, @lucasmontoya13
 
 **Files:** `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java`, `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`
 
 **PRs:**
-- [#4390](https://github.com/Aspen-Discovery/aspen-discovery/pull/4390) DIS-2508: db transaction for native events registration
 - [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files
 - [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box
 - [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours
 - [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration
 - [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying
-- [#4881](https://github.com/Aspen-Discovery/aspen-discovery/pull/4881) DIS-3026: Fit generated cover text on 3:4 canvases
 
 <details>
 <summary>Pairwise details</summary>
@@ -26,13 +24,9 @@ Found **13** potential conflict(s) across **1** repository.
 |------|------|-------------------|-------------------|---------|
 | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L78-L91, L40-L42 | @Chloe070196, @Jacobomara901 |
 | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | `code/web/release_notes/26.10.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L99-L105, L41-L56 | @Jacobomara901, @librarianbryan |
-| [#4390](https://github.com/Aspen-Discovery/aspen-discovery/pull/4390) DIS-2508: db transaction for native events registration | [#4881](https://github.com/Aspen-Discovery/aspen-discovery/pull/4881) DIS-3026: Fit generated cover text on 3:4 canvases | `code/web/release_notes/26.10.00.MD` | L173-L175 | @Chloe070196, @lucasmontoya13 |
 | [#4828](https://github.com/Aspen-Discovery/aspen-discovery/pull/4828) DIS-2897: Add S3/CDN storage driver for uploaded images and files | [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | `code/web/release_notes/26.10.00.MD` | L108-L109 | @librarianbryan, @lucasmontoya13 |
-| [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4881](https://github.com/Aspen-Discovery/aspen-discovery/pull/4881) DIS-3026: Fit generated cover text on 3:4 canvases | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L40-L47 | @Jacobomara901, @lucasmontoya13 |
-| [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | [#4881](https://github.com/Aspen-Discovery/aspen-discovery/pull/4881) DIS-3026: Fit generated cover text on 3:4 canvases | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L34-L42 | @Chloe070196, @lucasmontoya13 |
-| [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4881](https://github.com/Aspen-Discovery/aspen-discovery/pull/4881) DIS-3026: Fit generated cover text on 3:4 canvases | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L47 | @librarianbryan, @lucasmontoya13 |
-| [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L42 | @Chloe070196, @librarianbryan |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying | `code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java` | L2166-L2174 | @Jacobomara901, @JonahCWilson |
+| [#4832](https://github.com/Aspen-Discovery/aspen-discovery/pull/4832) DIS-2459 Simplified search box | [#4834](https://github.com/Aspen-Discovery/aspen-discovery/pull/4834) DIS-2604: allow 24 hour time format for native events and library hours | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L41-L42 | @Chloe070196, @librarianbryan |
 
 </details>
 

@@ -6,12 +6,6 @@
                 {
                     "prs": [
                         {
-                            "number": 4390,
-                            "title": "DIS-2508: db transaction for native events registration",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                        },
-                        {
                             "number": 4828,
                             "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
                             "author": "lucasmontoya13",
@@ -40,12 +34,6 @@
                             "title": "DIS-2860: Grouped works indexer batched querying",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
-                        },
-                        {
-                            "number": 4881,
-                            "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
                         }
                     ],
                     "shared_files": [
@@ -126,32 +114,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4881,
-                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            173,
-                                            175
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4828,
                                 "title": "DIS-2897: Add S3/CDN storage driver for uploaded images and files",
                                 "author": "lucasmontoya13",
@@ -184,110 +146,6 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                             },
                             "pr_b": {
-                                "number": 4881,
-                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            40,
-                                            47
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4881,
-                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4881,
-                                "title": "DIS-3026: Fit generated cover text on 3:4 canvases",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4881"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            47
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
                                 "number": 4854,
                                 "title": "DIS-2860: Grouped works indexer batched querying",
                                 "author": "JonahCWilson",
@@ -300,6 +158,32 @@
                                         [
                                             2166,
                                             2174
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            42
                                         ]
                                     ]
                                 }
@@ -471,9 +355,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 13
+            "total_conflicts": 9
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 13
+    "total_conflicts_found": 9
 }

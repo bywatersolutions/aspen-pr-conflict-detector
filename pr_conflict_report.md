@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **10** potential conflict(s) across **1** repository.
+Found **11** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 5 PRs, 5 conflict(s)
+### Cluster 1 — 6 PRs, 6 conflict(s)
 
-**Authors:** @gmcharlt, @lucasmontoya13, @reneeverly, @tomascohen
+**Authors:** @Jacobomara901, @gmcharlt, @lucasmontoya13, @reneeverly, @tomascohen
 
 **Files:** `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`
 
@@ -16,12 +16,14 @@ Found **10** potential conflict(s) across **1** repository.
 - [#4875](https://github.com/Aspen-Discovery/aspen-discovery/pull/4875) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS
 - [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes
 - [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files
+- [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L283-L285, L2-L8 | @Jacobomara901, @tomascohen |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `code/web/release_notes/26.11.00.MD` | L115-L116 | @lucasmontoya13, @reneeverly |
 | [#4875](https://github.com/Aspen-Discovery/aspen-discovery/pull/4875) DIS-2833: New cronjob to batch delete patrons that were removed from the ILS | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.11.00.MD` | L119-L121 | @gmcharlt, @lucasmontoya13 |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.11.00.MD` | L115-L121 | @lucasmontoya13, @reneeverly |

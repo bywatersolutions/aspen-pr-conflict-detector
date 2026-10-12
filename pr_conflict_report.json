@@ -34,6 +34,12 @@
                             "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
+                        },
+                        {
+                            "number": 4883,
+                            "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
                         }
                     ],
                     "shared_files": [
@@ -41,6 +47,41 @@
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "pr_b": {
+                                "number": 4883,
+                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            283,
+                                            285
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            2,
+                                            8
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4829,
@@ -388,9 +429,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 10
+            "total_conflicts": 11
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 10
+    "total_conflicts_found": 11
 }

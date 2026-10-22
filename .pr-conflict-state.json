@@ -66,6 +66,36 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4891,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-22T18:21:25.613292+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "b-lawlor"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4891,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-22T18:21:25.613312+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "b-lawlor"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4878,
       "pr_b": 4885,
       "files": [
@@ -186,5 +216,5 @@
     }
   ],
   "resolved_conflicts": [],
-  "last_run": "2026-10-21T22:09:38.567952+00:00"
+  "last_run": "2026-10-22T18:21:25.613425+00:00"
 }

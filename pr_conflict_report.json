@@ -24,6 +24,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
                         },
                         {
+                            "number": 4876,
+                            "title": "DIS-3016: Evergreen: improvements to support for preferred names",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
+                        },
+                        {
                             "number": 4878,
                             "title": "DIS-2929: Header and footer customization options for themes",
                             "author": "lucasmontoya13",
@@ -46,6 +52,12 @@
                             "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                        },
+                        {
+                            "number": 4891,
+                            "title": "DIS-3091: Use event location mapping when filtering the events calendar",
+                            "author": "b-lawlor",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
                         }
                     ],
                     "shared_files": [
@@ -90,6 +102,58 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4876,
+                                "title": "DIS-3016: Evergreen: improvements to support for preferred names",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
+                            },
+                            "pr_b": {
+                                "number": 4891,
+                                "title": "DIS-3091: Use event location mapping when filtering the events calendar",
+                                "author": "b-lawlor",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            49,
+                                            53
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4891,
+                                "title": "DIS-3091: Use event location mapping when filtering the events calendar",
+                                "author": "b-lawlor",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            269,
+                                            274
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4878,
                                 "title": "DIS-2929: Header and footer customization options for themes",
                                 "author": "lucasmontoya13",
@@ -106,7 +170,7 @@
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            246,
+                                            249,
                                             250
                                         ]
                                     ]
@@ -461,9 +525,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 12
+            "total_conflicts": 14
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 12
+    "total_conflicts_found": 14
 }

@@ -186,21 +186,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4841,
-      "pr_b": 4854,
-      "files": [
-        "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java"
-      ],
-      "first_seen": "2026-09-22T21:50:37.007517+00:00",
-      "pr_a_title": "DIS-894: Omeka integration",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
-      "pr_b_title": "DIS-2860: Grouped works indexer batched querying",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "JonahCWilson"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4832,
       "pr_b": 4834,
       "files": [
@@ -215,6 +200,23 @@
       "pr_b_author": "Chloe070196"
     }
   ],
-  "resolved_conflicts": [],
-  "last_run": "2026-10-22T18:21:25.613425+00:00"
+  "resolved_conflicts": [
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4854,
+      "files": [
+        "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java"
+      ],
+      "first_seen": "2026-09-22T21:50:37.007517+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2860: Grouped works indexer batched querying",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson",
+      "resolved_at": "2026-10-22T22:09:40.597271+00:00"
+    }
+  ],
+  "last_run": "2026-10-22T22:09:40.597372+00:00"
 }

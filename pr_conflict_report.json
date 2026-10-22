@@ -329,16 +329,9 @@
                             "title": "DIS-894: Omeka integration",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                        },
-                        {
-                            "number": 4854,
-                            "title": "DIS-2860: Grouped works indexer batched querying",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
                         }
                     ],
                     "shared_files": [
-                        "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
                         "code/web/release_notes/26.10.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
                     ],
@@ -407,32 +400,6 @@
                                         [
                                             41,
                                             56
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
-                                "number": 4854,
-                                "title": "DIS-2860: Grouped works indexer batched querying",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/reindexer/src/org/aspen_discovery/reindexer/GroupedWorkIndexer.java",
-                                    "overlapping_ranges": [
-                                        [
-                                            2166,
-                                            2174
                                         ]
                                     ]
                                 }
@@ -525,9 +492,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 14
+            "total_conflicts": 13
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 14
+    "total_conflicts_found": 13
 }

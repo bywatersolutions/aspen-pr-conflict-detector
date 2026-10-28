@@ -58,6 +58,12 @@
                             "title": "DIS-3091: Use event location mapping when filtering the events calendar",
                             "author": "b-lawlor",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
+                        },
+                        {
+                            "number": 4895,
+                            "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                            "author": "kylemhall",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
                         }
                     ],
                     "shared_files": [
@@ -94,6 +100,58 @@
                                         [
                                             2,
                                             8
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4891,
+                                "title": "DIS-3091: Use event location mapping when filtering the events calendar",
+                                "author": "b-lawlor",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
+                            },
+                            "pr_b": {
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            266,
+                                            269
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4829,
+                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+                                "author": "reneeverly",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
+                            },
+                            "pr_b": {
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            269,
+                                            269
                                         ]
                                     ]
                                 }
@@ -492,9 +550,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 13
+            "total_conflicts": 15
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 13
+    "total_conflicts_found": 15
 }

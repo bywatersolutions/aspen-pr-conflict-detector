@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **13** potential conflict(s) across **1** repository.
+Found **15** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 9 PRs, 9 conflict(s)
+### Cluster 1 — 10 PRs, 11 conflict(s)
 
-**Authors:** @Jacobomara901, @JonahCWilson, @b-lawlor, @gmcharlt, @lucasmontoya13, @reneeverly, @tomascohen
+**Authors:** @Jacobomara901, @JonahCWilson, @b-lawlor, @gmcharlt, @kylemhall, @lucasmontoya13, @reneeverly, @tomascohen
 
 **Files:** `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`
 
@@ -20,6 +20,7 @@ Found **13** potential conflict(s) across **1** repository.
 - [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing
 - [#4885](https://github.com/Aspen-Discovery/aspen-discovery/pull/4885) DIS-3084:  Fix for False-Positive 2FA Error Message
 - [#4891](https://github.com/Aspen-Discovery/aspen-discovery/pull/4891) DIS-3091: Use event location mapping when filtering the events calendar
+- [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs
 
 <details>
 <summary>Pairwise details</summary>
@@ -27,6 +28,8 @@ Found **13** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L283-L285, L2-L8 | @Jacobomara901, @tomascohen |
+| [#4891](https://github.com/Aspen-Discovery/aspen-discovery/pull/4891) DIS-3091: Use event location mapping when filtering the events calendar | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | `code/web/release_notes/26.11.00.MD` | L266-L269 | @b-lawlor, @kylemhall |
+| [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | `code/web/release_notes/26.11.00.MD` | L269-L269 | @kylemhall, @reneeverly |
 | [#4876](https://github.com/Aspen-Discovery/aspen-discovery/pull/4876) DIS-3016: Evergreen: improvements to support for preferred names | [#4891](https://github.com/Aspen-Discovery/aspen-discovery/pull/4891) DIS-3091: Use event location mapping when filtering the events calendar | `code/web/release_notes/26.11.00.MD` | L49-L53 | @b-lawlor, @gmcharlt |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4891](https://github.com/Aspen-Discovery/aspen-discovery/pull/4891) DIS-3091: Use event location mapping when filtering the events calendar | `code/web/release_notes/26.11.00.MD` | L269-L274 | @b-lawlor, @reneeverly |
 | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | [#4885](https://github.com/Aspen-Discovery/aspen-discovery/pull/4885) DIS-3084:  Fix for False-Positive 2FA Error Message | `code/web/release_notes/26.11.00.MD` | L249-L250 | @JonahCWilson, @lucasmontoya13 |

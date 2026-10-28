@@ -24,7 +24,7 @@
         "code/web/release_notes/26.10.00.MD",
         "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-16T15:22:23.207094+00:00",
+      "first_seen": "2026-10-28T17:09:04.209431+00:00",
       "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
       "pr_b_title": "DIS-894: Omeka integration",
@@ -40,7 +40,7 @@
         "code/web/release_notes/26.10.00.MD",
         "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-16T15:22:23.207111+00:00",
+      "first_seen": "2026-10-28T17:09:04.209451+00:00",
       "pr_a_title": "DIS-2459 Simplified search box",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
       "pr_b_title": "DIS-894: Omeka integration",
@@ -63,6 +63,36 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870",
       "pr_a_author": "JonahCWilson",
       "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4891,
+      "pr_b": 4895,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-28T17:09:04.209464+00:00",
+      "pr_a_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_b_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
+      "pr_a_author": "b-lawlor",
+      "pr_b_author": "kylemhall"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4895,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-28T17:09:04.209470+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "kylemhall"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -191,7 +221,7 @@
       "files": [
         "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
       ],
-      "first_seen": "2026-09-14T16:12:30.228023+00:00",
+      "first_seen": "2026-10-28T17:09:04.209506+00:00",
       "pr_a_title": "DIS-2459 Simplified search box",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
       "pr_b_title": "DIS-2604: allow 24 hour time format for native events and library hours",
@@ -218,5 +248,5 @@
       "resolved_at": "2026-10-22T22:09:40.597271+00:00"
     }
   ],
-  "last_run": "2026-10-22T22:09:40.597372+00:00"
+  "last_run": "2026-10-28T17:09:04.209544+00:00"
 }

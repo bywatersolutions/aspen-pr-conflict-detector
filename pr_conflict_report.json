@@ -60,10 +60,22 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891"
                         },
                         {
+                            "number": 4893,
+                            "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+                            "author": "samyoung-maker",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
+                        },
+                        {
                             "number": 4895,
                             "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
                             "author": "kylemhall",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                        },
+                        {
+                            "number": 4898,
+                            "title": "DIS-3130: Increase PayPal client credentails length",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
                         }
                     ],
                     "shared_files": [
@@ -100,6 +112,32 @@
                                         [
                                             2,
                                             8
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4893,
+                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
+                            },
+                            "pr_b": {
+                                "number": 4898,
+                                "title": "DIS-3130: Increase PayPal client credentails length",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            175,
+                                            179
                                         ]
                                     ]
                                 }
@@ -342,6 +380,58 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4882,
+                                "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
+                            },
+                            "pr_b": {
+                                "number": 4898,
+                                "title": "DIS-3130: Increase PayPal client credentails length",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "pr_b": {
+                                "number": 4898,
+                                "title": "DIS-3130: Increase PayPal client credentails length",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            36,
+                                            36
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4855,
                                 "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                                 "author": "tomascohen",
@@ -550,9 +640,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 15
+            "total_conflicts": 18
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 15
+    "total_conflicts_found": 18
 }

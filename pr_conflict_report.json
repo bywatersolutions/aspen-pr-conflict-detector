@@ -76,6 +76,12 @@
                             "title": "DIS-3130: Increase PayPal client credentails length",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                        },
+                        {
+                            "number": 4899,
+                            "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
                         }
                     ],
                     "shared_files": [
@@ -112,6 +118,32 @@
                                         [
                                             2,
                                             8
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4899,
+                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            253,
+                                            255
                                         ]
                                     ]
                                 }
@@ -640,9 +672,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 18
+            "total_conflicts": 19
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 18
+    "total_conflicts_found": 19
 }

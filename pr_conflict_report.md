@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **18** potential conflict(s) across **1** repository.
+Found **19** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 12 PRs, 14 conflict(s)
+### Cluster 1 — 13 PRs, 15 conflict(s)
 
 **Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @b-lawlor, @gmcharlt, @kylemhall, @lucasmontoya13, @reneeverly, @samyoung-maker, @tomascohen
 
@@ -23,6 +23,7 @@ Found **18** potential conflict(s) across **1** repository.
 - [#4893](https://github.com/Aspen-Discovery/aspen-discovery/pull/4893) DIS-3087: Don't load other event types' attendee categories for a new event type
 - [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs
 - [#4898](https://github.com/Aspen-Discovery/aspen-discovery/pull/4898) DIS-3130: Increase PayPal client credentails length
+- [#4899](https://github.com/Aspen-Discovery/aspen-discovery/pull/4899) DIS-3140: Allow in-library access to web resources requiring login
 
 <details>
 <summary>Pairwise details</summary>
@@ -30,6 +31,7 @@ Found **18** potential conflict(s) across **1** repository.
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
 | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L283-L285, L2-L8 | @Jacobomara901, @tomascohen |
+| [#4885](https://github.com/Aspen-Discovery/aspen-discovery/pull/4885) DIS-3084:  Fix for False-Positive 2FA Error Message | [#4899](https://github.com/Aspen-Discovery/aspen-discovery/pull/4899) DIS-3140: Allow in-library access to web resources requiring login | `code/web/release_notes/26.11.00.MD` | L253-L255 | @JonahCWilson, @LiYanjun19 |
 | [#4893](https://github.com/Aspen-Discovery/aspen-discovery/pull/4893) DIS-3087: Don't load other event types' attendee categories for a new event type | [#4898](https://github.com/Aspen-Discovery/aspen-discovery/pull/4898) DIS-3130: Increase PayPal client credentails length | `code/web/release_notes/26.11.00.MD` | L175-L179 | @LiYanjun19, @samyoung-maker |
 | [#4891](https://github.com/Aspen-Discovery/aspen-discovery/pull/4891) DIS-3091: Use event location mapping when filtering the events calendar | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | `code/web/release_notes/26.11.00.MD` | L266-L269 | @b-lawlor, @kylemhall |
 | [#4829](https://github.com/Aspen-Discovery/aspen-discovery/pull/4829) DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | `code/web/release_notes/26.11.00.MD` | L269-L269 | @kylemhall, @reneeverly |

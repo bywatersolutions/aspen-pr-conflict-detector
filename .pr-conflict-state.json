@@ -2,6 +2,22 @@
   "conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD",
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872792+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4855,
       "pr_b": 4883,
       "files": [
@@ -35,18 +51,573 @@
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4866,
-      "pr_b": 4870,
+      "pr_b": 4882,
       "files": [
-        "install/upgrade_26.10.00.sh",
-        "install/upgrade_debian_26.10.00.sh"
+        "install/upgrade_26.11.00.sh",
+        "install/upgrade_debian_26.11.00.sh"
       ],
-      "first_seen": "2026-10-02T19:01:42.079232+00:00",
+      "first_seen": "2026-11-02T22:45:06.872838+00:00",
       "pr_a_title": "DIS-2854: Composer Autoloading",
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
-      "pr_b_title": "DIS-3007: Restore configurable directory permissions on local writes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870",
+      "pr_b_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
       "pr_a_author": "JonahCWilson",
       "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4910,
+      "pr_b": 4921,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872851+00:00",
+      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
+      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4909,
+      "pr_b": 4921,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872882+00:00",
+      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
+      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4893,
+      "pr_b": 4919,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872893+00:00",
+      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_b_title": "DIS-3014: Fix duplicate past events",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4919,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872901+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3014: Fix duplicate past events",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4902,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872909+00:00",
+      "pr_a_title": "DIS-2276: BorrowBox integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4866,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872917+00:00",
+      "pr_a_title": "DIS-2854: Composer Autoloading",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4821,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872925+00:00",
+      "pr_a_title": "DIS-2888: Tests run db updates",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872933+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4661,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872942+00:00",
+      "pr_a_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4593,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872951+00:00",
+      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4906,
+      "pr_b": 4917,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872961+00:00",
+      "pr_a_title": "DIS-1930: Translate \"on hold for another patron\"",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4906",
+      "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4892,
+      "pr_b": 4917,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872969+00:00",
+      "pr_a_title": "DIS-2885: Combine Grouped Work User Linkage Queries",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4892",
+      "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4854,
+      "pr_b": 4917,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872977+00:00",
+      "pr_a_title": "DIS-2860: Grouped works indexer batched querying",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854",
+      "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4917,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872986+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4884,
+      "pr_b": 4915,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872996+00:00",
+      "pr_a_title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884",
+      "pr_b_title": "DIS-539: Pick fields displayed in library catalogue results in Combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4915",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4915,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873001+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-539: Pick fields displayed in library catalogue results in Combined results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4915",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4884,
+      "pr_b": 4914,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873006+00:00",
+      "pr_a_title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884",
+      "pr_b_title": "DIS-233: Results per page dropdown on search results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4914",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4914,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873011+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-233: Results per page dropdown on search results",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4914",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4884,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873016+00:00",
+      "pr_a_title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873020+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4875,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873025+00:00",
+      "pr_a_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873030+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4912,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873035+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-2278: Web resources a to z links regression",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4891,
+      "pr_b": 4911,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873040+00:00",
+      "pr_a_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_b_title": "DIS-776: Allow change of event location",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911",
+      "pr_a_author": "b-lawlor",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4911,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873045+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-776: Allow change of event location",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4901,
+      "pr_b": 4908,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873050+00:00",
+      "pr_a_title": "DIS-3141: Fix the theme import workflow from the community server.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901",
+      "pr_b_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4885,
+      "pr_b": 4908,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873055+00:00",
+      "pr_a_title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885",
+      "pr_b_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4908,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873059+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4907,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873064+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-1903: Hide fines link (scoped by library)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4875,
+      "pr_b": 4907,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873069+00:00",
+      "pr_a_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875",
+      "pr_b_title": "DIS-1903: Hide fines link (scoped by library)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4892,
+      "pr_b": 4906,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873073+00:00",
+      "pr_a_title": "DIS-2885: Combine Grouped Work User Linkage Queries",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4892",
+      "pr_b_title": "DIS-1930: Translate \"on hold for another patron\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4906",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4854,
+      "pr_b": 4906,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873078+00:00",
+      "pr_a_title": "DIS-2860: Grouped works indexer batched querying",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854",
+      "pr_b_title": "DIS-1930: Translate \"on hold for another patron\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4906",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4884,
+      "pr_b": 4905,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873082+00:00",
+      "pr_a_title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884",
+      "pr_b_title": "DIS-2669: Split API usage data per third party",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4891,
+      "pr_b": 4904,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873087+00:00",
+      "pr_a_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_b_title": "DIS-2758: Events area filter should include the location name as well as the sublocation",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4904",
+      "pr_a_author": "b-lawlor",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4904,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873091+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-2758: Events area filter should include the location name as well as the sublocation",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4904",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4891,
+      "pr_b": 4903,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873096+00:00",
+      "pr_a_title": "DIS-3091: Use event location mapping when filtering the events calendar",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4891",
+      "pr_b_title": "DIS-2594: Attendee categories menu",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4903",
+      "pr_a_author": "b-lawlor",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4903,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873101+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-2594: Attendee categories menu",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4903",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -80,6 +651,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4900,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873112+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "samyoung-maker"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4885,
       "pr_b": 4899,
       "files": [
@@ -95,6 +681,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4899,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873119+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3140: Allow in-library access to web resources requiring login",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4893,
       "pr_b": 4898,
       "files": [
@@ -106,6 +707,21 @@
       "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
       "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4898,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873127+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_a_author": "Jacobomara901",
       "pr_b_author": "LiYanjun19"
     },
     {
@@ -137,6 +753,21 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
       "pr_a_author": "reneeverly",
       "pr_b_author": "kylemhall"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4893,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873137+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "samyoung-maker"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -181,6 +812,21 @@
       "pr_b_title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885",
       "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4885,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873151+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885",
+      "pr_a_author": "Jacobomara901",
       "pr_b_author": "JonahCWilson"
     },
     {
@@ -245,6 +891,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4878,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873168+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4829,
       "pr_b": 4875,
       "files": [
@@ -257,6 +918,261 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875",
       "pr_a_author": "reneeverly",
       "pr_b_author": "gmcharlt"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4821,
+      "pr_b": 4866,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873175+00:00",
+      "pr_a_title": "DIS-2888: Tests run db updates",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_b_title": "DIS-2854: Composer Autoloading",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4661,
+      "pr_b": 4866,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873180+00:00",
+      "pr_a_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_b_title": "DIS-2854: Composer Autoloading",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4593,
+      "pr_b": 4866,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873184+00:00",
+      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_b_title": "DIS-2854: Composer Autoloading",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4690,
+      "pr_b": 4821,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873189+00:00",
+      "pr_a_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_b_title": "DIS-2888: Tests run db updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4661,
+      "pr_b": 4690,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873194+00:00",
+      "pr_a_title": "DIS-2679: Refactor default database export into a PDO-based class ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661",
+      "pr_b_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4593,
+      "pr_b": 4690,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873198+00:00",
+      "pr_a_title": "DIS-2680: aspen.sql regeneration ci",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593",
+      "pr_b_title": "DIS-2780 Collection Spotlight Caching",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4690",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "JonahCWilson"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4911,
+      "pr_b": 4919,
+      "files": [
+        "code/web/sys/Events/Event.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873203+00:00",
+      "pr_a_title": "DIS-776: Allow change of event location",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911",
+      "pr_b_title": "DIS-3014: Fix duplicate past events",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4916,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873208+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-1202: Fix overdrive Records to Reindex ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4913,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873213+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4912,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873218+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-2278: Web resources a to z links regression",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4912,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873222+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-2278: Web resources a to z links regression",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4907,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873227+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-1903: Hide fines link (scoped by library)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4907,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873232+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-1903: Hide fines link (scoped by library)",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4905,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873237+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-2669: Split API usage data per third party",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4905,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873241+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-2669: Split API usage data per third party",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4902,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873247+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-2276: BorrowBox integration",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4902,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873252+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-2276: BorrowBox integration",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "Jacobomara901"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -383,7 +1299,24 @@
       "pr_a_author": "librarianbryan",
       "pr_b_author": "Jacobomara901",
       "resolved_at": "2026-11-02T13:11:07.336646+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4866,
+      "pr_b": 4870,
+      "files": [
+        "install/upgrade_26.10.00.sh",
+        "install/upgrade_debian_26.10.00.sh"
+      ],
+      "first_seen": "2026-10-02T19:01:42.079232+00:00",
+      "pr_a_title": "DIS-2854: Composer Autoloading",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_b_title": "DIS-3007: Restore configurable directory permissions on local writes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4870",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-11-02T22:45:06.873277+00:00"
     }
   ],
-  "last_run": "2026-11-02T13:11:07.336787+00:00"
+  "last_run": "2026-11-02T22:45:06.873334+00:00"
 }

@@ -82,6 +82,12 @@
                             "title": "DIS-3140: Allow in-library access to web resources requiring login",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                        },
+                        {
+                            "number": 4901,
+                            "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
                         }
                     ],
                     "shared_files": [
@@ -123,6 +129,58 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            253
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            250
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -672,9 +730,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 19
+            "total_conflicts": 21
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 19
+    "total_conflicts_found": 21
 }

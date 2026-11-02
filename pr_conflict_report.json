@@ -12,6 +12,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
                         },
                         {
+                            "number": 4841,
+                            "title": "DIS-894: Omeka integration",
+                            "author": "Jacobomara901",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                        },
+                        {
                             "number": 4855,
                             "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                             "author": "tomascohen",
@@ -46,6 +52,12 @@
                             "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
+                        },
+                        {
+                            "number": 4884,
+                            "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
                         },
                         {
                             "number": 4885,
@@ -91,6 +103,7 @@
                         }
                     ],
                     "shared_files": [
+                        "code/web/index.php",
                         "code/web/release_notes/26.11.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
                     ],
@@ -124,6 +137,41 @@
                                         [
                                             2,
                                             8
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "pr_b": {
+                                "number": 4882,
+                                "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            108,
+                                            109
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            40,
+                                            63
                                         ]
                                     ]
                                 }
@@ -366,6 +414,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "pr_b": {
+                                "number": 4884,
+                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            99,
+                                            105
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4829,
                                 "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
                                 "author": "reneeverly",
@@ -545,125 +619,53 @@
                                 }
                             ],
                             "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4832,
-                            "title": "DIS-2459 Simplified search box",
-                            "author": "librarianbryan",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
                         },
-                        {
-                            "number": 4834,
-                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                        },
-                        {
-                            "number": 4841,
-                            "title": "DIS-894: Omeka integration",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.10.00.MD",
-                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-                    ],
-                    "conflicts": [
                         {
                             "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
                                 "number": 4841,
                                 "title": "DIS-894: Omeka integration",
                                 "author": "Jacobomara901",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                             },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            78,
-                                            91
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                                     "overlapping_ranges": [
                                         [
                                             40,
-                                            42
+                                            48
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": true
+                            "verified": false
                         },
                         {
                             "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
                                 "number": 4841,
                                 "title": "DIS-894: Omeka integration",
                                 "author": "Jacobomara901",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                             },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.10.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            99,
-                                            105
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            56
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
                             "pr_b": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "filename": "code/web/index.php",
                                     "overlapping_ranges": [
                                         [
-                                            41,
-                                            42
+                                            58,
+                                            64
                                         ]
                                     ]
                                 }
@@ -728,11 +730,58 @@
                             "verified": false
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4832,
+                            "title": "DIS-2459 Simplified search box",
+                            "author": "librarianbryan",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                        },
+                        {
+                            "number": 4834,
+                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4832,
+                                "title": "DIS-2459 Simplified search box",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
+                            },
+                            "pr_b": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 21
+            "total_conflicts": 23
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 21
+    "total_conflicts_found": 23
 }

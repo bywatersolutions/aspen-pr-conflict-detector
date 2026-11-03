@@ -1,12 +1,12 @@
 # Aspen PR Conflict Report
 
-Found **84** potential conflict(s) across **1** repository.
+Found **91** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 41 PRs, 81 conflict(s)
+### Cluster 1 — 43 PRs, 86 conflict(s)
 
-**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @b-lawlor, @gmcharlt, @kylemhall, @lucasmontoya13, @reneeverly, @samyoung-maker, @tomascohen
+**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @b-lawlor, @gmcharlt, @kylemhall, @lucasmontoya13, @poojary9991, @reneeverly, @samyoung-maker, @tomascohen
 
 **Files:** `code/web/index.php`, `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`, `code/web/sys/Events/Event.php`, `install/upgrade_26.11.00.sh`, `install/upgrade_debian_26.11.00.sh`
 
@@ -52,6 +52,8 @@ Found **84** potential conflict(s) across **1** repository.
 - [#4917](https://github.com/Aspen-Discovery/aspen-discovery/pull/4917) DIS-2784: Add Hoopla "Records to Reindex"
 - [#4918](https://github.com/Aspen-Discovery/aspen-discovery/pull/4918) DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library
 - [#4919](https://github.com/Aspen-Discovery/aspen-discovery/pull/4919) DIS-3014: Fix duplicate past events
+- [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations
+- [#4924](https://github.com/Aspen-Discovery/aspen-discovery/pull/4924) DIS-3147: Clear and validate original cover URLs when the image source changes 
 
 <details>
 <summary>Pairwise details</summary>
@@ -62,6 +64,11 @@ Found **84** potential conflict(s) across **1** repository.
 | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | [#4883](https://github.com/Aspen-Discovery/aspen-discovery/pull/4883) DIS-3049: Koha export branch update fails when repeatable_holidays table is missing | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L283-L285, L2-L8 | @Jacobomara901, @tomascohen |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L108-L109, L40-L63 | @Jacobomara901, @lucasmontoya13 |
 | [#4866](https://github.com/Aspen-Discovery/aspen-discovery/pull/4866) DIS-2854: Composer Autoloading | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `install/upgrade_26.11.00.sh`, `install/upgrade_debian_26.11.00.sh` | L1-L9, L1-L7 | @JonahCWilson, @lucasmontoya13 |
+| [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations | [#4924](https://github.com/Aspen-Discovery/aspen-discovery/pull/4924) DIS-3147: Clear and validate original cover URLs when the image source changes  | `code/web/release_notes/26.11.00.MD` | L173-L174 | @LiYanjun19, @poojary9991 |
+| [#4919](https://github.com/Aspen-Discovery/aspen-discovery/pull/4919) DIS-3014: Fix duplicate past events | [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations | `code/web/release_notes/26.11.00.MD` | L175-L179 | @LiYanjun19, @poojary9991 |
+| [#4898](https://github.com/Aspen-Discovery/aspen-discovery/pull/4898) DIS-3130: Increase PayPal client credentails length | [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations | `code/web/release_notes/26.11.00.MD` | L173-L179 | @LiYanjun19, @poojary9991 |
+| [#4893](https://github.com/Aspen-Discovery/aspen-discovery/pull/4893) DIS-3087: Don't load other event types' attendee categories for a new event type | [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations | `code/web/release_notes/26.11.00.MD` | L175-L179 | @poojary9991, @samyoung-maker |
+| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4923](https://github.com/Aspen-Discovery/aspen-discovery/pull/4923) DIS-3059:Prevent AJAX error during non-logged-in users Square donations | `code/web/release_notes/26.11.00.MD` | L179-L179 | @Jacobomara901, @poojary9991 |
 | [#4893](https://github.com/Aspen-Discovery/aspen-discovery/pull/4893) DIS-3087: Don't load other event types' attendee categories for a new event type | [#4919](https://github.com/Aspen-Discovery/aspen-discovery/pull/4919) DIS-3014: Fix duplicate past events | `code/web/release_notes/26.11.00.MD` | L175-L181 | @LiYanjun19, @samyoung-maker |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4919](https://github.com/Aspen-Discovery/aspen-discovery/pull/4919) DIS-3014: Fix duplicate past events | `code/web/release_notes/26.11.00.MD` | L179-L184 | @Jacobomara901, @LiYanjun19 |
 | [#4902](https://github.com/Aspen-Discovery/aspen-discovery/pull/4902) DIS-2276: BorrowBox integration | [#4918](https://github.com/Aspen-Discovery/aspen-discovery/pull/4918) DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library | `code/web/release_notes/26.11.00.MD` | L21-L24 | @Jacobomara901, @LiYanjun19 |
@@ -142,22 +149,25 @@ Found **84** potential conflict(s) across **1** repository.
 
 </details>
 
-### Cluster 2 — 3 PRs, 2 conflict(s)
+### Cluster 2 — 4 PRs, 4 conflict(s)
 
 **Authors:** @olivia-openfifth, @poojary9991
 
-**Files:** `code/web/release_notes/26.11.00.MD`
+**Files:** `code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl`, `code/web/release_notes/26.11.00.MD`
 
 **PRs:**
 - [#4909](https://github.com/Aspen-Discovery/aspen-discovery/pull/4909) DIS-3122: Allow translating "M of N available" edition copies text
 - [#4910](https://github.com/Aspen-Discovery/aspen-discovery/pull/4910) DIS-3123: Translate status in detailed "Where is it?" modal
 - [#4921](https://github.com/Aspen-Discovery/aspen-discovery/pull/4921) DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs
+- [#4925](https://github.com/Aspen-Discovery/aspen-discovery/pull/4925) DIS-2945:Escape apostrophes in format names for horizontal display
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4910](https://github.com/Aspen-Discovery/aspen-discovery/pull/4910) DIS-3123: Translate status in detailed "Where is it?" modal | [#4925](https://github.com/Aspen-Discovery/aspen-discovery/pull/4925) DIS-2945:Escape apostrophes in format names for horizontal display | `code/web/release_notes/26.11.00.MD`, `code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl` | L188-L193, L66-L68 | @olivia-openfifth, @poojary9991 |
+| [#4909](https://github.com/Aspen-Discovery/aspen-discovery/pull/4909) DIS-3122: Allow translating "M of N available" edition copies text | [#4925](https://github.com/Aspen-Discovery/aspen-discovery/pull/4925) DIS-2945:Escape apostrophes in format names for horizontal display | `code/web/release_notes/26.11.00.MD` | L187-L193 | @olivia-openfifth, @poojary9991 |
 | [#4910](https://github.com/Aspen-Discovery/aspen-discovery/pull/4910) DIS-3123: Translate status in detailed "Where is it?" modal | [#4921](https://github.com/Aspen-Discovery/aspen-discovery/pull/4921) DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs | `code/web/release_notes/26.11.00.MD` | L189-L195 | @olivia-openfifth, @poojary9991 |
 | [#4909](https://github.com/Aspen-Discovery/aspen-discovery/pull/4909) DIS-3122: Allow translating "M of N available" edition copies text | [#4921](https://github.com/Aspen-Discovery/aspen-discovery/pull/4921) DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs | `code/web/release_notes/26.11.00.MD` | L189-L193 | @olivia-openfifth, @poojary9991 |
 

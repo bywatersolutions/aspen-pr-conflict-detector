@@ -250,6 +250,18 @@
                             "title": "DIS-3014: Fix duplicate past events",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
+                        },
+                        {
+                            "number": 4923,
+                            "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                            "author": "poojary9991",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                        },
+                        {
+                            "number": 4924,
+                            "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
                         }
                     ],
                     "shared_files": [
@@ -395,6 +407,136 @@
                                         [
                                             1,
                                             7
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "pr_b": {
+                                "number": 4924,
+                                "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            173,
+                                            174
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4919,
+                                "title": "DIS-3014: Fix duplicate past events",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
+                            },
+                            "pr_b": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            175,
+                                            179
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4898,
+                                "title": "DIS-3130: Increase PayPal client credentails length",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                            },
+                            "pr_b": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            173,
+                                            179
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4893,
+                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
+                            },
+                            "pr_b": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            175,
+                                            179
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            179
                                         ]
                                     ]
                                 }
@@ -2424,12 +2566,80 @@
                             "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
                             "author": "poojary9991",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
+                        },
+                        {
+                            "number": 4925,
+                            "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+                            "author": "poojary9991",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
                         }
                     ],
                     "shared_files": [
+                        "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
                         "code/web/release_notes/26.11.00.MD"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4910,
+                                "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
+                            },
+                            "pr_b": {
+                                "number": 4925,
+                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            188,
+                                            193
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
+                                    "overlapping_ranges": [
+                                        [
+                                            66,
+                                            68
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4909,
+                                "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
+                            },
+                            "pr_b": {
+                                "number": 4925,
+                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            187,
+                                            193
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4910,
@@ -2532,9 +2742,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 84
+            "total_conflicts": 91
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 84
+    "total_conflicts_found": 91
 }

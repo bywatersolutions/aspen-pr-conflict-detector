@@ -252,6 +252,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
                         },
                         {
+                            "number": 4920,
+                            "title": "DIS-2946: Skip nightly Polaris reading history updates for inactive patrons",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4920"
+                        },
+                        {
                             "number": 4923,
                             "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
                             "author": "poojary9991",
@@ -262,6 +268,48 @@
                             "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
+                        },
+                        {
+                            "number": 4927,
+                            "title": "DIS-3153 add class names to relatedRecords.tpl",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927"
+                        },
+                        {
+                            "number": 4928,
+                            "title": "DIS-3048: add html_entity_decode to coverUrl",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4928"
+                        },
+                        {
+                            "number": 4929,
+                            "title": "DIS-2868 2FA Updates",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
+                        },
+                        {
+                            "number": 4930,
+                            "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                        },
+                        {
+                            "number": 4931,
+                            "title": "DIS-3028 Fix currency formatting when there is no active lang",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
+                        },
+                        {
+                            "number": 4932,
+                            "title": "DIS-3012 Fix generating placards from web resources",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4932"
+                        },
+                        {
+                            "number": 4933,
+                            "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
                         }
                     ],
                     "shared_files": [
@@ -269,10 +317,46 @@
                         "code/web/release_notes/26.11.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                         "code/web/sys/Events/Event.php",
+                        "code/web/sys/UserAccount.php",
                         "install/upgrade_26.11.00.sh",
                         "install/upgrade_debian_26.11.00.sh"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4929,
+                                "title": "DIS-2868 2FA Updates",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            142,
+                                            142
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/UserAccount.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            125,
+                                            144
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4882,
@@ -407,6 +491,660 @@
                                         [
                                             1,
                                             7
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4916,
+                                "title": "DIS-1202: Fix overdrive Records to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916"
+                            },
+                            "pr_b": {
+                                "number": 4933,
+                                "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            227,
+                                            227
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                            },
+                            "pr_b": {
+                                "number": 4933,
+                                "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            229,
+                                            233
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4920,
+                                "title": "DIS-2946: Skip nightly Polaris reading history updates for inactive patrons",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4920"
+                            },
+                            "pr_b": {
+                                "number": 4932,
+                                "title": "DIS-3012 Fix generating placards from web resources",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4932"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            217,
+                                            221
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4916,
+                                "title": "DIS-1202: Fix overdrive Records to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916"
+                            },
+                            "pr_b": {
+                                "number": 4932,
+                                "title": "DIS-3012 Fix generating placards from web resources",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4932"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            215,
+                                            221
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4916,
+                                "title": "DIS-1202: Fix overdrive Records to Reindex ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916"
+                            },
+                            "pr_b": {
+                                "number": 4931,
+                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            209,
+                                            209
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4883,
+                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
+                            },
+                            "pr_b": {
+                                "number": 4931,
+                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            203,
+                                            204
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4923,
+                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            179
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4919,
+                                "title": "DIS-3014: Fix duplicate past events",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            184
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            248
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            248
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            242,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4898,
+                                "title": "DIS-3130: Increase PayPal client credentails length",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            179
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4893,
+                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            181
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            244,
+                                            248
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4876,
+                                "title": "DIS-3016: Evergreen: improvements to support for preferred names",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            291,
+                                            294
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4875,
+                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            291,
+                                            294
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            286,
+                                            289
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            179,
+                                            185
+                                        ],
+                                        [
+                                            242,
+                                            244
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4912,
+                                "title": "DIS-2278: Web resources a to z links regression",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912"
+                            },
+                            "pr_b": {
+                                "number": 4929,
+                                "title": "DIS-2868 2FA Updates",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            133,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4907,
+                                "title": "DIS-1903: Hide fines link (scoped by library)",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907"
+                            },
+                            "pr_b": {
+                                "number": 4929,
+                                "title": "DIS-2868 2FA Updates",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            133,
+                                            135
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4929,
+                                "title": "DIS-2868 2FA Updates",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            133,
+                                            137
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4912,
+                                "title": "DIS-2278: Web resources a to z links regression",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912"
+                            },
+                            "pr_b": {
+                                "number": 4928,
+                                "title": "DIS-3048: add html_entity_decode to coverUrl",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4928"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            135,
+                                            139
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4907,
+                                "title": "DIS-1903: Hide fines link (scoped by library)",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907"
+                            },
+                            "pr_b": {
+                                "number": 4928,
+                                "title": "DIS-3048: add html_entity_decode to coverUrl",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4928"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            135,
+                                            135
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4928,
+                                "title": "DIS-3048: add html_entity_decode to coverUrl",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4928"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            135,
+                                            137
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4883,
+                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
+                            },
+                            "pr_b": {
+                                "number": 4927,
+                                "title": "DIS-3153 add class names to relatedRecords.tpl",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            198,
+                                            203
                                         ]
                                     ]
                                 }
@@ -2742,9 +3480,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 91
+            "total_conflicts": 117
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 91
+    "total_conflicts_found": 117
 }

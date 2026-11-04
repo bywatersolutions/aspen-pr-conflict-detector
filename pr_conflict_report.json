@@ -84,6 +84,12 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
                         },
                         {
+                            "number": 4879,
+                            "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
+                        },
+                        {
                             "number": 4882,
                             "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
                             "author": "lucasmontoya13",
@@ -310,11 +316,79 @@
                             "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
+                        },
+                        {
+                            "number": 4935,
+                            "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                        },
+                        {
+                            "number": 4936,
+                            "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
+                        },
+                        {
+                            "number": 4937,
+                            "title": "DIS-3038 - Fix warnings Reviewing Self Registrations from Sierra",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4937"
+                        },
+                        {
+                            "number": 4938,
+                            "title": "DIS-3031: Properly sort Symphony delta imports",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                        },
+                        {
+                            "number": 4939,
+                            "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                        },
+                        {
+                            "number": 4940,
+                            "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                        },
+                        {
+                            "number": 4941,
+                            "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                        },
+                        {
+                            "number": 4942,
+                            "title": "DIS-2863 Nested Private Lists",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                        },
+                        {
+                            "number": 4944,
+                            "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
+                        },
+                        {
+                            "number": 4945,
+                            "title": "DIS-2886 Update Solr.xml for solr 9",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4945"
+                        },
+                        {
+                            "number": 4946,
+                            "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
                         }
                     ],
                     "shared_files": [
+                        "code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java",
                         "code/web/index.php",
                         "code/web/release_notes/26.11.00.MD",
+                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                         "code/web/sys/Events/Event.php",
                         "code/web/sys/UserAccount.php",
@@ -322,6 +396,45 @@
                         "install/upgrade_debian_26.11.00.sh"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4936,
+                                "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            243
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java",
+                                    "overlapping_ranges": [
+                                        [
+                                            1257,
+                                            1262
+                                        ],
+                                        [
+                                            1299,
+                                            1305
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4820,
@@ -491,6 +604,1072 @@
                                         [
                                             1,
                                             7
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            253
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4899,
+                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            253,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            250
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4946,
+                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            255,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                            },
+                            "pr_b": {
+                                "number": 4945,
+                                "title": "DIS-2886 Update Solr.xml for solr 9",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4945"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            229,
+                                            235
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4944,
+                                "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4944,
+                                "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            238,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4942,
+                                "title": "DIS-2863 Nested Private Lists",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            251,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4942,
+                                "title": "DIS-2863 Nested Private Lists",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            251,
+                                            253
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4899,
+                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                            },
+                            "pr_b": {
+                                "number": 4942,
+                                "title": "DIS-2863 Nested Private Lists",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            253,
+                                            257
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4942,
+                                "title": "DIS-2863 Nested Private Lists",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            251,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4942,
+                                "title": "DIS-2863 Nested Private Lists",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            255,
+                                            257
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            253
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4899,
+                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            253,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            250
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4941,
+                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            255,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            253
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4899,
+                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            253,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            249,
+                                            250
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4940,
+                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            255,
+                                            255
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4939,
+                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4939,
+                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4939,
+                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            241,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4939,
+                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            244,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4939,
+                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            241,
+                                            244
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4908,
+                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                            },
+                            "pr_b": {
+                                "number": 4938,
+                                "title": "DIS-3031: Properly sort Symphony delta imports",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4901,
+                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                            },
+                            "pr_b": {
+                                "number": 4938,
+                                "title": "DIS-3031: Properly sort Symphony delta imports",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            245,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4938,
+                                "title": "DIS-3031: Properly sort Symphony delta imports",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            241,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4938,
+                                "title": "DIS-3031: Properly sort Symphony delta imports",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            244,
+                                            247
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4938,
+                                "title": "DIS-3031: Properly sort Symphony delta imports",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            241,
+                                            244
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4937,
+                                "title": "DIS-3038 - Fix warnings Reviewing Self Registrations from Sierra",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4937"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4937,
+                                "title": "DIS-3038 - Fix warnings Reviewing Self Registrations from Sierra",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4937"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            238,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4936,
+                                "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            238,
+                                            243
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
+                            },
+                            "pr_b": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            237
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
+                            },
+                            "pr_b": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            231,
+                                            235
                                         ]
                                     ]
                                 }
@@ -2869,6 +4048,58 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4879,
+                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
+                            },
+                            "pr_b": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            34
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "pr_b": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            34
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4911,
                                 "title": "DIS-776: Allow change of event location",
                                 "author": "Jacobomara901",
@@ -3310,6 +4541,12 @@
                             "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
                             "author": "poojary9991",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
+                        },
+                        {
+                            "number": 4943,
+                            "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                            "author": "mdnoble73",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
                         }
                     ],
                     "shared_files": [
@@ -3346,6 +4583,110 @@
                                         [
                                             66,
                                             68
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4925,
+                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
+                            },
+                            "pr_b": {
+                                "number": 4943,
+                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            187,
+                                            193
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4921,
+                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
+                            },
+                            "pr_b": {
+                                "number": 4943,
+                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            189,
+                                            193
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4910,
+                                "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
+                            },
+                            "pr_b": {
+                                "number": 4943,
+                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            188,
+                                            193
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4909,
+                                "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+                                "author": "olivia-openfifth",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
+                            },
+                            "pr_b": {
+                                "number": 4943,
+                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            187,
+                                            193
                                         ]
                                     ]
                                 }
@@ -3480,9 +4821,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 117
+            "total_conflicts": 165
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 117
+    "total_conflicts_found": 165
 }

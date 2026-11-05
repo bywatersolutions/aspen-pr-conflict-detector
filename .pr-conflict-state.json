@@ -34,22 +34,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4910,
-      "pr_b": 4925,
-      "files": [
-        "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-03T03:58:27.056714+00:00",
-      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
-      "pr_b_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4882,
       "pr_b": 4913,
       "files": [
@@ -249,21 +233,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4925,
-      "pr_b": 4943,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038538+00:00",
-      "pr_a_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
-      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
-      "pr_a_author": "poojary9991",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4921,
       "pr_b": 4943,
       "files": [
@@ -275,36 +244,6 @@
       "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
       "pr_a_author": "poojary9991",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4910,
-      "pr_b": 4943,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038548+00:00",
-      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
-      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4909,
-      "pr_b": 4943,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038553+00:00",
-      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
-      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
-      "pr_a_author": "olivia-openfifth",
       "pr_b_author": "mdnoble73"
     },
     {
@@ -954,36 +893,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4898,
-      "pr_b": 4930,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T00:33:01.183994+00:00",
-      "pr_a_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_b_title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4893,
-      "pr_b": 4930,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T00:33:01.184000+00:00",
-      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
-      "pr_b_title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4878,
       "pr_b": 4930,
       "files": [
@@ -1149,36 +1058,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4883,
-      "pr_b": 4927,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T00:33:01.184058+00:00",
-      "pr_a_title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883",
-      "pr_b_title": "DIS-3153 add class names to relatedRecords.tpl",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4909,
-      "pr_b": 4925,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-03T03:58:27.056754+00:00",
-      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
-      "pr_b_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4923,
       "pr_b": 4924,
       "files": [
@@ -1209,36 +1088,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4898,
-      "pr_b": 4923,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-03T03:58:27.056771+00:00",
-      "pr_a_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_b_title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4893,
-      "pr_b": 4923,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-03T03:58:27.056776+00:00",
-      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
-      "pr_b_title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4820,
       "pr_b": 4923,
       "files": [
@@ -1251,51 +1100,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4910,
-      "pr_b": 4921,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.872851+00:00",
-      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
-      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4909,
-      "pr_b": 4921,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.872882+00:00",
-      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
-      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
-      "pr_a_author": "olivia-openfifth",
-      "pr_b_author": "poojary9991"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4893,
-      "pr_b": 4919,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.872893+00:00",
-      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
-      "pr_b_title": "DIS-3014: Fix duplicate past events",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -1569,21 +1373,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4913,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.873030+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4878,
       "pr_b": 4912,
       "files": [
@@ -1839,66 +1628,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4893,
-      "pr_b": 4898,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-10-30T20:28:17.630487+00:00",
-      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
-      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4898,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.873127+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4895,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-10-28T17:09:04.209470+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "kylemhall"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4893,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.873137+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "samyoung-maker"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4878,
       "pr_b": 4885,
       "files": [
@@ -1944,21 +1673,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4882,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-10-07T20:26:38.085473+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4875,
       "pr_b": 4878,
       "files": [
@@ -1970,21 +1684,6 @@
       "pr_b_title": "DIS-2929: Header and footer customization options for themes",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
       "pr_a_author": "gmcharlt",
-      "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4878,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-10-05T21:10:41.339483+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
-      "pr_a_author": "reneeverly",
       "pr_b_author": "lucasmontoya13"
     },
     {
@@ -2001,21 +1700,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4829,
-      "pr_b": 4875,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-10-02T22:57:09.649845+00:00",
-      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
-      "pr_b_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875",
-      "pr_a_author": "reneeverly",
-      "pr_b_author": "gmcharlt"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -2304,36 +1988,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4882,
-      "pr_b": 4898,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
-      ],
-      "first_seen": "2026-10-30T20:28:17.630550+00:00",
-      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
-      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4855,
-      "pr_b": 4898,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
-      ],
-      "first_seen": "2026-10-30T20:28:17.630558+00:00",
-      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
-      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
-      "pr_a_author": "tomascohen",
-      "pr_b_author": "LiYanjun19"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4855,
       "pr_b": 4882,
       "files": [
@@ -2540,7 +2194,376 @@
       "pr_a_author": "reneeverly",
       "pr_b_author": "b-lawlor",
       "resolved_at": "2026-11-05T02:11:00.725907+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4910,
+      "pr_b": 4925,
+      "files": [
+        "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-03T03:58:27.056714+00:00",
+      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
+      "pr_b_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4925,
+      "pr_b": 4943,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038538+00:00",
+      "pr_a_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
+      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
+      "pr_a_author": "poojary9991",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4910,
+      "pr_b": 4943,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038548+00:00",
+      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
+      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4909,
+      "pr_b": 4943,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038553+00:00",
+      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
+      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4898,
+      "pr_b": 4930,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T00:33:01.183994+00:00",
+      "pr_a_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_b_title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4893,
+      "pr_b": 4930,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T00:33:01.184000+00:00",
+      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_b_title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4883,
+      "pr_b": 4927,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T00:33:01.184058+00:00",
+      "pr_a_title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883",
+      "pr_b_title": "DIS-3153 add class names to relatedRecords.tpl",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4909,
+      "pr_b": 4925,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-03T03:58:27.056754+00:00",
+      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
+      "pr_b_title": "DIS-2945:Escape apostrophes in format names for horizontal display",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4898,
+      "pr_b": 4923,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-03T03:58:27.056771+00:00",
+      "pr_a_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_b_title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4893,
+      "pr_b": 4923,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-03T03:58:27.056776+00:00",
+      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_b_title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4910,
+      "pr_b": 4921,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872851+00:00",
+      "pr_a_title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910",
+      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4909,
+      "pr_b": 4921,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872882+00:00",
+      "pr_a_title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909",
+      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
+      "pr_a_author": "olivia-openfifth",
+      "pr_b_author": "poojary9991",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4893,
+      "pr_b": 4919,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.872893+00:00",
+      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_b_title": "DIS-3014: Fix duplicate past events",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4913,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873030+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4893,
+      "pr_b": 4898,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-30T20:28:17.630487+00:00",
+      "pr_a_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4898,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873127+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4895,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-28T17:09:04.209470+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "kylemhall",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4893,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873137+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "samyoung-maker",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4882,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-07T20:26:38.085473+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4878,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-05T21:10:41.339483+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "lucasmontoya13",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4829,
+      "pr_b": 4875,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-10-02T22:57:09.649845+00:00",
+      "pr_a_title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829",
+      "pr_b_title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875",
+      "pr_a_author": "reneeverly",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4882,
+      "pr_b": 4898,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-10-30T20:28:17.630550+00:00",
+      "pr_a_title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882",
+      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4898,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-10-30T20:28:17.630558+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-3130: Increase PayPal client credentails length",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "LiYanjun19",
+      "resolved_at": "2026-11-05T18:03:16.264554+00:00"
     }
   ],
-  "last_run": "2026-11-05T02:11:00.726203+00:00"
+  "last_run": "2026-11-05T18:03:16.264975+00:00"
 }

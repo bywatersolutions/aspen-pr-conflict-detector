@@ -36,12 +36,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
                         },
                         {
-                            "number": 4829,
-                            "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                            "author": "reneeverly",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                        },
-                        {
                             "number": 4841,
                             "title": "DIS-894: Omeka integration",
                             "author": "Jacobomara901",
@@ -120,22 +114,10 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4892"
                         },
                         {
-                            "number": 4893,
-                            "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                            "author": "samyoung-maker",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                        },
-                        {
                             "number": 4895,
                             "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
                             "author": "kylemhall",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                        },
-                        {
-                            "number": 4898,
-                            "title": "DIS-3130: Increase PayPal client credentails length",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
                         },
                         {
                             "number": 4899,
@@ -268,12 +250,6 @@
                             "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
-                        },
-                        {
-                            "number": 4927,
-                            "title": "DIS-3153 add class names to relatedRecords.tpl",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927"
                         },
                         {
                             "number": 4928,
@@ -462,7 +438,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -758,7 +734,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -836,7 +812,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -966,7 +942,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1122,7 +1098,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1278,7 +1254,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1408,7 +1384,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1538,7 +1514,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1590,7 +1566,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1616,7 +1592,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1694,7 +1670,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1772,7 +1748,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1798,7 +1774,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1850,7 +1826,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1876,7 +1852,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1950,58 +1926,6 @@
                                         [
                                             242,
                                             243
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4893,
-                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            181
                                         ]
                                     ]
                                 }
@@ -2140,7 +2064,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2297,32 +2221,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4883,
-                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
-                            },
-                            "pr_b": {
-                                "number": 4927,
-                                "title": "DIS-3153 add class names to relatedRecords.tpl",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4927"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            198,
-                                            203
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -2348,7 +2246,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2374,59 +2272,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "pr_b": {
-                                "number": 4923,
-                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            173,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4893,
-                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                            },
-                            "pr_b": {
-                                "number": 4923,
-                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            175,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2452,33 +2298,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4893,
-                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                            },
-                            "pr_b": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            175,
-                                            181
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2504,7 +2324,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2950,32 +2770,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4913,
-                                "title": "DIS-656: Series facets are not customisable, but should be",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            115,
-                                            120
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4878,
                                 "title": "DIS-2929: Header and footer customization options for themes",
                                 "author": "lucasmontoya13",
@@ -3362,7 +3156,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3414,111 +3208,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4893,
-                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                            },
-                            "pr_b": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            175,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            269,
-                                            269
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4893,
-                                "title": "DIS-3087: Don't load other event types' attendee categories for a new event type",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4893"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            181
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3570,7 +3260,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3600,32 +3290,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4882,
-                                "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            115,
-                                            116
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4875,
                                 "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
                                 "author": "gmcharlt",
@@ -3643,32 +3307,6 @@
                                     "overlapping_ranges": [
                                         [
                                             119,
-                                            121
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            115,
                                             121
                                         ]
                                     ]
@@ -3701,32 +3339,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4829,
-                                "title": "DIS-2895: Add CSS classes for groupedStatus to horizontal format variations row",
-                                "author": "reneeverly",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4829"
-                            },
-                            "pr_b": {
-                                "number": 4875,
-                                "title": "DIS-2833: New cronjob to batch delete patrons that were removed from the ILS",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4875"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            119,
-                                            121
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -3960,7 +3572,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3986,7 +3598,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -4224,58 +3836,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4882,
-                                "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
-                            },
-                            "pr_b": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            36
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "pr_b": {
-                                "number": 4898,
-                                "title": "DIS-3130: Increase PayPal client credentails length",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4898"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            36,
-                                            36
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4855,
                                 "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                                 "author": "tomascohen",
@@ -4357,28 +3917,10 @@
                 {
                     "prs": [
                         {
-                            "number": 4909,
-                            "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-                            "author": "olivia-openfifth",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
-                        },
-                        {
-                            "number": 4910,
-                            "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-                            "author": "olivia-openfifth",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
-                        },
-                        {
                             "number": 4921,
                             "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
                             "author": "poojary9991",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                        },
-                        {
-                            "number": 4925,
-                            "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-                            "author": "poojary9991",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
                         },
                         {
                             "number": 4943,
@@ -4388,73 +3930,11 @@
                         }
                     ],
                     "shared_files": [
-                        "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
                         "code/web/release_notes/26.11.00.MD"
                     ],
                     "conflicts": [
                         {
                             "pr_a": {
-                                "number": 4910,
-                                "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
-                            },
-                            "pr_b": {
-                                "number": 4925,
-                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            188,
-                                            193
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/interface/themes/responsive/GroupedWork/allManifestations.tpl",
-                                    "overlapping_ranges": [
-                                        [
-                                            66,
-                                            68
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4925,
-                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
-                            },
-                            "pr_b": {
-                                "number": 4943,
-                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            187,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4921,
                                 "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
                                 "author": "poojary9991",
@@ -4477,137 +3957,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4910,
-                                "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
-                            },
-                            "pr_b": {
-                                "number": 4943,
-                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            188,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4909,
-                                "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
-                            },
-                            "pr_b": {
-                                "number": 4943,
-                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            187,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4909,
-                                "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
-                            },
-                            "pr_b": {
-                                "number": 4925,
-                                "title": "DIS-2945:Escape apostrophes in format names for horizontal display",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4925"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            187,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4910,
-                                "title": "DIS-3123: Translate status in detailed \"Where is it?\" modal",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4910"
-                            },
-                            "pr_b": {
-                                "number": 4921,
-                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            189,
-                                            195
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4909,
-                                "title": "DIS-3122: Allow translating \"M of N available\" edition copies text",
-                                "author": "olivia-openfifth",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4909"
-                            },
-                            "pr_b": {
-                                "number": 4921,
-                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            189,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         }
                     ]
                 },
@@ -4659,9 +4009,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 159
+            "total_conflicts": 136
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 159
+    "total_conflicts_found": 136
 }

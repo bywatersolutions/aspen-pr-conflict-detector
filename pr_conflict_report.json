@@ -1755,32 +1755,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4876,
-                                "title": "DIS-3016: Evergreen: improvements to support for preferred names",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            291,
-                                            294
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4855,
                                 "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                                 "author": "tomascohen",
@@ -2317,8 +2291,8 @@
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            68,
-                                            74
+                                            70,
+                                            76
                                         ]
                                     ]
                                 }
@@ -2551,8 +2525,8 @@
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            48,
-                                            53
+                                            52,
+                                            54
                                         ]
                                     ]
                                 }
@@ -2682,7 +2656,7 @@
                                     "overlapping_ranges": [
                                         [
                                             74,
-                                            74
+                                            76
                                         ]
                                     ]
                                 }
@@ -2733,8 +2707,8 @@
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            48,
-                                            53
+                                            52,
+                                            54
                                         ]
                                     ]
                                 }
@@ -2759,8 +2733,8 @@
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            48,
-                                            53
+                                            52,
+                                            54
                                         ]
                                     ]
                                 }
@@ -2974,6 +2948,32 @@
                                 }
                             ],
                             "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "pr_b": {
+                                "number": 4876,
+                                "title": "DIS-3016: Evergreen: improvements to support for preferred names",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            57,
+                                            58
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         },
                         {
                             "pr_a": {

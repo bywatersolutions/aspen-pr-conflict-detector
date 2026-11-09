@@ -34,6 +34,22 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4902,
+      "files": [
+        "code/web/release_notes/26.11.00.MD",
+        "code/web/sys/LibraryLocation/Location.php"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612315+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2276: BorrowBox integration",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4855,
       "pr_b": 4883,
       "files": [
@@ -213,6 +229,21 @@
       "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
       "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4943,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612354+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-2908 Translate item note in copy details of Where Is It",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "mdnoble73"
     },
     {
@@ -802,6 +833,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4930,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612426+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4912,
       "pr_b": 4929,
       "files": [
@@ -892,6 +938,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4924,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612439+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4919,
       "pr_b": 4923,
       "files": [
@@ -922,6 +983,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4922,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612446+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-3146:  Use local cover cache for Loral covers",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4922",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4820,
       "pr_b": 4921,
       "files": [
@@ -937,6 +1013,21 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4921,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612450+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "poojary9991"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4820,
       "pr_b": 4919,
       "files": [
@@ -948,6 +1039,21 @@
       "pr_b_title": "DIS-3014: Fix duplicate past events",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
       "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4919,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612455+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-3014: Fix duplicate past events",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "LiYanjun19"
     },
     {
@@ -978,6 +1084,21 @@
       "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
       "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4918,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612461+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "LiYanjun19"
     },
     {
@@ -1098,6 +1219,21 @@
       "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
       "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4917,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612480+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "LiYanjun19"
     },
     {
@@ -1522,6 +1658,51 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4855,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612531+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "tomascohen"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4841,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612534+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-894: Omeka integration",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4834,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612537+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "Chloe070196"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4690,
       "pr_b": 4821,
       "files": [
@@ -1533,6 +1714,21 @@
       "pr_b_title": "DIS-2888: Tests run db updates",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821",
       "pr_a_author": "JonahCWilson",
+      "pr_b_author": "Jacobomara901"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4390,
+      "pr_b": 4820,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612541+00:00",
+      "pr_a_title": "DIS-2508: db transaction for native events registration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390",
+      "pr_b_title": "DIS-2608: Unit test portability",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_a_author": "Chloe070196",
       "pr_b_author": "Jacobomara901"
     },
     {
@@ -1594,6 +1790,51 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
       "pr_a_author": "lucasmontoya13",
       "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4935,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612551+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4879,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612554+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4834,
+      "pr_b": 4878,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-11-09T13:49:37.612556+00:00",
+      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_a_author": "Chloe070196",
+      "pr_b_author": "lucasmontoya13"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -1819,58 +2060,9 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4832,
-      "pr_b": 4834,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-      ],
-      "first_seen": "2026-10-28T17:09:04.209506+00:00",
-      "pr_a_title": "DIS-2459 Simplified search box",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
-      "pr_b_title": "DIS-2604: allow 24 hour time format for native events and library hours",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
-      "pr_a_author": "librarianbryan",
-      "pr_b_author": "Chloe070196"
     }
   ],
   "resolved_conflicts": [
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4834,
-      "pr_b": 4841,
-      "files": [
-        "code/web/release_notes/26.10.00.MD",
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-      ],
-      "first_seen": "2026-10-28T17:09:04.209431+00:00",
-      "pr_a_title": "DIS-2604: allow 24 hour time format for native events and library hours",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
-      "pr_b_title": "DIS-894: Omeka integration",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
-      "pr_a_author": "Chloe070196",
-      "pr_b_author": "Jacobomara901",
-      "resolved_at": "2026-11-02T13:11:07.336646+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4832,
-      "pr_b": 4841,
-      "files": [
-        "code/web/release_notes/26.10.00.MD",
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-      ],
-      "first_seen": "2026-10-28T17:09:04.209451+00:00",
-      "pr_a_title": "DIS-2459 Simplified search box",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
-      "pr_b_title": "DIS-894: Omeka integration",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
-      "pr_a_author": "librarianbryan",
-      "pr_b_author": "Jacobomara901",
-      "resolved_at": "2026-11-02T13:11:07.336646+00:00"
-    },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4866,
@@ -2720,7 +2912,23 @@
       "pr_a_author": "gmcharlt",
       "pr_b_author": "mdnoble73",
       "resolved_at": "2026-11-07T00:47:27.461207+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4832,
+      "pr_b": 4834,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-10-28T17:09:04.209506+00:00",
+      "pr_a_title": "DIS-2459 Simplified search box",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832",
+      "pr_b_title": "DIS-2604: allow 24 hour time format for native events and library hours",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834",
+      "pr_a_author": "librarianbryan",
+      "pr_b_author": "Chloe070196",
+      "resolved_at": "2026-11-09T13:49:37.612592+00:00"
     }
   ],
-  "last_run": "2026-11-07T00:47:27.461430+00:00"
+  "last_run": "2026-11-09T13:49:37.612744+00:00"
 }

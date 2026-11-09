@@ -6,6 +6,12 @@
                 {
                     "prs": [
                         {
+                            "number": 4390,
+                            "title": "DIS-2508: db transaction for native events registration",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                        },
+                        {
                             "number": 4593,
                             "title": "DIS-2680: aspen.sql regeneration ci",
                             "author": "Jacobomara901",
@@ -34,6 +40,12 @@
                             "title": "DIS-2888: Tests run db updates",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
+                        },
+                        {
+                            "number": 4834,
+                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                            "author": "Chloe070196",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
                         },
                         {
                             "number": 4841,
@@ -373,6 +385,7 @@
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                         "code/web/sys/Events/Event.php",
+                        "code/web/sys/LibraryLocation/Location.php",
                         "code/web/sys/UserAccount.php",
                         "install/upgrade_26.11.00.sh",
                         "install/upgrade_debian_26.11.00.sh"
@@ -446,6 +459,41 @@
                                         [
                                             41,
                                             63
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4902,
+                                "title": "DIS-2276: BorrowBox integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            14,
+                                            23
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/sys/LibraryLocation/Location.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            2791,
+                                            2804
                                         ]
                                     ]
                                 }
@@ -785,6 +833,32 @@
                                         [
                                             187,
                                             190
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4943,
+                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            187,
+                                            193
                                         ]
                                     ]
                                 }
@@ -1807,6 +1881,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4930,
+                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            184,
+                                            185
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4912,
                                 "title": "DIS-2278: Web resources a to z links regression",
                                 "author": "Jacobomara901",
@@ -1963,6 +2063,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4924,
+                                "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            166,
+                                            166
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4919,
                                 "title": "DIS-3014: Fix duplicate past events",
                                 "author": "LiYanjun19",
@@ -2015,6 +2141,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4922,
+                                "title": "DIS-3146:  Use local cover cache for Loral covers",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4922"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            166,
+                                            166
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
@@ -2041,10 +2193,62 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4921,
+                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
+                                "author": "poojary9991",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            189,
+                                            195
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4919,
+                                "title": "DIS-3014: Fix duplicate past events",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            184,
+                                            184
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
                             },
                             "pr_b": {
                                 "number": 4919,
@@ -2111,6 +2315,32 @@
                                         [
                                             25,
                                             27
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4918,
+                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            21,
+                                            23
                                         ]
                                     ]
                                 }
@@ -2318,6 +2548,36 @@
                                     "overlapping_ranges": [
                                         [
                                             81,
+                                            83
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4917,
+                                "title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            64,
+                                            66
+                                        ],
+                                        [
+                                            83,
                                             83
                                         ]
                                     ]
@@ -3055,6 +3315,84 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4855,
+                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            59,
+                                            63
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4841,
+                                "title": "DIS-894: Omeka integration",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            83,
+                                            96
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            11,
+                                            17
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4690,
                                 "title": "DIS-2780 Collection Spotlight Caching",
                                 "author": "JonahCWilson",
@@ -3073,6 +3411,36 @@
                                         [
                                             27,
                                             31
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4390,
+                                "title": "DIS-2508: db transaction for native events registration",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
+                            },
+                            "pr_b": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            162,
+                                            166
+                                        ],
+                                        [
+                                            184,
+                                            190
                                         ]
                                     ]
                                 }
@@ -3177,6 +3545,84 @@
                                         [
                                             34,
                                             34
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            28,
+                                            34
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4879,
+                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            42
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4834,
+                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
+                                "author": "Chloe070196",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
+                            },
+                            "pr_b": {
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            42
                                         ]
                                     ]
                                 }
@@ -3574,58 +4020,11 @@
                             "verified": true
                         }
                     ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4832,
-                            "title": "DIS-2459 Simplified search box",
-                            "author": "librarianbryan",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                        },
-                        {
-                            "number": 4834,
-                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-                    ],
-                    "conflicts": [
-                        {
-                            "pr_a": {
-                                "number": 4832,
-                                "title": "DIS-2459 Simplified search box",
-                                "author": "librarianbryan",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4832"
-                            },
-                            "pr_b": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            41,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        }
-                    ]
                 }
             ],
-            "total_conflicts": 122
+            "total_conflicts": 137
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 122
+    "total_conflicts_found": 137
 }

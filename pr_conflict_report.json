@@ -6,12 +6,6 @@
                 {
                     "prs": [
                         {
-                            "number": 4390,
-                            "title": "DIS-2508: db transaction for native events registration",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                        },
-                        {
                             "number": 4593,
                             "title": "DIS-2680: aspen.sql regeneration ci",
                             "author": "Jacobomara901",
@@ -40,12 +34,6 @@
                             "title": "DIS-2888: Tests run db updates",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
-                        },
-                        {
-                            "number": 4834,
-                            "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                            "author": "Chloe070196",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
                         },
                         {
                             "number": 4841,
@@ -96,18 +84,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
                         },
                         {
-                            "number": 4883,
-                            "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
-                        },
-                        {
-                            "number": 4884,
-                            "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                        },
-                        {
                             "number": 4885,
                             "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
                             "author": "JonahCWilson",
@@ -126,12 +102,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
                         },
                         {
-                            "number": 4899,
-                            "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
-                        },
-                        {
                             "number": 4900,
                             "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
                             "author": "samyoung-maker",
@@ -148,12 +118,6 @@
                             "title": "DIS-2276: BorrowBox integration",
                             "author": "Jacobomara901",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902"
-                        },
-                        {
-                            "number": 4903,
-                            "title": "DIS-2594: Attendee categories menu",
-                            "author": "Jacobomara901",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4903"
                         },
                         {
                             "number": 4904,
@@ -234,34 +198,16 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918"
                         },
                         {
-                            "number": 4919,
-                            "title": "DIS-3014: Fix duplicate past events",
-                            "author": "LiYanjun19",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                        },
-                        {
                             "number": 4920,
                             "title": "DIS-2946: Skip nightly Polaris reading history updates for inactive patrons",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4920"
                         },
                         {
-                            "number": 4921,
-                            "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                            "author": "poojary9991",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                        },
-                        {
                             "number": 4922,
                             "title": "DIS-3146:  Use local cover cache for Loral covers",
                             "author": "LiYanjun19",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4922"
-                        },
-                        {
-                            "number": 4923,
-                            "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                            "author": "poojary9991",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
                         },
                         {
                             "number": 4924,
@@ -300,12 +246,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4932"
                         },
                         {
-                            "number": 4933,
-                            "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
-                        },
-                        {
                             "number": 4935,
                             "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
                             "author": "mdnoble73",
@@ -316,12 +256,6 @@
                             "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
-                        },
-                        {
-                            "number": 4937,
-                            "title": "DIS-3038 - Fix warnings Reviewing Self Registrations from Sierra",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4937"
                         },
                         {
                             "number": 4938,
@@ -366,16 +300,10 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
                         },
                         {
-                            "number": 4945,
-                            "title": "DIS-2886 Update Solr.xml for solr 9",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4945"
-                        },
-                        {
-                            "number": 4946,
-                            "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                            "number": 4950,
+                            "title": "DIS-1893",
+                            "author": "kidclamp",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                         }
                     ],
                     "shared_files": [
@@ -384,8 +312,6 @@
                         "code/web/release_notes/26.11.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                        "code/web/sys/Events/Event.php",
-                        "code/web/sys/LibraryLocation/Location.php",
                         "code/web/sys/UserAccount.php",
                         "install/upgrade_26.11.00.sh",
                         "install/upgrade_debian_26.11.00.sh"
@@ -428,7 +354,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -459,76 +385,6 @@
                                         [
                                             41,
                                             63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4902,
-                                "title": "DIS-2276: BorrowBox integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            14,
-                                            23
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/LibraryLocation/Location.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            2791,
-                                            2804
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "pr_b": {
-                                "number": 4883,
-                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            283,
-                                            285
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            2,
-                                            8
                                         ]
                                     ]
                                 }
@@ -568,7 +424,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -607,24 +463,76 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4908,
-                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
+                                "number": 4944,
+                                "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
                             },
                             "pr_b": {
-                                "number": 4946,
-                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            249,
-                                            251
+                                            237,
+                                            237
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4936,
+                                "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
+                            },
+                            "pr_b": {
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            237
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
+                            },
+                            "pr_b": {
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            231,
+                                            237
                                         ]
                                     ]
                                 }
@@ -633,76 +541,80 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4901,
-                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
+                                "number": 4900,
+                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
                             },
                             "pr_b": {
-                                "number": 4946,
-                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            249,
-                                            253
+                                            237,
+                                            237
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
-                                "number": 4899,
-                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
+                                "number": 4895,
+                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+                                "author": "kylemhall",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
                             },
                             "pr_b": {
-                                "number": 4946,
-                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            253,
-                                            255
+                                            231,
+                                            235
+                                        ],
+                                        [
+                                            264,
+                                            269
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
+                                "number": 4885,
+                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
                             },
                             "pr_b": {
-                                "number": 4946,
-                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            249,
-                                            250
+                                            264,
+                                            267
                                         ]
                                     ]
                                 }
@@ -717,49 +629,23 @@
                                 "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
                             },
                             "pr_b": {
-                                "number": 4946,
-                                "title": "DIS-2828 Fix Palace Project Holds showing as Unknown in filters",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4946"
+                                "number": 4950,
+                                "title": "DIS-1893",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                             },
                             "conflicting_files": [
                                 {
                                     "filename": "code/web/release_notes/26.11.00.MD",
                                     "overlapping_ranges": [
                                         [
-                                            250,
-                                            255
+                                            267,
+                                            270
                                         ]
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "pr_b": {
-                                "number": 4945,
-                                "title": "DIS-2886 Update Solr.xml for solr 9",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4945"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            229,
-                                            235
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -781,32 +667,6 @@
                                         [
                                             237,
                                             243
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4921,
-                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                            },
-                            "pr_b": {
-                                "number": 4943,
-                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            189,
-                                            193
                                         ]
                                     ]
                                 }
@@ -841,32 +701,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4943,
-                                "title": "DIS-2908 Translate item note in copy details of Where Is It",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4943"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            187,
-                                            193
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4908,
                                 "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
                                 "author": "Jacobomara901",
@@ -911,32 +745,6 @@
                                         [
                                             251,
                                             253
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4899,
-                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
-                            },
-                            "pr_b": {
-                                "number": 4942,
-                                "title": "DIS-2863 Nested Private Lists",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            253,
-                                            257
                                         ]
                                     ]
                                 }
@@ -967,7 +775,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -993,7 +801,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1019,33 +827,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4899,
-                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
-                            },
-                            "pr_b": {
-                                "number": 4941,
-                                "title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            253,
-                                            255
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1097,7 +879,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1123,7 +905,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1149,33 +931,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4899,
-                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
-                            },
-                            "pr_b": {
-                                "number": 4940,
-                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            253,
-                                            255
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1227,7 +983,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1305,7 +1061,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1409,7 +1165,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1436,32 +1192,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4900,
-                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
-                            },
-                            "pr_b": {
-                                "number": 4937,
-                                "title": "DIS-3038 - Fix warnings Reviewing Self Registrations from Sierra",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4937"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            237,
-                                            243
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -1487,7 +1217,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1513,59 +1243,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4916,
-                                "title": "DIS-1202: Fix overdrive Records to Reindex ",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916"
-                            },
-                            "pr_b": {
-                                "number": 4933,
-                                "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            227,
-                                            227
-                                        ]
-                                    ]
-                                }
-                            ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "pr_b": {
-                                "number": 4933,
-                                "title": "DIS-3074 Fix adding roles to SSO User with multiple SSO setups",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4933"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            229,
-                                            233
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
                         },
                         {
                             "pr_a": {
@@ -1639,84 +1317,6 @@
                                         [
                                             209,
                                             209
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4883,
-                                "title": "DIS-3049: Koha export branch update fails when repeatable_holidays table is missing",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4883"
-                            },
-                            "pr_b": {
-                                "number": 4931,
-                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            203,
-                                            204
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4923,
-                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            179,
-                                            184
                                         ]
                                     ]
                                 }
@@ -1799,7 +1399,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1877,33 +1477,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            184,
-                                            185
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -1929,7 +1503,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2007,32 +1581,6 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4923,
-                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
-                            },
-                            "pr_b": {
-                                "number": 4924,
-                                "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            173,
-                                            174
-                                        ]
-                                    ]
-                                }
-                            ],
                             "verified": true
                         },
                         {
@@ -2059,58 +1607,6 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4924,
-                                "title": "DIS-3147: Clear and validate original cover URLs when the image source changes ",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4924"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            166,
-                                            166
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "pr_b": {
-                                "number": 4923,
-                                "title": "DIS-3059:Prevent AJAX error during non-logged-in users Square donations",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4923"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            175,
-                                            179
-                                        ]
-                                    ]
-                                }
-                            ],
                             "verified": true
                         },
                         {
@@ -2133,136 +1629,6 @@
                                         [
                                             166,
                                             168
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4922,
-                                "title": "DIS-3146:  Use local cover cache for Loral covers",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4922"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            166,
-                                            166
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4921,
-                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            189,
-                                            190
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4921,
-                                "title": "DIS-3121:Ensure Place Hold button displays for on-order titles with null variation IDs",
-                                "author": "poojary9991",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4921"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            189,
-                                            195
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            184,
-                                            184
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            184,
-                                            184
                                         ]
                                     ]
                                 }
@@ -2293,7 +1659,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2315,32 +1681,6 @@
                                         [
                                             25,
                                             27
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4918,
-                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            21,
-                                            23
                                         ]
                                     ]
                                 }
@@ -2557,62 +1897,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4917,
-                                "title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            64,
-                                            66
-                                        ],
-                                        [
-                                            83,
-                                            83
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4884,
-                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                            },
-                            "pr_b": {
-                                "number": 4915,
-                                "title": "DIS-539: Pick fields displayed in library catalogue results in Combined results",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4915"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            102,
-                                            105
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4882,
                                 "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
                                 "author": "lucasmontoya13",
@@ -2635,33 +1919,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4884,
-                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                            },
-                            "pr_b": {
-                                "number": 4914,
-                                "title": "DIS-233: Results per page dropdown on search results",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4914"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            102,
-                                            105
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2687,33 +1945,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4884,
-                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                            },
-                            "pr_b": {
-                                "number": 4913,
-                                "title": "DIS-656: Series facets are not customisable, but should be",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            104,
-                                            105
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2791,7 +2023,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2925,32 +2157,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4884,
-                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                            },
-                            "pr_b": {
-                                "number": 4905,
-                                "title": "DIS-2669: Split API usage data per third party",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            99,
-                                            104
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4876,
                                 "title": "DIS-3016: Evergreen: improvements to support for preferred names",
                                 "author": "gmcharlt",
@@ -2973,33 +2179,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4876,
-                                "title": "DIS-3016: Evergreen: improvements to support for preferred names",
-                                "author": "gmcharlt",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876"
-                            },
-                            "pr_b": {
-                                "number": 4903,
-                                "title": "DIS-2594: Attendee categories menu",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4903"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            52,
-                                            54
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3051,33 +2231,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4899,
-                                "title": "DIS-3140: Allow in-library access to web resources requiring login",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4899"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            253,
-                                            256
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3103,7 +2257,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3129,7 +2283,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3155,33 +2309,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
-                                "number": 4884,
-                                "title": "DIS-3082: Add PrimaryAuthor to v1 Search Specs",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4884"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            99,
-                                            105
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3315,84 +2443,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            59,
-                                            63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            83,
-                                            96
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            11,
-                                            17
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4690,
                                 "title": "DIS-2780 Collection Spotlight Caching",
                                 "author": "JonahCWilson",
@@ -3411,36 +2461,6 @@
                                         [
                                             27,
                                             31
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4390,
-                                "title": "DIS-2508: db transaction for native events registration",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4390"
-                            },
-                            "pr_b": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            162,
-                                            166
-                                        ],
-                                        [
-                                            184,
-                                            190
                                         ]
                                     ]
                                 }
@@ -3553,84 +2573,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4935,
-                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            28,
-                                            34
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4879,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4834,
-                                "title": "DIS-2604: allow 24 hour time format for native events and library hours",
-                                "author": "Chloe070196",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4834"
-                            },
-                            "pr_b": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            42
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
@@ -3649,32 +2591,6 @@
                                         [
                                             125,
                                             144
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4911,
-                                "title": "DIS-776: Allow change of event location",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911"
-                            },
-                            "pr_b": {
-                                "number": 4919,
-                                "title": "DIS-3014: Fix duplicate past events",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4919"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/Events/Event.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            557,
-                                            564
                                         ]
                                     ]
                                 }
@@ -3913,7 +2829,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3939,7 +2855,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -3991,7 +2907,7 @@
                                     ]
                                 }
                             ],
-                            "verified": false
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -4022,9 +2938,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 137
+            "total_conflicts": 99
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 137
+    "total_conflicts_found": 99
 }

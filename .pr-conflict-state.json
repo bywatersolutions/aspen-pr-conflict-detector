@@ -66,6 +66,51 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4950,
+      "pr_b": 4953,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447335+00:00",
+      "pr_a_title": "DIS-1893",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "kidclamp",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4895,
+      "pr_b": 4953,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447353+00:00",
+      "pr_a_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4885,
+      "pr_b": 4953,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447359+00:00",
+      "pr_a_title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4944,
       "pr_b": 4950,
       "files": [
@@ -241,66 +286,6 @@
       "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
       "pr_b_title": "DIS-2863 Nested Private Lists",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4908,
-      "pr_b": 4941,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038581+00:00",
-      "pr_a_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
-      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4901,
-      "pr_b": 4941,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038586+00:00",
-      "pr_a_title": "DIS-3141: Fix the theme import workflow from the community server.",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901",
-      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
-      "pr_a_author": "LiYanjun19",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4878,
-      "pr_b": 4941,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038600+00:00",
-      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
-      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4941,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-04T07:27:18.038604+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "mdnoble73"
     },
@@ -546,17 +531,62 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4916,
+      "pr_a": 4908,
       "pr_b": 4931,
       "files": [
         "code/web/release_notes/26.11.00.MD"
       ],
-      "first_seen": "2026-11-04T00:33:01.183960+00:00",
-      "pr_a_title": "DIS-1202: Fix overdrive Records to Reindex ",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916",
+      "first_seen": "2026-11-10T06:15:35.447429+00:00",
+      "pr_a_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_b_title": "DIS-3028 Fix currency formatting when there is no active lang",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4901,
+      "pr_b": 4931,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447434+00:00",
+      "pr_a_title": "DIS-3141: Fix the theme import workflow from the community server.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901",
       "pr_b_title": "DIS-3028 Fix currency formatting when there is no active lang",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931",
       "pr_a_author": "LiYanjun19",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4931,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447437+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-3028 Fix currency formatting when there is no active lang",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4931,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447441+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3028 Fix currency formatting when there is no active lang",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931",
+      "pr_a_author": "Jacobomara901",
       "pr_b_author": "mdnoble73"
     },
     {
@@ -951,21 +981,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4876,
-      "pr_b": 4911,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.873045+00:00",
-      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
-      "pr_b_title": "DIS-776: Allow change of event location",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911",
-      "pr_a_author": "gmcharlt",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4901,
       "pr_b": 4908,
       "files": [
@@ -1037,21 +1052,6 @@
       "pr_b_title": "DIS-1930: Translate \"on hold for another patron\"",
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4906",
       "pr_a_author": "JonahCWilson",
-      "pr_b_author": "Jacobomara901"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4876,
-      "pr_b": 4904,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-02T22:45:06.873091+00:00",
-      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
-      "pr_b_title": "DIS-2758: Events area filter should include the location name as well as the sublocation",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4904",
-      "pr_a_author": "gmcharlt",
       "pr_b_author": "Jacobomara901"
     },
     {
@@ -1146,21 +1146,6 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4855,
-      "pr_b": 4876,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-07T00:47:27.461125+00:00",
-      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
-      "pr_b_title": "DIS-3016: Evergreen: improvements to support for preferred names",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
-      "pr_a_author": "tomascohen",
-      "pr_b_author": "gmcharlt"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4821,
       "pr_b": 4866,
       "files": [
@@ -1251,48 +1236,108 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4879,
-      "pr_b": 4935,
+      "pr_a": 4913,
+      "pr_b": 4953,
       "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
       ],
-      "first_seen": "2026-11-04T07:27:18.039042+00:00",
-      "pr_a_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879",
-      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4878,
-      "pr_b": 4935,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-      ],
-      "first_seen": "2026-11-04T07:27:18.039049+00:00",
-      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
-      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "mdnoble73"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4929,
-      "files": [
-        "code/web/sys/UserAccount.php"
-      ],
-      "first_seen": "2026-11-04T00:33:01.183890+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-2868 2FA Updates",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929",
+      "first_seen": "2026-11-10T06:15:35.447543+00:00",
+      "pr_a_title": "DIS-656: Series facets are not customisable, but should be",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
       "pr_a_author": "Jacobomara901",
-      "pr_b_author": "mdnoble73"
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4912,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447547+00:00",
+      "pr_a_title": "DIS-2278: Web resources a to z links regression",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4907,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447550+00:00",
+      "pr_a_title": "DIS-1903: Hide fines link (scoped by library)",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4905,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447554+00:00",
+      "pr_a_title": "DIS-2669: Split API usage data per third party",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4902,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447558+00:00",
+      "pr_a_title": "DIS-2276: BorrowBox integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447562+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4841,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.11.00.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447566+00:00",
+      "pr_a_title": "DIS-894: Omeka integration",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -1473,6 +1518,66 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "tomascohen"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4908,
+      "pr_b": 4953,
+      "files": [
+        "code/web/sys/Theming/Theme.php"
+      ],
+      "first_seen": "2026-11-10T06:15:35.447596+00:00",
+      "pr_a_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_b_title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4879,
+      "pr_b": 4935,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-11-04T07:27:18.039042+00:00",
+      "pr_a_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879",
+      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4935,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
+      ],
+      "first_seen": "2026-11-04T07:27:18.039049+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "mdnoble73"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4929,
+      "files": [
+        "code/web/sys/UserAccount.php"
+      ],
+      "first_seen": "2026-11-04T00:33:01.183890+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2868 2FA Updates",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -3061,7 +3166,135 @@
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "LiYanjun19",
       "resolved_at": "2026-11-09T23:24:39.430386+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4908,
+      "pr_b": 4941,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038581+00:00",
+      "pr_a_title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908",
+      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4901,
+      "pr_b": 4941,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038586+00:00",
+      "pr_a_title": "DIS-3141: Fix the theme import workflow from the community server.",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901",
+      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4878,
+      "pr_b": 4941,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038600+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878",
+      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4941,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T07:27:18.038604+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-3064 Fix ending masquerade when guide has optional 2FA",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4941",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4916,
+      "pr_b": 4931,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-04T00:33:01.183960+00:00",
+      "pr_a_title": "DIS-1202: Fix overdrive Records to Reindex ",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4916",
+      "pr_b_title": "DIS-3028 Fix currency formatting when there is no active lang",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931",
+      "pr_a_author": "LiYanjun19",
+      "pr_b_author": "mdnoble73",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4911,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873045+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-776: Allow change of event location",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4911",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4876,
+      "pr_b": 4904,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-02T22:45:06.873091+00:00",
+      "pr_a_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_b_title": "DIS-2758: Events area filter should include the location name as well as the sublocation",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4904",
+      "pr_a_author": "gmcharlt",
+      "pr_b_author": "Jacobomara901",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4855,
+      "pr_b": 4876,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-07T00:47:27.461125+00:00",
+      "pr_a_title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855",
+      "pr_b_title": "DIS-3016: Evergreen: improvements to support for preferred names",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4876",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "gmcharlt",
+      "resolved_at": "2026-11-10T06:15:35.447629+00:00"
     }
   ],
-  "last_run": "2026-11-09T23:24:39.430573+00:00"
+  "last_run": "2026-11-10T06:15:35.447812+00:00"
 }

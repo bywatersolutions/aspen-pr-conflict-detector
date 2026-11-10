@@ -78,12 +78,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
                         },
                         {
-                            "number": 4885,
-                            "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
-                        },
-                        {
                             "number": 4892,
                             "title": "DIS-2885: Combine Grouped Work User Linkage Queries",
                             "author": "JonahCWilson",
@@ -216,12 +210,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
                         },
                         {
-                            "number": 4931,
-                            "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                        },
-                        {
                             "number": 4932,
                             "title": "DIS-3012 Fix generating placards from web resources",
                             "author": "mdnoble73",
@@ -256,12 +244,6 @@
                             "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
-                        },
-                        {
-                            "number": 4942,
-                            "title": "DIS-2863 Nested Private Lists",
-                            "author": "mdnoble73",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
                         },
                         {
                             "number": 4943,
@@ -498,32 +480,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4885,
-                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            261,
-                                            266
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4944,
                                 "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
                                 "author": "mdnoble73",
@@ -658,32 +614,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4885,
-                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            264,
-                                            267
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
@@ -754,84 +684,6 @@
                                         [
                                             187,
                                             190
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4908,
-                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
-                            },
-                            "pr_b": {
-                                "number": 4942,
-                                "title": "DIS-2863 Nested Private Lists",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            251,
-                                            251
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4901,
-                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
-                            },
-                            "pr_b": {
-                                "number": 4942,
-                                "title": "DIS-2863 Nested Private Lists",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            251,
-                                            253
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4942,
-                                "title": "DIS-2863 Nested Private Lists",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4942"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            251,
-                                            256
                                         ]
                                     ]
                                 }
@@ -1248,110 +1100,6 @@
                                         [
                                             215,
                                             221
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4908,
-                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
-                            },
-                            "pr_b": {
-                                "number": 4931,
-                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            245,
-                                            250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4901,
-                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
-                            },
-                            "pr_b": {
-                                "number": 4931,
-                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            245,
-                                            250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": false
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4931,
-                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            244,
-                                            250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4931,
-                                "title": "DIS-3028 Fix currency formatting when there is no active lang",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4931"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            250,
-                                            250
                                         ]
                                     ]
                                 }
@@ -2218,32 +1966,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4885,
-                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
-                            },
-                            "pr_b": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            263,
-                                            267
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
@@ -2262,32 +1984,6 @@
                                         [
                                             267,
                                             269
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4885,
-                                "title": "DIS-3084:  Fix for False-Positive 2FA Error Message",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4885"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            267,
-                                            267
                                         ]
                                     ]
                                 }
@@ -3115,9 +2811,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 106
+            "total_conflicts": 95
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 106
+    "total_conflicts_found": 95
 }

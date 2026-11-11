@@ -66,6 +66,36 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4866,
+      "pr_b": 4958,
+      "files": [
+        "code/web/interface/themes/responsive/js/aspen.js"
+      ],
+      "first_seen": "2026-11-11T09:01:44.864698+00:00",
+      "pr_a_title": "DIS-2854: Composer Autoloading",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866",
+      "pr_b_title": "DIS-2921: (QA followup) Fix property search for other ILS-specific settings ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4958",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4958,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-11T09:01:44.864713+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-2921: (QA followup) Fix property search for other ILS-specific settings ",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4958",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "LiYanjun19"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4950,
       "pr_b": 4953,
       "files": [
@@ -3307,5 +3337,5 @@
       "resolved_at": "2026-11-10T15:35:12.638841+00:00"
     }
   ],
-  "last_run": "2026-11-10T15:35:12.639208+00:00"
+  "last_run": "2026-11-11T09:01:44.865004+00:00"
 }

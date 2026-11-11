@@ -1,14 +1,14 @@
 # Aspen PR Conflict Report
 
-Found **95** potential conflict(s) across **1** repository.
+Found **97** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 44 PRs, 95 conflict(s)
+### Cluster 1 — 45 PRs, 97 conflict(s)
 
 **Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @kidclamp, @kylemhall, @lucasmontoya13, @mdnoble73, @samyoung-maker, @tomascohen
 
-**Files:** `code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java`, `code/web/index.php`, `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`, `code/web/sys/Theming/Theme.php`, `code/web/sys/UserAccount.php`, `install/upgrade_26.11.00.sh`, `install/upgrade_debian_26.11.00.sh`
+**Files:** `code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java`, `code/web/index.php`, `code/web/interface/themes/responsive/js/aspen.js`, `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.10.00.php`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`, `code/web/sys/Theming/Theme.php`, `code/web/sys/UserAccount.php`, `install/upgrade_26.11.00.sh`, `install/upgrade_debian_26.11.00.sh`
 
 **PRs:**
 - [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci
@@ -55,6 +55,7 @@ Found **95** potential conflict(s) across **1** repository.
 - [#4944](https://github.com/Aspen-Discovery/aspen-discovery/pull/4944) DIS-2907 Add check digit to all items when loading Sierra vols
 - [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893
 - [#4953](https://github.com/Aspen-Discovery/aspen-discovery/pull/4953) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts
+- [#4958](https://github.com/Aspen-Discovery/aspen-discovery/pull/4958) DIS-2921: (QA followup) Fix property search for other ILS-specific settings 
 
 <details>
 <summary>Pairwise details</summary>
@@ -65,6 +66,8 @@ Found **95** potential conflict(s) across **1** repository.
 | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | [#4913](https://github.com/Aspen-Discovery/aspen-discovery/pull/4913) DIS-656: Series facets are not customisable, but should be | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L108-L116, L41-L63 | @Jacobomara901, @lucasmontoya13 |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L108-L109, L40-L63 | @Jacobomara901, @lucasmontoya13 |
 | [#4866](https://github.com/Aspen-Discovery/aspen-discovery/pull/4866) DIS-2854: Composer Autoloading | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `install/upgrade_26.11.00.sh`, `install/upgrade_debian_26.11.00.sh` | L1-L9, L1-L7 | @JonahCWilson, @lucasmontoya13 |
+| [#4866](https://github.com/Aspen-Discovery/aspen-discovery/pull/4866) DIS-2854: Composer Autoloading | [#4958](https://github.com/Aspen-Discovery/aspen-discovery/pull/4958) DIS-2921: (QA followup) Fix property search for other ILS-specific settings  | `code/web/interface/themes/responsive/js/aspen.js` | L8427-L8442, L8447-L8464 | @JonahCWilson, @LiYanjun19 |
+| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4958](https://github.com/Aspen-Discovery/aspen-discovery/pull/4958) DIS-2921: (QA followup) Fix property search for other ILS-specific settings  | `code/web/release_notes/26.11.00.MD` | L153-L153 | @Jacobomara901, @LiYanjun19 |
 | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | [#4953](https://github.com/Aspen-Discovery/aspen-discovery/pull/4953) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | `code/web/release_notes/26.11.00.MD` | L264-L266 | @kidclamp, @lucasmontoya13 |
 | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | [#4953](https://github.com/Aspen-Discovery/aspen-discovery/pull/4953) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | `code/web/release_notes/26.11.00.MD` | L263-L266 | @kylemhall, @lucasmontoya13 |
 | [#4944](https://github.com/Aspen-Discovery/aspen-discovery/pull/4944) DIS-2907 Add check digit to all items when loading Sierra vols | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L237-L237 | @kidclamp, @mdnoble73 |

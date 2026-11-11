@@ -268,11 +268,18 @@
                             "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
+                        },
+                        {
+                            "number": 4958,
+                            "title": "DIS-2921: (QA followup) Fix property search for other ILS-specific settings ",
+                            "author": "LiYanjun19",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4958"
                         }
                     ],
                     "shared_files": [
                         "code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java",
                         "code/web/index.php",
+                        "code/web/interface/themes/responsive/js/aspen.js",
                         "code/web/release_notes/26.11.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
@@ -425,6 +432,62 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4866,
+                                "title": "DIS-2854: Composer Autoloading",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
+                            },
+                            "pr_b": {
+                                "number": 4958,
+                                "title": "DIS-2921: (QA followup) Fix property search for other ILS-specific settings ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4958"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/interface/themes/responsive/js/aspen.js",
+                                    "overlapping_ranges": [
+                                        [
+                                            8427,
+                                            8442
+                                        ],
+                                        [
+                                            8447,
+                                            8464
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
+                                "author": "Jacobomara901",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
+                            },
+                            "pr_b": {
+                                "number": 4958,
+                                "title": "DIS-2921: (QA followup) Fix property search for other ILS-specific settings ",
+                                "author": "LiYanjun19",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4958"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            153,
+                                            153
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": true
                         },
                         {
                             "pr_a": {
@@ -2811,9 +2874,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 95
+            "total_conflicts": 97
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 95
+    "total_conflicts_found": 97
 }

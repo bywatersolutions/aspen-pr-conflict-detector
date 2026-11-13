@@ -66,12 +66,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
                         },
                         {
-                            "number": 4879,
-                            "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
-                        },
-                        {
                             "number": 4882,
                             "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
                             "author": "lucasmontoya13",
@@ -2706,32 +2700,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4879,
-                                "title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879"
-                            },
-                            "pr_b": {
-                                "number": 4935,
-                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            34
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4878,
                                 "title": "DIS-2929: Header and footer customization options for themes",
                                 "author": "lucasmontoya13",
@@ -2811,9 +2779,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 95
+            "total_conflicts": 94
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 95
+    "total_conflicts_found": 94
 }

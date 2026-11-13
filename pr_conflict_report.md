@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **95** potential conflict(s) across **1** repository.
+Found **94** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 44 PRs, 95 conflict(s)
+### Cluster 1 — 43 PRs, 94 conflict(s)
 
 **Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @kidclamp, @kylemhall, @lucasmontoya13, @mdnoble73, @samyoung-maker, @tomascohen
 
@@ -21,7 +21,6 @@ Found **95** potential conflict(s) across **1** repository.
 - [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex
 - [#4866](https://github.com/Aspen-Discovery/aspen-discovery/pull/4866) DIS-2854: Composer Autoloading
 - [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes
-- [#4879](https://github.com/Aspen-Discovery/aspen-discovery/pull/4879) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API 
 - [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files
 - [#4892](https://github.com/Aspen-Discovery/aspen-discovery/pull/4892) DIS-2885: Combine Grouped Work User Linkage Queries
 - [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs
@@ -152,7 +151,6 @@ Found **95** potential conflict(s) across **1** repository.
 | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L36-L48 | @lucasmontoya13, @tomascohen |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex | `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L40-L48 | @Jacobomara901, @tomascohen |
 | [#4908](https://github.com/Aspen-Discovery/aspen-discovery/pull/4908) DIS-1699: Logo is cached, even when a new one has been uploaded. | [#4953](https://github.com/Aspen-Discovery/aspen-discovery/pull/4953) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | `code/web/sys/Theming/Theme.php` | L3459-L3474 | @Jacobomara901, @lucasmontoya13 |
-| [#4879](https://github.com/Aspen-Discovery/aspen-discovery/pull/4879) DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API  | [#4935](https://github.com/Aspen-Discovery/aspen-discovery/pull/4935) DIS-2941: Editing Volume Numbers in a Series Does Not Save | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L34-L34 | @lucasmontoya13, @mdnoble73 |
 | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | [#4935](https://github.com/Aspen-Discovery/aspen-discovery/pull/4935) DIS-2941: Editing Volume Numbers in a Series Does Not Save | `code/web/sys/DBMaintenance/version_updates/26.10.00.php` | L34-L34 | @lucasmontoya13, @mdnoble73 |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4929](https://github.com/Aspen-Discovery/aspen-discovery/pull/4929) DIS-2868 2FA Updates | `code/web/sys/UserAccount.php` | L125-L144 | @Jacobomara901, @mdnoble73 |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | `code/web/index.php` | L58-L64 | @Jacobomara901, @lucasmontoya13 |

@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **94** potential conflict(s) across **1** repository.
+Found **95** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -156,4 +156,6 @@ Found **94** potential conflict(s) across **1** repository.
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | `code/web/index.php` | L58-L64 | @Jacobomara901, @lucasmontoya13 |
 
 </details>
+
+**[#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957)** ↔ **[#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960)** — `code/web/sys/DBMaintenance/version_updates/26.12.00.php` (L34-L56) — @lathomas64, @lucasmontoya13
 

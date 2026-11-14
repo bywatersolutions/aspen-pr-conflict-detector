@@ -2777,11 +2777,58 @@
                             "verified": true
                         }
                     ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4957,
+                            "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                            "author": "lathomas64",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                        },
+                        {
+                            "number": 4960,
+                            "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4957,
+                                "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                            },
+                            "pr_b": {
+                                "number": 4960,
+                                "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
                 }
             ],
-            "total_conflicts": 94
+            "total_conflicts": 95
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 94
+    "total_conflicts_found": 95
 }

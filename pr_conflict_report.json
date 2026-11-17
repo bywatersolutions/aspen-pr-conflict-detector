@@ -2781,6 +2781,53 @@
                 {
                     "prs": [
                         {
+                            "number": 4959,
+                            "title": "DIS-3152: correct breadcrumbs for Theme & Layout admin pages",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4959"
+                        },
+                        {
+                            "number": 4965,
+                            "title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
+                            "author": "tomascohen",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.12.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4959,
+                                "title": "DIS-3152: correct breadcrumbs for Theme & Layout admin pages",
+                                "author": "gmcharlt",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4959"
+                            },
+                            "pr_b": {
+                                "number": 4965,
+                                "title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            194,
+                                            198
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
                             "number": 4957,
                             "title": "DIS-3165 Separate firebase from the rest of PWA settings",
                             "author": "lathomas64",
@@ -2826,9 +2873,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 95
+            "total_conflicts": 96
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 95
+    "total_conflicts_found": 96
 }

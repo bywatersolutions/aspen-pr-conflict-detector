@@ -54,12 +54,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
                         },
                         {
-                            "number": 4866,
-                            "title": "DIS-2854: Composer Autoloading",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                        },
-                        {
                             "number": 4878,
                             "title": "DIS-2929: Header and footer customization options for themes",
                             "author": "lucasmontoya13",
@@ -271,9 +265,7 @@
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                         "code/web/sys/Theming/Theme.php",
-                        "code/web/sys/UserAccount.php",
-                        "install/upgrade_26.11.00.sh",
-                        "install/upgrade_debian_26.11.00.sh"
+                        "code/web/sys/UserAccount.php"
                     ],
                     "conflicts": [
                         {
@@ -379,41 +371,6 @@
                                         [
                                             40,
                                             63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4866,
-                                "title": "DIS-2854: Composer Autoloading",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                            },
-                            "pr_b": {
-                                "number": 4882,
-                                "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4882"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "install/upgrade_26.11.00.sh",
-                                    "overlapping_ranges": [
-                                        [
-                                            1,
-                                            9
-                                        ]
-                                    ]
-                                },
-                                {
-                                    "filename": "install/upgrade_debian_26.11.00.sh",
-                                    "overlapping_ranges": [
-                                        [
-                                            1,
-                                            7
                                         ]
                                     ]
                                 }
@@ -1440,32 +1397,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4866,
-                                "title": "DIS-2854: Composer Autoloading",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                            },
-                            "pr_b": {
-                                "number": 4918,
-                                "title": "DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4918"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            25,
-                                            27
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4821,
                                 "title": "DIS-2888: Tests run db updates",
                                 "author": "Jacobomara901",
@@ -2004,84 +1935,6 @@
                                         [
                                             250,
                                             250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4821,
-                                "title": "DIS-2888: Tests run db updates",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4821"
-                            },
-                            "pr_b": {
-                                "number": 4866,
-                                "title": "DIS-2854: Composer Autoloading",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            25,
-                                            31
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4661,
-                                "title": "DIS-2679: Refactor default database export into a PDO-based class ",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4661"
-                            },
-                            "pr_b": {
-                                "number": 4866,
-                                "title": "DIS-2854: Composer Autoloading",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            25,
-                                            31
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4593,
-                                "title": "DIS-2680: aspen.sql regeneration ci",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4593"
-                            },
-                            "pr_b": {
-                                "number": 4866,
-                                "title": "DIS-2854: Composer Autoloading",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4866"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            25,
-                                            31
                                         ]
                                     ]
                                 }
@@ -2873,9 +2726,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 96
+            "total_conflicts": 91
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 96
+    "total_conflicts_found": 91
 }

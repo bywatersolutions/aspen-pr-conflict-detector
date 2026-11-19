@@ -42,12 +42,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
                         },
                         {
-                            "number": 4854,
-                            "title": "DIS-2860: Grouped works indexer batched querying",
-                            "author": "JonahCWilson",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
-                        },
-                        {
                             "number": 4855,
                             "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                             "author": "tomascohen",
@@ -1553,32 +1547,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4854,
-                                "title": "DIS-2860: Grouped works indexer batched querying",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
-                            },
-                            "pr_b": {
-                                "number": 4917,
-                                "title": "DIS-2784: Add Hoopla \"Records to Reindex\"",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4917"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            70,
-                                            76
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4841,
                                 "title": "DIS-894: Omeka integration",
                                 "author": "Jacobomara901",
@@ -1805,32 +1773,6 @@
                                         [
                                             74,
                                             74
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4854,
-                                "title": "DIS-2860: Grouped works indexer batched querying",
-                                "author": "JonahCWilson",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4854"
-                            },
-                            "pr_b": {
-                                "number": 4906,
-                                "title": "DIS-1930: Translate \"on hold for another patron\"",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4906"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            74,
-                                            76
                                         ]
                                     ]
                                 }
@@ -2726,9 +2668,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 91
+            "total_conflicts": 89
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 91
+    "total_conflicts_found": 89
 }

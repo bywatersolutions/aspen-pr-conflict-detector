@@ -1,10 +1,10 @@
 # Aspen PR Conflict Report
 
-Found **91** potential conflict(s) across **1** repository.
+Found **89** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 42 PRs, 89 conflict(s)
+### Cluster 1 — 41 PRs, 87 conflict(s)
 
 **Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @kidclamp, @kylemhall, @lucasmontoya13, @mdnoble73, @samyoung-maker, @tomascohen
 
@@ -17,7 +17,6 @@ Found **91** potential conflict(s) across **1** repository.
 - [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability
 - [#4821](https://github.com/Aspen-Discovery/aspen-discovery/pull/4821) DIS-2888: Tests run db updates
 - [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration
-- [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying
 - [#4855](https://github.com/Aspen-Discovery/aspen-discovery/pull/4855) DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex
 - [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes
 - [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files
@@ -107,7 +106,6 @@ Found **91** potential conflict(s) across **1** repository.
 | [#4593](https://github.com/Aspen-Discovery/aspen-discovery/pull/4593) DIS-2680: aspen.sql regeneration ci | [#4918](https://github.com/Aspen-Discovery/aspen-discovery/pull/4918) DIS-2878: Add support for Force Reindex to retrieve data from Cloud Library | `code/web/release_notes/26.11.00.MD` | L25-L27 | @Jacobomara901, @LiYanjun19 |
 | [#4906](https://github.com/Aspen-Discovery/aspen-discovery/pull/4906) DIS-1930: Translate "on hold for another patron" | [#4917](https://github.com/Aspen-Discovery/aspen-discovery/pull/4917) DIS-2784: Add Hoopla "Records to Reindex" | `code/web/release_notes/26.11.00.MD` | L74-L80 | @Jacobomara901, @LiYanjun19 |
 | [#4892](https://github.com/Aspen-Discovery/aspen-discovery/pull/4892) DIS-2885: Combine Grouped Work User Linkage Queries | [#4917](https://github.com/Aspen-Discovery/aspen-discovery/pull/4917) DIS-2784: Add Hoopla "Records to Reindex" | `code/web/release_notes/26.11.00.MD` | L68-L74 | @JonahCWilson, @LiYanjun19 |
-| [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying | [#4917](https://github.com/Aspen-Discovery/aspen-discovery/pull/4917) DIS-2784: Add Hoopla "Records to Reindex" | `code/web/release_notes/26.11.00.MD` | L70-L76 | @JonahCWilson, @LiYanjun19 |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4917](https://github.com/Aspen-Discovery/aspen-discovery/pull/4917) DIS-2784: Add Hoopla "Records to Reindex" | `code/web/release_notes/26.11.00.MD` | L81-L83 | @Jacobomara901, @LiYanjun19 |
 | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | [#4915](https://github.com/Aspen-Discovery/aspen-discovery/pull/4915) DIS-539: Pick fields displayed in library catalogue results in Combined results | `code/web/release_notes/26.11.00.MD` | L108-L108 | @Jacobomara901, @lucasmontoya13 |
 | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | [#4914](https://github.com/Aspen-Discovery/aspen-discovery/pull/4914) DIS-233: Results per page dropdown on search results | `code/web/release_notes/26.11.00.MD` | L108-L108 | @Jacobomara901, @lucasmontoya13 |
@@ -117,7 +115,6 @@ Found **91** potential conflict(s) across **1** repository.
 | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | [#4908](https://github.com/Aspen-Discovery/aspen-discovery/pull/4908) DIS-1699: Logo is cached, even when a new one has been uploaded. | `code/web/release_notes/26.11.00.MD` | L245-L250 | @Jacobomara901, @lucasmontoya13 |
 | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | [#4907](https://github.com/Aspen-Discovery/aspen-discovery/pull/4907) DIS-1903: Hide fines link (scoped by library) | `code/web/release_notes/26.11.00.MD` | L131-L135 | @Jacobomara901, @lucasmontoya13 |
 | [#4892](https://github.com/Aspen-Discovery/aspen-discovery/pull/4892) DIS-2885: Combine Grouped Work User Linkage Queries | [#4906](https://github.com/Aspen-Discovery/aspen-discovery/pull/4906) DIS-1930: Translate "on hold for another patron" | `code/web/release_notes/26.11.00.MD` | L74-L74 | @Jacobomara901, @JonahCWilson |
-| [#4854](https://github.com/Aspen-Discovery/aspen-discovery/pull/4854) DIS-2860: Grouped works indexer batched querying | [#4906](https://github.com/Aspen-Discovery/aspen-discovery/pull/4906) DIS-1930: Translate "on hold for another patron" | `code/web/release_notes/26.11.00.MD` | L74-L76 | @Jacobomara901, @JonahCWilson |
 | [#4878](https://github.com/Aspen-Discovery/aspen-discovery/pull/4878) DIS-2929: Header and footer customization options for themes | [#4901](https://github.com/Aspen-Discovery/aspen-discovery/pull/4901) DIS-3141: Fix the theme import workflow from the community server. | `code/web/release_notes/26.11.00.MD` | L245-L250 | @LiYanjun19, @lucasmontoya13 |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4901](https://github.com/Aspen-Discovery/aspen-discovery/pull/4901) DIS-3141: Fix the theme import workflow from the community server. | `code/web/release_notes/26.11.00.MD` | L250-L253 | @Jacobomara901, @LiYanjun19 |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | `code/web/release_notes/26.11.00.MD` | L267-L269 | @Jacobomara901, @kylemhall |

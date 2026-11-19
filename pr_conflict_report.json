@@ -244,12 +244,6 @@
                             "title": "DIS-1893",
                             "author": "kidclamp",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                        },
-                        {
-                            "number": 4953,
-                            "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
                         }
                     ],
                     "shared_files": [
@@ -258,7 +252,6 @@
                         "code/web/release_notes/26.11.00.MD",
                         "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                        "code/web/sys/Theming/Theme.php",
                         "code/web/sys/UserAccount.php"
                     ],
                     "conflicts": [
@@ -365,58 +358,6 @@
                                         [
                                             40,
                                             63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            264,
-                                            266
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            263,
-                                            266
                                         ]
                                     ]
                                 }
@@ -1963,28 +1904,24 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4913,
-                                "title": "DIS-656: Series facets are not customisable, but should be",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913"
+                                "number": 4878,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
                             },
                             "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
+                                "number": 4935,
+                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                                     "overlapping_ranges": [
                                         [
-                                            43,
-                                            68
-                                        ],
-                                        [
-                                            72,
-                                            92
+                                            34,
+                                            34
                                         ]
                                     ]
                                 }
@@ -1993,162 +1930,24 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4912,
-                                "title": "DIS-2278: Web resources a to z links regression",
+                                "number": 4820,
+                                "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912"
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
                             },
                             "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
+                                "number": 4929,
+                                "title": "DIS-2868 2FA Updates",
+                                "author": "mdnoble73",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
+                                    "filename": "code/web/sys/UserAccount.php",
                                     "overlapping_ranges": [
                                         [
-                                            43,
-                                            54
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4907,
-                                "title": "DIS-1903: Hide fines link (scoped by library)",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            43,
-                                            54
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4905,
-                                "title": "DIS-2669: Split API usage data per third party",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4905"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            43,
-                                            56
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4902,
-                                "title": "DIS-2276: BorrowBox integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4902"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            43,
-                                            68
-                                        ],
-                                        [
-                                            72,
-                                            189
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4855,
-                                "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
-                                "author": "tomascohen",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            43,
-                                            48
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            43,
-                                            68
-                                        ],
-                                        [
-                                            72,
-                                            169
+                                            125,
+                                            144
                                         ]
                                     ]
                                 }
@@ -2469,84 +2268,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4908,
-                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
-                            },
-                            "pr_b": {
-                                "number": 4953,
-                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4953"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/Theming/Theme.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            3459,
-                                            3474
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4935,
-                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            34
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4929,
-                                "title": "DIS-2868 2FA Updates",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/UserAccount.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            125,
-                                            144
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4841,
                                 "title": "DIS-894: Omeka integration",
                                 "author": "Jacobomara901",
@@ -2570,6 +2291,53 @@
                                 }
                             ],
                             "verified": true
+                        }
+                    ]
+                },
+                {
+                    "prs": [
+                        {
+                            "number": 4964,
+                            "title": "DIS-3173 GrapesPage unsaved template bug",
+                            "author": "JonahCWilson",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964"
+                        },
+                        {
+                            "number": 4969,
+                            "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4969"
+                        }
+                    ],
+                    "shared_files": [
+                        "code/web/release_notes/26.12.00.MD"
+                    ],
+                    "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4964,
+                                "title": "DIS-3173 GrapesPage unsaved template bug",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964"
+                            },
+                            "pr_b": {
+                                "number": 4969,
+                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4969"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            250,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         }
                     ]
                 },
@@ -2668,9 +2436,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 89
+            "total_conflicts": 80
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 89
+    "total_conflicts_found": 80
 }

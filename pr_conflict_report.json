@@ -48,12 +48,6 @@
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4855"
                         },
                         {
-                            "number": 4878,
-                            "title": "DIS-2929: Header and footer customization options for themes",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                        },
-                        {
                             "number": 4882,
                             "title": "DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files",
                             "author": "lucasmontoya13",
@@ -248,9 +242,7 @@
                     ],
                     "shared_files": [
                         "code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java",
-                        "code/web/index.php",
                         "code/web/release_notes/26.11.00.MD",
-                        "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
                         "code/web/sys/DBMaintenance/version_updates/26.11.00.php",
                         "code/web/sys/UserAccount.php"
                     ],
@@ -630,32 +622,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4940,
-                                "title": "DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4940"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            249,
-                                            250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4820,
                                 "title": "DIS-2608: Unit test portability",
                                 "author": "Jacobomara901",
@@ -760,32 +726,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4939,
-                                "title": "DIS-3032: Fix Symphony import time comparison unit discrepancy",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4939"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            244,
-                                            247
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4908,
                                 "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
                                 "author": "Jacobomara901",
@@ -856,32 +796,6 @@
                                         [
                                             241,
                                             243
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4938,
-                                "title": "DIS-3031: Properly sort Symphony delta imports",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4938"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            244,
-                                            247
                                         ]
                                     ]
                                 }
@@ -1072,32 +986,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4930,
-                                "title": "DIS-3002 Prevent deltas from updating Last Change Processed",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4930"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            244,
-                                            248
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4855,
                                 "title": "DIS-2964 Hide 856 URLs from logged-out patrons via a configurable regex",
                                 "author": "tomascohen",
@@ -1194,32 +1082,6 @@
                                         [
                                             133,
                                             135
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4929,
-                                "title": "DIS-2868 2FA Updates",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4929"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            133,
-                                            137
                                         ]
                                     ]
                                 }
@@ -1566,58 +1428,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4913,
-                                "title": "DIS-656: Series facets are not customisable, but should be",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4913"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            115,
-                                            120
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4912,
-                                "title": "DIS-2278: Web resources a to z links regression",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4912"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            131,
-                                            137
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4901,
                                 "title": "DIS-3141: Fix the theme import workflow from the community server.",
                                 "author": "LiYanjun19",
@@ -1644,58 +1454,6 @@
                         },
                         {
                             "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4908,
-                                "title": "DIS-1699: Logo is cached, even when a new one has been uploaded.",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4908"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            245,
-                                            250
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4907,
-                                "title": "DIS-1903: Hide fines link (scoped by library)",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4907"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            131,
-                                            135
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
                                 "number": 4892,
                                 "title": "DIS-2885: Combine Grouped Work User Linkage Queries",
                                 "author": "JonahCWilson",
@@ -1714,32 +1472,6 @@
                                         [
                                             74,
                                             74
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4901,
-                                "title": "DIS-3141: Fix the theme import workflow from the community server.",
-                                "author": "LiYanjun19",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4901"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            245,
-                                            250
                                         ]
                                     ]
                                 }
@@ -1792,32 +1524,6 @@
                                         [
                                             267,
                                             269
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            250,
-                                            250
                                         ]
                                     ]
                                 }
@@ -1896,32 +1602,6 @@
                                         [
                                             27,
                                             32
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "pr_b": {
-                                "number": 4935,
-                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.10.00.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            34,
-                                            34
                                         ]
                                     ]
                                 }
@@ -2265,32 +1945,6 @@
                                 }
                             ],
                             "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4841,
-                                "title": "DIS-894: Omeka integration",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4841"
-                            },
-                            "pr_b": {
-                                "number": 4878,
-                                "title": "DIS-2929: Header and footer customization options for themes",
-                                "author": "lucasmontoya13",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4878"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/index.php",
-                                    "overlapping_ranges": [
-                                        [
-                                            58,
-                                            64
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
                         }
                     ]
                 },
@@ -2436,9 +2090,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 80
+            "total_conflicts": 67
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 80
+    "total_conflicts_found": 67
 }

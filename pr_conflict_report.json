@@ -232,12 +232,6 @@
                             "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
                             "author": "mdnoble73",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
-                        },
-                        {
-                            "number": 4950,
-                            "title": "DIS-1893",
-                            "author": "kidclamp",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
                         }
                     ],
                     "shared_files": [
@@ -262,15 +256,6 @@
                             },
                             "conflicting_files": [
                                 {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            237,
-                                            243
-                                        ]
-                                    ]
-                                },
-                                {
                                     "filename": "code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java",
                                     "overlapping_ranges": [
                                         [
@@ -280,6 +265,15 @@
                                         [
                                             1299,
                                             1305
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "filename": "code/web/release_notes/26.11.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            237,
+                                            243
                                         ]
                                     ]
                                 }
@@ -350,166 +344,6 @@
                                         [
                                             40,
                                             63
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4944,
-                                "title": "DIS-2907 Add check digit to all items when loading Sierra vols",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            237,
-                                            237
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4936,
-                                "title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            237,
-                                            237
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4935,
-                                "title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-                                "author": "mdnoble73",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            231,
-                                            237
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4900,
-                                "title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
-                                "author": "samyoung-maker",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            237,
-                                            237
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4895,
-                                "title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-                                "author": "kylemhall",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            231,
-                                            235
-                                        ],
-                                        [
-                                            264,
-                                            269
-                                        ]
-                                    ]
-                                }
-                            ],
-                            "verified": true
-                        },
-                        {
-                            "pr_a": {
-                                "number": 4820,
-                                "title": "DIS-2608: Unit test portability",
-                                "author": "Jacobomara901",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820"
-                            },
-                            "pr_b": {
-                                "number": 4950,
-                                "title": "DIS-1893",
-                                "author": "kidclamp",
-                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950"
-                            },
-                            "conflicting_files": [
-                                {
-                                    "filename": "code/web/release_notes/26.11.00.MD",
-                                    "overlapping_ranges": [
-                                        [
-                                            267,
-                                            270
                                         ]
                                     ]
                                 }
@@ -1951,22 +1785,111 @@
                 {
                     "prs": [
                         {
+                            "number": 4957,
+                            "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                            "author": "lathomas64",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                        },
+                        {
+                            "number": 4959,
+                            "title": "DIS-3152: correct breadcrumbs for Theme & Layout admin pages",
+                            "author": "gmcharlt",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4959"
+                        },
+                        {
+                            "number": 4960,
+                            "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
+                        },
+                        {
                             "number": 4964,
                             "title": "DIS-3173 GrapesPage unsaved template bug",
                             "author": "JonahCWilson",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964"
                         },
                         {
+                            "number": 4965,
+                            "title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
+                            "author": "tomascohen",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965"
+                        },
+                        {
                             "number": 4969,
                             "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
                             "author": "lucasmontoya13",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4969"
+                        },
+                        {
+                            "number": 4970,
+                            "title": "DIS-2929: Header and footer customization options for themes",
+                            "author": "lucasmontoya13",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                        },
+                        {
+                            "number": 4971,
+                            "title": "DIS-2459: Add Simplified Search Box option",
+                            "author": "librarianbryan",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
                         }
                     ],
                     "shared_files": [
-                        "code/web/release_notes/26.12.00.MD"
+                        "code/web/release_notes/26.12.00.MD",
+                        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4965,
+                                "title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
+                                "author": "tomascohen",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965"
+                            },
+                            "pr_b": {
+                                "number": 4971,
+                                "title": "DIS-2459: Add Simplified Search Box option",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            281,
+                                            286
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4964,
+                                "title": "DIS-3173 GrapesPage unsaved template bug",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964"
+                            },
+                            "pr_b": {
+                                "number": 4970,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            250,
+                                            252
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4964,
@@ -1992,28 +1915,7 @@
                                 }
                             ],
                             "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4959,
-                            "title": "DIS-3152: correct breadcrumbs for Theme & Layout admin pages",
-                            "author": "gmcharlt",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4959"
                         },
-                        {
-                            "number": 4965,
-                            "title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
-                            "author": "tomascohen",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/release_notes/26.12.00.MD"
-                    ],
-                    "conflicts": [
                         {
                             "pr_a": {
                                 "number": 4959,
@@ -2039,28 +1941,111 @@
                                 }
                             ],
                             "verified": false
-                        }
-                    ]
-                },
-                {
-                    "prs": [
-                        {
-                            "number": 4957,
-                            "title": "DIS-3165 Separate firebase from the rest of PWA settings",
-                            "author": "lathomas64",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
                         },
                         {
-                            "number": 4960,
-                            "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
-                            "author": "lucasmontoya13",
-                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
-                        }
-                    ],
-                    "shared_files": [
-                        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
-                    ],
-                    "conflicts": [
+                            "pr_a": {
+                                "number": 4970,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                            },
+                            "pr_b": {
+                                "number": 4971,
+                                "title": "DIS-2459: Add Simplified Search Box option",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4960,
+                                "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
+                            },
+                            "pr_b": {
+                                "number": 4971,
+                                "title": "DIS-2459: Add Simplified Search Box option",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4957,
+                                "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                            },
+                            "pr_b": {
+                                "number": 4971,
+                                "title": "DIS-2459: Add Simplified Search Box option",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            56
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4957,
+                                "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                            },
+                            "pr_b": {
+                                "number": 4970,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            34,
+                                            73
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4957,

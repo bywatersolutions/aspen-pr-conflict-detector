@@ -50,6 +50,36 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4965,
+      "pr_b": 4971,
+      "files": [
+        "code/web/release_notes/26.12.00.MD"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495239+00:00",
+      "pr_a_title": "DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4965",
+      "pr_b_title": "DIS-2459: Add Simplified Search Box option",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971",
+      "pr_a_author": "tomascohen",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4964,
+      "pr_b": 4970,
+      "files": [
+        "code/web/release_notes/26.12.00.MD"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495255+00:00",
+      "pr_a_title": "DIS-3173 GrapesPage unsaved template bug",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970",
+      "pr_a_author": "JonahCWilson",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4964,
       "pr_b": 4969,
       "files": [
@@ -80,6 +110,66 @@
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4970,
+      "pr_b": 4971,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495269+00:00",
+      "pr_a_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970",
+      "pr_b_title": "DIS-2459: Add Simplified Search Box option",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4960,
+      "pr_b": 4971,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495275+00:00",
+      "pr_a_title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960",
+      "pr_b_title": "DIS-2459: Add Simplified Search Box option",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971",
+      "pr_a_author": "lucasmontoya13",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4957,
+      "pr_b": 4971,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495280+00:00",
+      "pr_a_title": "DIS-3165 Separate firebase from the rest of PWA settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957",
+      "pr_b_title": "DIS-2459: Add Simplified Search Box option",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971",
+      "pr_a_author": "lathomas64",
+      "pr_b_author": "librarianbryan"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4957,
+      "pr_b": 4970,
+      "files": [
+        "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
+      ],
+      "first_seen": "2026-11-20T22:17:33.495285+00:00",
+      "pr_a_title": "DIS-3165 Separate firebase from the rest of PWA settings",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957",
+      "pr_b_title": "DIS-2929: Header and footer customization options for themes",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970",
+      "pr_a_author": "lathomas64",
+      "pr_b_author": "lucasmontoya13"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4957,
       "pr_b": 4960,
       "files": [
@@ -92,96 +182,6 @@
       "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960",
       "pr_a_author": "lathomas64",
       "pr_b_author": "lucasmontoya13"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4944,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430207+00:00",
-      "pr_a_title": "DIS-2907 Add check digit to all items when loading Sierra vols",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "mdnoble73",
-      "pr_b_author": "kidclamp"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4936,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430220+00:00",
-      "pr_a_title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "mdnoble73",
-      "pr_b_author": "kidclamp"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4935,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430224+00:00",
-      "pr_a_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "mdnoble73",
-      "pr_b_author": "kidclamp"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4900,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430227+00:00",
-      "pr_a_title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "samyoung-maker",
-      "pr_b_author": "kidclamp"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4895,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430230+00:00",
-      "pr_a_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "kylemhall",
-      "pr_b_author": "kidclamp"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4820,
-      "pr_b": 4950,
-      "files": [
-        "code/web/release_notes/26.11.00.MD"
-      ],
-      "first_seen": "2026-11-09T23:24:39.430236+00:00",
-      "pr_a_title": "DIS-2608: Unit test portability",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
-      "pr_b_title": "DIS-1893",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
-      "pr_a_author": "Jacobomara901",
-      "pr_b_author": "kidclamp"
     },
     {
       "repo": "Aspen-Discovery/aspen-discovery",
@@ -1012,22 +1012,6 @@
   "resolved_conflicts": [
     {
       "repo": "Aspen-Discovery/aspen-discovery",
-      "pr_a": 4879,
-      "pr_b": 4935,
-      "files": [
-        "code/web/sys/DBMaintenance/version_updates/26.10.00.php"
-      ],
-      "first_seen": "2026-11-04T07:27:18.039042+00:00",
-      "pr_a_title": "DIS-2924: On-demand DSpace 7+ Open Archives cover resolution via REST API ",
-      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4879",
-      "pr_b_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
-      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
-      "pr_a_author": "lucasmontoya13",
-      "pr_b_author": "mdnoble73",
-      "resolved_at": "2026-11-13T18:31:52.954906+00:00"
-    },
-    {
-      "repo": "Aspen-Discovery/aspen-discovery",
       "pr_a": 4866,
       "pr_b": 4882,
       "files": [
@@ -1506,7 +1490,103 @@
       "pr_a_author": "Jacobomara901",
       "pr_b_author": "lucasmontoya13",
       "resolved_at": "2026-11-20T15:03:14.867246+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4944,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430207+00:00",
+      "pr_a_title": "DIS-2907 Add check digit to all items when loading Sierra vols",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4944",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "mdnoble73",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4936,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430220+00:00",
+      "pr_a_title": "DIS-3003 Handle replacement cost once when exporting from Sierra",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4936",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "mdnoble73",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4935,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430224+00:00",
+      "pr_a_title": "DIS-2941: Editing Volume Numbers in a Series Does Not Save",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4935",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "mdnoble73",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4900,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430227+00:00",
+      "pr_a_title": "DIS-3003: Only process replacement cost once when exporting from Sierra",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4900",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "samyoung-maker",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4895,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430230+00:00",
+      "pr_a_title": "DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4895",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "kylemhall",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
+    },
+    {
+      "repo": "Aspen-Discovery/aspen-discovery",
+      "pr_a": 4820,
+      "pr_b": 4950,
+      "files": [
+        "code/web/release_notes/26.11.00.MD"
+      ],
+      "first_seen": "2026-11-09T23:24:39.430236+00:00",
+      "pr_a_title": "DIS-2608: Unit test portability",
+      "pr_a_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4820",
+      "pr_b_title": "DIS-1893",
+      "pr_b_url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4950",
+      "pr_a_author": "Jacobomara901",
+      "pr_b_author": "kidclamp",
+      "resolved_at": "2026-11-20T22:17:33.495479+00:00"
     }
   ],
-  "last_run": "2026-11-20T15:03:14.867436+00:00"
+  "last_run": "2026-11-20T22:17:33.495645+00:00"
 }

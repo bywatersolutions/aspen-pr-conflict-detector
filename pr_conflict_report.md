@@ -4,9 +4,9 @@ Found **67** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
-### Cluster 1 — 39 PRs, 64 conflict(s)
+### Cluster 1 — 38 PRs, 58 conflict(s)
 
-**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @kidclamp, @kylemhall, @lucasmontoya13, @mdnoble73, @samyoung-maker, @tomascohen
+**Authors:** @Jacobomara901, @JonahCWilson, @LiYanjun19, @kylemhall, @lucasmontoya13, @mdnoble73, @samyoung-maker, @tomascohen
 
 **Files:** `code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java`, `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php`, `code/web/sys/UserAccount.php`
 
@@ -49,22 +49,15 @@ Found **67** potential conflict(s) across **1** repository.
 - [#4940](https://github.com/Aspen-Discovery/aspen-discovery/pull/4940) DIS-3029 Fix the display of ILL Holds from Sierra within Aspen.
 - [#4943](https://github.com/Aspen-Discovery/aspen-discovery/pull/4943) DIS-2908 Translate item note in copy details of Where Is It
 - [#4944](https://github.com/Aspen-Discovery/aspen-discovery/pull/4944) DIS-2907 Add check digit to all items when loading Sierra vols
-- [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
-| [#4900](https://github.com/Aspen-Discovery/aspen-discovery/pull/4900) DIS-3003: Only process replacement cost once when exporting from Sierra | [#4936](https://github.com/Aspen-Discovery/aspen-discovery/pull/4936) DIS-3003 Handle replacement cost once when exporting from Sierra | `code/web/release_notes/26.11.00.MD`, `code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java` | L237-L243, L1257-L1262, L1299-L1305 | @mdnoble73, @samyoung-maker |
+| [#4900](https://github.com/Aspen-Discovery/aspen-discovery/pull/4900) DIS-3003: Only process replacement cost once when exporting from Sierra | [#4936](https://github.com/Aspen-Discovery/aspen-discovery/pull/4936) DIS-3003 Handle replacement cost once when exporting from Sierra | `code/sierra_export_api/src/com/turning_leaf_technologies/sierra/SierraExportAPIMain.java`, `code/web/release_notes/26.11.00.MD` | L1257-L1262, L1299-L1305, L237-L243 | @mdnoble73, @samyoung-maker |
 | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | [#4913](https://github.com/Aspen-Discovery/aspen-discovery/pull/4913) DIS-656: Series facets are not customisable, but should be | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L108-L116, L41-L63 | @Jacobomara901, @lucasmontoya13 |
 | [#4841](https://github.com/Aspen-Discovery/aspen-discovery/pull/4841) DIS-894: Omeka integration | [#4882](https://github.com/Aspen-Discovery/aspen-discovery/pull/4882) DIS-2897: Add an S3-compatible/CDN storage backend for uploaded files | `code/web/release_notes/26.11.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.11.00.php` | L108-L109, L40-L63 | @Jacobomara901, @lucasmontoya13 |
-| [#4944](https://github.com/Aspen-Discovery/aspen-discovery/pull/4944) DIS-2907 Add check digit to all items when loading Sierra vols | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L237-L237 | @kidclamp, @mdnoble73 |
-| [#4936](https://github.com/Aspen-Discovery/aspen-discovery/pull/4936) DIS-3003 Handle replacement cost once when exporting from Sierra | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L237-L237 | @kidclamp, @mdnoble73 |
-| [#4935](https://github.com/Aspen-Discovery/aspen-discovery/pull/4935) DIS-2941: Editing Volume Numbers in a Series Does Not Save | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L231-L237 | @kidclamp, @mdnoble73 |
-| [#4900](https://github.com/Aspen-Discovery/aspen-discovery/pull/4900) DIS-3003: Only process replacement cost once when exporting from Sierra | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L237-L237 | @kidclamp, @samyoung-maker |
-| [#4895](https://github.com/Aspen-Discovery/aspen-discovery/pull/4895) DIS-3114: Some facets are rebuilt after every index update causing search time outs on large catalogs | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L231-L235, L264-L269 | @kidclamp, @kylemhall |
-| [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4950](https://github.com/Aspen-Discovery/aspen-discovery/pull/4950) DIS-1893 | `code/web/release_notes/26.11.00.MD` | L267-L270 | @Jacobomara901, @kidclamp |
 | [#4900](https://github.com/Aspen-Discovery/aspen-discovery/pull/4900) DIS-3003: Only process replacement cost once when exporting from Sierra | [#4944](https://github.com/Aspen-Discovery/aspen-discovery/pull/4944) DIS-2907 Add check digit to all items when loading Sierra vols | `code/web/release_notes/26.11.00.MD` | L237-L243 | @mdnoble73, @samyoung-maker |
 | [#4820](https://github.com/Aspen-Discovery/aspen-discovery/pull/4820) DIS-2608: Unit test portability | [#4943](https://github.com/Aspen-Discovery/aspen-discovery/pull/4943) DIS-2908 Translate item note in copy details of Where Is It | `code/web/release_notes/26.11.00.MD` | L187-L190 | @Jacobomara901, @mdnoble73 |
 | [#4908](https://github.com/Aspen-Discovery/aspen-discovery/pull/4908) DIS-1699: Logo is cached, even when a new one has been uploaded. | [#4940](https://github.com/Aspen-Discovery/aspen-discovery/pull/4940) DIS-3029 Fix the display of ILL Holds from Sierra within Aspen. | `code/web/release_notes/26.11.00.MD` | L249-L251 | @Jacobomara901, @mdnoble73 |
@@ -123,9 +116,36 @@ Found **67** potential conflict(s) across **1** repository.
 
 </details>
 
-**[#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964)** ↔ **[#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969)** — `code/web/release_notes/26.12.00.MD` (L250-L251) — @JonahCWilson, @lucasmontoya13
+### Cluster 2 — 8 PRs, 9 conflict(s)
 
-**[#4959](https://github.com/Aspen-Discovery/aspen-discovery/pull/4959)** ↔ **[#4965](https://github.com/Aspen-Discovery/aspen-discovery/pull/4965)** — `code/web/release_notes/26.12.00.MD` (L194-L198) — @gmcharlt, @tomascohen
+**Authors:** @JonahCWilson, @gmcharlt, @lathomas64, @librarianbryan, @lucasmontoya13, @tomascohen
 
-**[#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957)** ↔ **[#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960)** — `code/web/sys/DBMaintenance/version_updates/26.12.00.php` (L34-L56) — @lathomas64, @lucasmontoya13
+**Files:** `code/web/release_notes/26.12.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.12.00.php`
+
+**PRs:**
+- [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings
+- [#4959](https://github.com/Aspen-Discovery/aspen-discovery/pull/4959) DIS-3152: correct breadcrumbs for Theme & Layout admin pages
+- [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST
+- [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug
+- [#4965](https://github.com/Aspen-Discovery/aspen-discovery/pull/4965) DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM)
+- [#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts
+- [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes
+- [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option
+
+<details>
+<summary>Pairwise details</summary>
+
+| PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
+|------|------|-------------------|-------------------|---------|
+| [#4965](https://github.com/Aspen-Discovery/aspen-discovery/pull/4965) DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM) | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/release_notes/26.12.00.MD` | L281-L286 | @librarianbryan, @tomascohen |
+| [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.12.00.MD` | L250-L252 | @JonahCWilson, @lucasmontoya13 |
+| [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug | [#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | `code/web/release_notes/26.12.00.MD` | L250-L251 | @JonahCWilson, @lucasmontoya13 |
+| [#4959](https://github.com/Aspen-Discovery/aspen-discovery/pull/4959) DIS-3152: correct breadcrumbs for Theme & Layout admin pages | [#4965](https://github.com/Aspen-Discovery/aspen-discovery/pull/4965) DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM) | `code/web/release_notes/26.12.00.MD` | L194-L198 | @gmcharlt, @tomascohen |
+| [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @librarianbryan, @lucasmontoya13 |
+| [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @librarianbryan, @lucasmontoya13 |
+| [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @lathomas64, @librarianbryan |
+| [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L34-L73 | @lathomas64, @lucasmontoya13 |
+| [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L34-L56 | @lathomas64, @lucasmontoya13 |
+
+</details>
 

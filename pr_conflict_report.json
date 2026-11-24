@@ -1785,6 +1785,12 @@
                 {
                     "prs": [
                         {
+                            "number": 4242,
+                            "title": "DIS-2374",
+                            "author": "kidclamp",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                        },
+                        {
                             "number": 4957,
                             "title": "DIS-3165 Separate firebase from the rest of PWA settings",
                             "author": "lathomas64",
@@ -2022,6 +2028,32 @@
                         },
                         {
                             "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4971,
+                                "title": "DIS-2459: Add Simplified Search Box option",
+                                "author": "librarianbryan",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            54
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
                                 "number": 4957,
                                 "title": "DIS-3165 Separate firebase from the rest of PWA settings",
                                 "author": "lathomas64",
@@ -2040,6 +2072,32 @@
                                         [
                                             34,
                                             73
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4970,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            54
                                         ]
                                     ]
                                 }
@@ -2071,13 +2129,65 @@
                                 }
                             ],
                             "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4960,
+                                "title": "DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4960"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            54
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4242,
+                                "title": "DIS-2374",
+                                "author": "kidclamp",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4242"
+                            },
+                            "pr_b": {
+                                "number": 4957,
+                                "title": "DIS-3165 Separate firebase from the rest of PWA settings",
+                                "author": "lathomas64",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4957"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/sys/DBMaintenance/version_updates/26.12.00.php",
+                                    "overlapping_ranges": [
+                                        [
+                                            41,
+                                            54
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
                         }
                     ]
                 }
             ],
-            "total_conflicts": 67
+            "total_conflicts": 71
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 67
+    "total_conflicts_found": 71
 }

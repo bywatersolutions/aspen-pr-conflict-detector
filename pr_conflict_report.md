@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **67** potential conflict(s) across **1** repository.
+Found **71** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -116,13 +116,14 @@ Found **67** potential conflict(s) across **1** repository.
 
 </details>
 
-### Cluster 2 — 8 PRs, 9 conflict(s)
+### Cluster 2 — 9 PRs, 13 conflict(s)
 
-**Authors:** @JonahCWilson, @gmcharlt, @lathomas64, @librarianbryan, @lucasmontoya13, @tomascohen
+**Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @lathomas64, @librarianbryan, @lucasmontoya13, @tomascohen
 
 **Files:** `code/web/release_notes/26.12.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.12.00.php`
 
 **PRs:**
+- [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374
 - [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings
 - [#4959](https://github.com/Aspen-Discovery/aspen-discovery/pull/4959) DIS-3152: correct breadcrumbs for Theme & Layout admin pages
 - [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST
@@ -144,8 +145,12 @@ Found **67** potential conflict(s) across **1** repository.
 | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @librarianbryan, @lucasmontoya13 |
 | [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @librarianbryan, @lucasmontoya13 |
 | [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L56 | @lathomas64, @librarianbryan |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L54 | @kidclamp, @librarianbryan |
 | [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L34-L73 | @lathomas64, @lucasmontoya13 |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L54 | @kidclamp, @lucasmontoya13 |
 | [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L34-L56 | @lathomas64, @lucasmontoya13 |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4960](https://github.com/Aspen-Discovery/aspen-discovery/pull/4960) DIS-2924: Resolve DSpace 7+ Open Archives covers on demand via REST | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L54 | @kidclamp, @lucasmontoya13 |
+| [#4242](https://github.com/Aspen-Discovery/aspen-discovery/pull/4242) DIS-2374 | [#4957](https://github.com/Aspen-Discovery/aspen-discovery/pull/4957) DIS-3165 Separate firebase from the rest of PWA settings | `code/web/sys/DBMaintenance/version_updates/26.12.00.php` | L41-L54 | @kidclamp, @lathomas64 |
 
 </details>
 

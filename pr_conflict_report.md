@@ -1,6 +1,6 @@
 # Aspen PR Conflict Report
 
-Found **71** potential conflict(s) across **1** repository.
+Found **74** potential conflict(s) across **1** repository.
 
 ## Aspen-Discovery/aspen-discovery
 
@@ -116,9 +116,9 @@ Found **71** potential conflict(s) across **1** repository.
 
 </details>
 
-### Cluster 2 — 9 PRs, 13 conflict(s)
+### Cluster 2 — 10 PRs, 16 conflict(s)
 
-**Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @lathomas64, @librarianbryan, @lucasmontoya13, @tomascohen
+**Authors:** @JonahCWilson, @gmcharlt, @kidclamp, @lathomas64, @librarianbryan, @lucasmontoya13, @samyoung-maker, @tomascohen
 
 **Files:** `code/web/release_notes/26.12.00.MD`, `code/web/sys/DBMaintenance/version_updates/26.12.00.php`
 
@@ -132,12 +132,16 @@ Found **71** potential conflict(s) across **1** repository.
 - [#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts
 - [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes
 - [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option
+- [#4974](https://github.com/Aspen-Discovery/aspen-discovery/pull/4974) DIS-3236: Don't sort Custom Form Submissions by computed columns
 
 <details>
 <summary>Pairwise details</summary>
 
 | PR A | PR B | Conflicting Files | Overlapping Lines | Authors |
 |------|------|-------------------|-------------------|---------|
+| [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | [#4974](https://github.com/Aspen-Discovery/aspen-discovery/pull/4974) DIS-3236: Don't sort Custom Form Submissions by computed columns | `code/web/release_notes/26.12.00.MD` | L250-L252 | @lucasmontoya13, @samyoung-maker |
+| [#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | [#4974](https://github.com/Aspen-Discovery/aspen-discovery/pull/4974) DIS-3236: Don't sort Custom Form Submissions by computed columns | `code/web/release_notes/26.12.00.MD` | L250-L251 | @lucasmontoya13, @samyoung-maker |
+| [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug | [#4974](https://github.com/Aspen-Discovery/aspen-discovery/pull/4974) DIS-3236: Don't sort Custom Form Submissions by computed columns | `code/web/release_notes/26.12.00.MD` | L250-L256 | @JonahCWilson, @samyoung-maker |
 | [#4965](https://github.com/Aspen-Discovery/aspen-discovery/pull/4965) DIS-3191 Start Java processes with configurable JVM options (heap caps, exit on OOM) | [#4971](https://github.com/Aspen-Discovery/aspen-discovery/pull/4971) DIS-2459: Add Simplified Search Box option | `code/web/release_notes/26.12.00.MD` | L281-L286 | @librarianbryan, @tomascohen |
 | [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug | [#4970](https://github.com/Aspen-Discovery/aspen-discovery/pull/4970) DIS-2929: Header and footer customization options for themes | `code/web/release_notes/26.12.00.MD` | L250-L252 | @JonahCWilson, @lucasmontoya13 |
 | [#4964](https://github.com/Aspen-Discovery/aspen-discovery/pull/4964) DIS-3173 GrapesPage unsaved template bug | [#4969](https://github.com/Aspen-Discovery/aspen-discovery/pull/4969) DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts | `code/web/release_notes/26.12.00.MD` | L250-L251 | @JonahCWilson, @lucasmontoya13 |

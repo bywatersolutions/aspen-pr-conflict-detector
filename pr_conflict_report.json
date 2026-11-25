@@ -1837,6 +1837,12 @@
                             "title": "DIS-2459: Add Simplified Search Box option",
                             "author": "librarianbryan",
                             "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4971"
+                        },
+                        {
+                            "number": 4974,
+                            "title": "DIS-3236: Don't sort Custom Form Submissions by computed columns",
+                            "author": "samyoung-maker",
+                            "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4974"
                         }
                     ],
                     "shared_files": [
@@ -1844,6 +1850,84 @@
                         "code/web/sys/DBMaintenance/version_updates/26.12.00.php"
                     ],
                     "conflicts": [
+                        {
+                            "pr_a": {
+                                "number": 4970,
+                                "title": "DIS-2929: Header and footer customization options for themes",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4970"
+                            },
+                            "pr_b": {
+                                "number": 4974,
+                                "title": "DIS-3236: Don't sort Custom Form Submissions by computed columns",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4974"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            250,
+                                            252
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4969,
+                                "title": "DIS-3178: Choose each theme font's source and stop requesting uploaded fonts from Google Fonts",
+                                "author": "lucasmontoya13",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4969"
+                            },
+                            "pr_b": {
+                                "number": 4974,
+                                "title": "DIS-3236: Don't sort Custom Form Submissions by computed columns",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4974"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            250,
+                                            251
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
+                        {
+                            "pr_a": {
+                                "number": 4964,
+                                "title": "DIS-3173 GrapesPage unsaved template bug",
+                                "author": "JonahCWilson",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4964"
+                            },
+                            "pr_b": {
+                                "number": 4974,
+                                "title": "DIS-3236: Don't sort Custom Form Submissions by computed columns",
+                                "author": "samyoung-maker",
+                                "url": "https://github.com/Aspen-Discovery/aspen-discovery/pull/4974"
+                            },
+                            "conflicting_files": [
+                                {
+                                    "filename": "code/web/release_notes/26.12.00.MD",
+                                    "overlapping_ranges": [
+                                        [
+                                            250,
+                                            256
+                                        ]
+                                    ]
+                                }
+                            ],
+                            "verified": false
+                        },
                         {
                             "pr_a": {
                                 "number": 4965,
@@ -2185,9 +2269,9 @@
                     ]
                 }
             ],
-            "total_conflicts": 71
+            "total_conflicts": 74
         }
     ],
     "total_repositories_scanned": 1,
-    "total_conflicts_found": 71
+    "total_conflicts_found": 74
 }
